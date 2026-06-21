@@ -1,0 +1,289 @@
+﻿# Real Platform Validation Summary
+
+Generated: 2026-06-21T11:45:41
+
+This report summarizes real app validation results recorded in `docs/platform-validation-prompts.csv`.
+
+## Summary
+
+| Platform | Total | Pass | Fail | Related Fail | Skipped | Untested | Perfect |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Claude Code | 66 | 0 | 0 | 0 | 0 | 66 | no |
+| Codex | 66 | 0 | 0 | 0 | 0 | 66 | no |
+| Trae IDE / SOLO | 66 | 0 | 0 | 0 | 0 | 66 | no |
+| Generic agents | 66 | 0 | 0 | 0 | 0 | 66 | no |
+
+## How To Record Results
+
+- Leave a result cell blank when untested.
+- Enter the selected skill name, such as `xlsx`, when the app selected or clearly applied that skill.
+- Enter `pass` only when the platform does not expose a skill name but clearly applied the expected skill.
+- Enter the wrong selected skill name to record a fail.
+- Enter `skip` only when a platform cannot run that case.
+
+## Failures And Untested Cases
+
+- `spreadsheet-clean-xlsx` / Claude Code: untested; expected `xlsx`.
+- `spreadsheet-clean-xlsx` / Codex: untested; expected `xlsx`.
+- `spreadsheet-clean-xlsx` / Trae IDE / SOLO: untested; expected `xlsx`.
+- `spreadsheet-clean-xlsx` / Generic agents: untested; expected `xlsx`.
+- `word-report-template` / Claude Code: untested; expected `docx`.
+- `word-report-template` / Codex: untested; expected `docx`.
+- `word-report-template` / Trae IDE / SOLO: untested; expected `docx`.
+- `word-report-template` / Generic agents: untested; expected `docx`.
+- `slide-deck-edit` / Claude Code: untested; expected `pptx`.
+- `slide-deck-edit` / Codex: untested; expected `pptx`.
+- `slide-deck-edit` / Trae IDE / SOLO: untested; expected `pptx`.
+- `slide-deck-edit` / Generic agents: untested; expected `pptx`.
+- `pdf-extract-merge` / Claude Code: untested; expected `pdf`.
+- `pdf-extract-merge` / Codex: untested; expected `pdf`.
+- `pdf-extract-merge` / Trae IDE / SOLO: untested; expected `pdf`.
+- `pdf-extract-merge` / Generic agents: untested; expected `pdf`.
+- `scientific-figure-from-csv` / Claude Code: untested; expected `sci-figure`.
+- `scientific-figure-from-csv` / Codex: untested; expected `sci-figure`.
+- `scientific-figure-from-csv` / Trae IDE / SOLO: untested; expected `sci-figure`.
+- `scientific-figure-from-csv` / Generic agents: untested; expected `sci-figure`.
+- `frontend-dashboard` / Claude Code: untested; expected `frontend-design`.
+- `frontend-dashboard` / Codex: untested; expected `frontend-design`.
+- `frontend-dashboard` / Trae IDE / SOLO: untested; expected `frontend-design`.
+- `frontend-dashboard` / Generic agents: untested; expected `frontend-design`.
+- `complex-html-artifact` / Claude Code: untested; expected `web-artifacts-builder`.
+- `complex-html-artifact` / Codex: untested; expected `web-artifacts-builder`.
+- `complex-html-artifact` / Trae IDE / SOLO: untested; expected `web-artifacts-builder`.
+- `complex-html-artifact` / Generic agents: untested; expected `web-artifacts-builder`.
+- `playwright-localhost-test` / Claude Code: untested; expected `webapp-testing`.
+- `playwright-localhost-test` / Codex: untested; expected `webapp-testing`.
+- `playwright-localhost-test` / Trae IDE / SOLO: untested; expected `webapp-testing`.
+- `playwright-localhost-test` / Generic agents: untested; expected `webapp-testing`.
+- `web-search-current-info` / Claude Code: untested; expected `web-access-main`.
+- `web-search-current-info` / Codex: untested; expected `web-access-main`.
+- `web-search-current-info` / Trae IDE / SOLO: untested; expected `web-access-main`.
+- `web-search-current-info` / Generic agents: untested; expected `web-access-main`.
+- `claude-api-prompt-cache` / Claude Code: untested; expected `claude-api`.
+- `claude-api-prompt-cache` / Codex: untested; expected `claude-api`.
+- `claude-api-prompt-cache` / Trae IDE / SOLO: untested; expected `claude-api`.
+- `claude-api-prompt-cache` / Generic agents: untested; expected `claude-api`.
+- `openclaw-memory-setup` / Claude Code: untested; expected `openclaw`.
+- `openclaw-memory-setup` / Codex: untested; expected `openclaw`.
+- `openclaw-memory-setup` / Trae IDE / SOLO: untested; expected `openclaw`.
+- `openclaw-memory-setup` / Generic agents: untested; expected `openclaw`.
+- `knowledge-agent-memory-brain` / Claude Code: untested; expected `knowledge-agent`.
+- `knowledge-agent-memory-brain` / Codex: untested; expected `knowledge-agent`.
+- `knowledge-agent-memory-brain` / Trae IDE / SOLO: untested; expected `knowledge-agent`.
+- `knowledge-agent-memory-brain` / Generic agents: untested; expected `knowledge-agent`.
+- `memory-search-prior-solution` / Claude Code: untested; expected `mem-search`.
+- `memory-search-prior-solution` / Codex: untested; expected `mem-search`.
+- `memory-search-prior-solution` / Trae IDE / SOLO: untested; expected `mem-search`.
+- `memory-search-prior-solution` / Generic agents: untested; expected `mem-search`.
+- `timeline-project-history` / Claude Code: untested; expected `timeline-report`.
+- `timeline-project-history` / Codex: untested; expected `timeline-report`.
+- `timeline-project-history` / Trae IDE / SOLO: untested; expected `timeline-report`.
+- `timeline-project-history` / Generic agents: untested; expected `timeline-report`.
+- `learn-codebase-prime` / Claude Code: untested; expected `learn-codebase`.
+- `learn-codebase-prime` / Codex: untested; expected `learn-codebase`.
+- `learn-codebase-prime` / Trae IDE / SOLO: untested; expected `learn-codebase`.
+- `learn-codebase-prime` / Generic agents: untested; expected `learn-codebase`.
+- `smart-structural-search` / Claude Code: untested; expected `smart-explore`.
+- `smart-structural-search` / Codex: untested; expected `smart-explore`.
+- `smart-structural-search` / Trae IDE / SOLO: untested; expected `smart-explore`.
+- `smart-structural-search` / Generic agents: untested; expected `smart-explore`.
+- `architecture-pathfinder` / Claude Code: untested; expected `pathfinder`.
+- `architecture-pathfinder` / Codex: untested; expected `pathfinder`.
+- `architecture-pathfinder` / Trae IDE / SOLO: untested; expected `pathfinder`.
+- `architecture-pathfinder` / Generic agents: untested; expected `pathfinder`.
+- `implementation-plan` / Claude Code: untested; expected `make-plan`.
+- `implementation-plan` / Codex: untested; expected `make-plan`.
+- `implementation-plan` / Trae IDE / SOLO: untested; expected `make-plan`.
+- `implementation-plan` / Generic agents: untested; expected `make-plan`.
+- `execute-plan` / Claude Code: untested; expected `do`.
+- `execute-plan` / Codex: untested; expected `do`.
+- `execute-plan` / Trae IDE / SOLO: untested; expected `do`.
+- `execute-plan` / Generic agents: untested; expected `do`.
+- `subagent-tech-lead` / Claude Code: untested; expected `p9`.
+- `subagent-tech-lead` / Codex: untested; expected `p9`.
+- `subagent-tech-lead` / Trae IDE / SOLO: untested; expected `p9`.
+- `subagent-tech-lead` / Generic agents: untested; expected `p9`.
+- `cto-strategy` / Claude Code: untested; expected `p10`.
+- `cto-strategy` / Codex: untested; expected `p10`.
+- `cto-strategy` / Trae IDE / SOLO: untested; expected `p10`.
+- `cto-strategy` / Generic agents: untested; expected `p10`.
+- `academic-lit-review` / Claude Code: untested; expected `academic-research-suite`.
+- `academic-lit-review` / Codex: untested; expected `academic-research-suite`.
+- `academic-lit-review` / Trae IDE / SOLO: untested; expected `academic-research-suite`.
+- `academic-lit-review` / Generic agents: untested; expected `academic-research-suite`.
+- `research-idea-battle` / Claude Code: untested; expected `research-idea-and-battle`.
+- `research-idea-battle` / Codex: untested; expected `research-idea-and-battle`.
+- `research-idea-battle` / Trae IDE / SOLO: untested; expected `research-idea-and-battle`.
+- `research-idea-battle` / Generic agents: untested; expected `research-idea-and-battle`.
+- `paper-download-doi` / Claude Code: untested; expected `scansci-pdf`.
+- `paper-download-doi` / Codex: untested; expected `scansci-pdf`.
+- `paper-download-doi` / Trae IDE / SOLO: untested; expected `scansci-pdf`.
+- `paper-download-doi` / Generic agents: untested; expected `scansci-pdf`.
+- `nsfc-proposal` / Claude Code: untested; expected `nsfc-grant-writing`.
+- `nsfc-proposal` / Codex: untested; expected `nsfc-grant-writing`.
+- `nsfc-proposal` / Trae IDE / SOLO: untested; expected `nsfc-grant-writing`.
+- `nsfc-proposal` / Generic agents: untested; expected `nsfc-grant-writing`.
+- `xgboost-tabular-model` / Claude Code: untested; expected `xgboost-lightgbm`.
+- `xgboost-tabular-model` / Codex: untested; expected `xgboost-lightgbm`.
+- `xgboost-tabular-model` / Trae IDE / SOLO: untested; expected `xgboost-lightgbm`.
+- `xgboost-tabular-model` / Generic agents: untested; expected `xgboost-lightgbm`.
+- `nano-banana-image` / Claude Code: untested; expected `nanobanana`.
+- `nano-banana-image` / Codex: untested; expected `nanobanana`.
+- `nano-banana-image` / Trae IDE / SOLO: untested; expected `nanobanana`.
+- `nano-banana-image` / Generic agents: untested; expected `nanobanana`.
+- `algorithmic-p5-art` / Claude Code: untested; expected `algorithmic-art`.
+- `algorithmic-p5-art` / Codex: untested; expected `algorithmic-art`.
+- `algorithmic-p5-art` / Trae IDE / SOLO: untested; expected `algorithmic-art`.
+- `algorithmic-p5-art` / Generic agents: untested; expected `algorithmic-art`.
+- `static-poster-design` / Claude Code: untested; expected `canvas-design`.
+- `static-poster-design` / Codex: untested; expected `canvas-design`.
+- `static-poster-design` / Trae IDE / SOLO: untested; expected `canvas-design`.
+- `static-poster-design` / Generic agents: untested; expected `canvas-design`.
+- `theme-artifact` / Claude Code: untested; expected `theme-factory`.
+- `theme-artifact` / Codex: untested; expected `theme-factory`.
+- `theme-artifact` / Trae IDE / SOLO: untested; expected `theme-factory`.
+- `theme-artifact` / Generic agents: untested; expected `theme-factory`.
+- `anthropic-brand` / Claude Code: untested; expected `brand-guidelines`.
+- `anthropic-brand` / Codex: untested; expected `brand-guidelines`.
+- `anthropic-brand` / Trae IDE / SOLO: untested; expected `brand-guidelines`.
+- `anthropic-brand` / Generic agents: untested; expected `brand-guidelines`.
+- `internal-status-update` / Claude Code: untested; expected `internal-comms`.
+- `internal-status-update` / Codex: untested; expected `internal-comms`.
+- `internal-status-update` / Trae IDE / SOLO: untested; expected `internal-comms`.
+- `internal-status-update` / Generic agents: untested; expected `internal-comms`.
+- `doc-coauthor-spec` / Claude Code: untested; expected `doc-coauthoring`.
+- `doc-coauthor-spec` / Codex: untested; expected `doc-coauthoring`.
+- `doc-coauthor-spec` / Trae IDE / SOLO: untested; expected `doc-coauthoring`.
+- `doc-coauthor-spec` / Generic agents: untested; expected `doc-coauthoring`.
+- `slack-gif` / Claude Code: untested; expected `slack-gif-creator`.
+- `slack-gif` / Codex: untested; expected `slack-gif-creator`.
+- `slack-gif` / Trae IDE / SOLO: untested; expected `slack-gif-creator`.
+- `slack-gif` / Generic agents: untested; expected `slack-gif-creator`.
+- `wowerpoint-deck` / Claude Code: untested; expected `wowerpoint`.
+- `wowerpoint-deck` / Codex: untested; expected `wowerpoint`.
+- `wowerpoint-deck` / Trae IDE / SOLO: untested; expected `wowerpoint`.
+- `wowerpoint-deck` / Generic agents: untested; expected `wowerpoint`.
+- `debugging-pua-en` / Claude Code: untested; expected `pua-en`.
+- `debugging-pua-en` / Codex: untested; expected `pua-en`.
+- `debugging-pua-en` / Trae IDE / SOLO: untested; expected `pua-en`.
+- `debugging-pua-en` / Generic agents: untested; expected `pua-en`.
+- `yes-encouragement-mode` / Claude Code: untested; expected `yes`.
+- `yes-encouragement-mode` / Codex: untested; expected `yes`.
+- `yes-encouragement-mode` / Trae IDE / SOLO: untested; expected `yes`.
+- `yes-encouragement-mode` / Generic agents: untested; expected `yes`.
+- `mama-mode` / Claude Code: untested; expected `mama`.
+- `mama-mode` / Codex: untested; expected `mama`.
+- `mama-mode` / Trae IDE / SOLO: untested; expected `mama`.
+- `mama-mode` / Generic agents: untested; expected `mama`.
+- `release-plugin-version` / Claude Code: untested; expected `version-bump`.
+- `release-plugin-version` / Codex: untested; expected `version-bump`.
+- `release-plugin-version` / Trae IDE / SOLO: untested; expected `version-bump`.
+- `release-plugin-version` / Generic agents: untested; expected `version-bump`.
+- `babysit-pr` / Claude Code: untested; expected `babysit`.
+- `babysit-pr` / Codex: untested; expected `babysit`.
+- `babysit-pr` / Trae IDE / SOLO: untested; expected `babysit`.
+- `babysit-pr` / Generic agents: untested; expected `babysit`.
+- `claude-mem-how-it-works` / Claude Code: untested; expected `how-it-works`.
+- `claude-mem-how-it-works` / Codex: untested; expected `how-it-works`.
+- `claude-mem-how-it-works` / Trae IDE / SOLO: untested; expected `how-it-works`.
+- `claude-mem-how-it-works` / Generic agents: untested; expected `how-it-works`.
+- `build-mcp-server` / Claude Code: untested; expected `mcp-builder`.
+- `build-mcp-server` / Codex: untested; expected `mcp-builder`.
+- `build-mcp-server` / Trae IDE / SOLO: untested; expected `mcp-builder`.
+- `build-mcp-server` / Generic agents: untested; expected `mcp-builder`.
+- `p7-senior-engineer-mode` / Claude Code: untested; expected `p7`.
+- `p7-senior-engineer-mode` / Codex: untested; expected `p7`.
+- `p7-senior-engineer-mode` / Trae IDE / SOLO: untested; expected `p7`.
+- `p7-senior-engineer-mode` / Generic agents: untested; expected `p7`.
+- `pua-pro-extensions` / Claude Code: untested; expected `pro`.
+- `pua-pro-extensions` / Codex: untested; expected `pro`.
+- `pua-pro-extensions` / Trae IDE / SOLO: untested; expected `pro`.
+- `pua-pro-extensions` / Generic agents: untested; expected `pro`.
+- `pua-main-mode` / Claude Code: untested; expected `pua`.
+- `pua-main-mode` / Codex: untested; expected `pua`.
+- `pua-main-mode` / Trae IDE / SOLO: untested; expected `pua`.
+- `pua-main-mode` / Generic agents: untested; expected `pua`.
+- `pua-cancel-loop-alias` / Claude Code: untested; expected `pua-cancel-loop`.
+- `pua-cancel-loop-alias` / Codex: untested; expected `pua-cancel-loop`.
+- `pua-cancel-loop-alias` / Trae IDE / SOLO: untested; expected `pua-cancel-loop`.
+- `pua-cancel-loop-alias` / Generic agents: untested; expected `pua-cancel-loop`.
+- `pua-flavor-alias` / Claude Code: untested; expected `pua-flavor`.
+- `pua-flavor-alias` / Codex: untested; expected `pua-flavor`.
+- `pua-flavor-alias` / Trae IDE / SOLO: untested; expected `pua-flavor`.
+- `pua-flavor-alias` / Generic agents: untested; expected `pua-flavor`.
+- `pua-ja-mode` / Claude Code: untested; expected `pua-ja`.
+- `pua-ja-mode` / Codex: untested; expected `pua-ja`.
+- `pua-ja-mode` / Trae IDE / SOLO: untested; expected `pua-ja`.
+- `pua-ja-mode` / Generic agents: untested; expected `pua-ja`.
+- `pua-kpi-alias` / Claude Code: untested; expected `pua-kpi`.
+- `pua-kpi-alias` / Codex: untested; expected `pua-kpi`.
+- `pua-kpi-alias` / Trae IDE / SOLO: untested; expected `pua-kpi`.
+- `pua-kpi-alias` / Generic agents: untested; expected `pua-kpi`.
+- `pua-loop-mode` / Claude Code: untested; expected `pua-loop`.
+- `pua-loop-mode` / Codex: untested; expected `pua-loop`.
+- `pua-loop-mode` / Trae IDE / SOLO: untested; expected `pua-loop`.
+- `pua-loop-mode` / Generic agents: untested; expected `pua-loop`.
+- `pua-mama-alias` / Claude Code: untested; expected `pua-mama`.
+- `pua-mama-alias` / Codex: untested; expected `pua-mama`.
+- `pua-mama-alias` / Trae IDE / SOLO: untested; expected `pua-mama`.
+- `pua-mama-alias` / Generic agents: untested; expected `pua-mama`.
+- `pua-off-alias` / Claude Code: untested; expected `pua-off`.
+- `pua-off-alias` / Codex: untested; expected `pua-off`.
+- `pua-off-alias` / Trae IDE / SOLO: untested; expected `pua-off`.
+- `pua-off-alias` / Generic agents: untested; expected `pua-off`.
+- `pua-offline-alias` / Claude Code: untested; expected `pua-offline`.
+- `pua-offline-alias` / Codex: untested; expected `pua-offline`.
+- `pua-offline-alias` / Trae IDE / SOLO: untested; expected `pua-offline`.
+- `pua-offline-alias` / Generic agents: untested; expected `pua-offline`.
+- `pua-on-alias` / Claude Code: untested; expected `pua-on`.
+- `pua-on-alias` / Codex: untested; expected `pua-on`.
+- `pua-on-alias` / Trae IDE / SOLO: untested; expected `pua-on`.
+- `pua-on-alias` / Generic agents: untested; expected `pua-on`.
+- `pua-p10-alias` / Claude Code: untested; expected `pua-p10`.
+- `pua-p10-alias` / Codex: untested; expected `pua-p10`.
+- `pua-p10-alias` / Trae IDE / SOLO: untested; expected `pua-p10`.
+- `pua-p10-alias` / Generic agents: untested; expected `pua-p10`.
+- `pua-p7-alias` / Claude Code: untested; expected `pua-p7`.
+- `pua-p7-alias` / Codex: untested; expected `pua-p7`.
+- `pua-p7-alias` / Trae IDE / SOLO: untested; expected `pua-p7`.
+- `pua-p7-alias` / Generic agents: untested; expected `pua-p7`.
+- `pua-p9-alias` / Claude Code: untested; expected `pua-p9`.
+- `pua-p9-alias` / Codex: untested; expected `pua-p9`.
+- `pua-p9-alias` / Trae IDE / SOLO: untested; expected `pua-p9`.
+- `pua-p9-alias` / Generic agents: untested; expected `pua-p9`.
+- `pua-pro-alias` / Claude Code: untested; expected `pua-pro`.
+- `pua-pro-alias` / Codex: untested; expected `pua-pro`.
+- `pua-pro-alias` / Trae IDE / SOLO: untested; expected `pua-pro`.
+- `pua-pro-alias` / Generic agents: untested; expected `pua-pro`.
+- `pua-reap-orphans-alias` / Claude Code: untested; expected `pua-reap-orphans`.
+- `pua-reap-orphans-alias` / Codex: untested; expected `pua-reap-orphans`.
+- `pua-reap-orphans-alias` / Trae IDE / SOLO: untested; expected `pua-reap-orphans`.
+- `pua-reap-orphans-alias` / Generic agents: untested; expected `pua-reap-orphans`.
+- `pua-survey-alias` / Claude Code: untested; expected `pua-survey`.
+- `pua-survey-alias` / Codex: untested; expected `pua-survey`.
+- `pua-survey-alias` / Trae IDE / SOLO: untested; expected `pua-survey`.
+- `pua-survey-alias` / Generic agents: untested; expected `pua-survey`.
+- `pua-team-status-alias` / Claude Code: untested; expected `pua-team-status`.
+- `pua-team-status-alias` / Codex: untested; expected `pua-team-status`.
+- `pua-team-status-alias` / Trae IDE / SOLO: untested; expected `pua-team-status`.
+- `pua-team-status-alias` / Generic agents: untested; expected `pua-team-status`.
+- `pua-teardown-all-alias` / Claude Code: untested; expected `pua-teardown-all`.
+- `pua-teardown-all-alias` / Codex: untested; expected `pua-teardown-all`.
+- `pua-teardown-all-alias` / Trae IDE / SOLO: untested; expected `pua-teardown-all`.
+- `pua-teardown-all-alias` / Generic agents: untested; expected `pua-teardown-all`.
+- `pua-yes-alias` / Claude Code: untested; expected `pua-yes`.
+- `pua-yes-alias` / Codex: untested; expected `pua-yes`.
+- `pua-yes-alias` / Trae IDE / SOLO: untested; expected `pua-yes`.
+- `pua-yes-alias` / Generic agents: untested; expected `pua-yes`.
+- `pua-shot-mode` / Claude Code: untested; expected `shot`.
+- `pua-shot-mode` / Codex: untested; expected `shot`.
+- `pua-shot-mode` / Trae IDE / SOLO: untested; expected `shot`.
+- `pua-shot-mode` / Generic agents: untested; expected `shot`.
+- `create-new-skill` / Claude Code: untested; expected `skill-creator`.
+- `create-new-skill` / Codex: untested; expected `skill-creator`.
+- `create-new-skill` / Trae IDE / SOLO: untested; expected `skill-creator`.
+- `create-new-skill` / Generic agents: untested; expected `skill-creator`.
+- `shared-skill-install-download` / Claude Code: untested; expected `shared-skill-installer`.
+- `shared-skill-install-download` / Codex: untested; expected `shared-skill-installer`.
+- `shared-skill-install-download` / Trae IDE / SOLO: untested; expected `shared-skill-installer`.
+- `shared-skill-install-download` / Generic agents: untested; expected `shared-skill-installer`.

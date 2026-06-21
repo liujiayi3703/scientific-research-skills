@@ -1,0 +1,163 @@
+﻿{
+    "schema_version":  1,
+    "generated_at":  "2026-06-21T11:45:42",
+    "source_root":  "C:\\Users\\liuji\\Desktop\\Skills",
+    "repeat_requested":  1,
+    "repeat_completed":  1,
+    "passed":  true,
+    "require_real_platform_complete":  false,
+    "note":  "This gate proves local structure, trigger descriptions, proxy routing, manifest consistency, and default local target coverage. It does not prove real app internal routing; use REAL_PLATFORM_VALIDATION_MATRIX.md for that.",
+    "iterations":  [
+                       {
+                           "iteration":  1,
+                           "passed":  true,
+                           "commands":  [
+                                            {
+                                                "name":  "Audit-Skills",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  0.331,
+                                                "output_tail":  [
+
+                                                                ]
+                                            },
+                                            {
+                                                "name":  "Audit-SkillTriggers",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  0.59,
+                                                "output_tail":  [
+
+                                                                ]
+                                            },
+                                            {
+                                                "name":  "Test-SkillRouting",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  17.038,
+                                                "output_tail":  [
+                                                                    "Loaded skills: 66",
+                                                                    "Loaded evals: 66",
+                                                                    "claude-code: top1=100.0% top3=100.0% blocked_top3=0 allowed_related_top3=11",
+                                                                    "codex: top1=100.0% top3=100.0% blocked_top3=0 allowed_related_top3=10",
+                                                                    "trae-solo: top1=100.0% top3=100.0% blocked_top3=0 allowed_related_top3=11",
+                                                                    "generic-agents: top1=100.0% top3=100.0% blocked_top3=0 allowed_related_top3=11",
+                                                                    "Allowed related candidates: 43. See docs/TRIGGER_TEST_RESULTS.md",
+                                                                    "Routing test passed for all profiles."
+                                                                ]
+                                            },
+                                            {
+                                                "name":  "Export-SkillManifest",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  0.634,
+                                                "output_tail":  [
+
+                                                                ]
+                                            },
+                                            {
+                                                "name":  "Export-PlatformValidationPack",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  0.229,
+                                                "output_tail":  [
+
+                                                                ]
+                                            },
+                                            {
+                                                "name":  "Summarize-PlatformValidation",
+                                                "passed":  true,
+                                                "exit_code":  0,
+                                                "duration_seconds":  0.232,
+                                                "output_tail":  [
+
+                                                                ]
+                                            }
+                                        ],
+                           "artifact_check":  {
+                                                  "skill_count":  66,
+                                                  "eval_count":  66,
+                                                  "checks":  [
+                                                                 {
+                                                                     "name":  "standard-skills-present",
+                                                                     "passed":  true,
+                                                                     "detail":  "66 standard skills"
+                                                                 },
+                                                                 {
+                                                                     "name":  "no-nonstandard-skill-folders",
+                                                                     "passed":  true,
+                                                                     "detail":  "0 nonstandard folders"
+                                                                 },
+                                                                 {
+                                                                     "name":  "eval-coverage",
+                                                                     "passed":  true,
+                                                                     "detail":  "66 cases, missing coverage: 0"
+                                                                 },
+                                                                 {
+                                                                     "name":  "trigger-audit-clean",
+                                                                     "passed":  true,
+                                                                     "detail":  "0 descriptions need review"
+                                                                 },
+                                                                 {
+                                                                     "name":  "routing-top1-100-and-no-blocked",
+                                                                     "passed":  true,
+                                                                     "detail":  "all profiles pass"
+                                                                 },
+                                                                 {
+                                                                     "name":  "manifest-consistent",
+                                                                     "passed":  true,
+                                                                     "detail":  "66 manifest skills"
+                                                                 },
+                                                                 {
+                                                                     "name":  "platform-prompts-consistent",
+                                                                     "passed":  true,
+                                                                     "detail":  "66 platform prompts"
+                                                                 },
+                                                                 {
+                                                                     "name":  "platform-results-summarized",
+                                                                     "passed":  true,
+                                                                     "detail":  "66 platform result rows summarized; all platforms perfect: False"
+                                                                 },
+                                                                 {
+                                                                     "name":  "default-targets-contain-shared-skills",
+                                                                     "passed":  true,
+                                                                     "detail":  "Claude/Codex/Agents default targets contain all shared skills"
+                                                                 }
+                                                             ],
+                                                  "target_checks":  [
+                                                                        {
+                                                                            "platform":  "Claude Code default",
+                                                                            "path":  "C:\\Users\\liuji\\.claude\\skills",
+                                                                            "passed":  true,
+                                                                            "skill_count":  66,
+                                                                            "missing_count":  0,
+                                                                            "missing":  [
+
+                                                                                        ]
+                                                                        },
+                                                                        {
+                                                                            "platform":  "Codex default",
+                                                                            "path":  "C:\\Users\\liuji\\.codex\\skills",
+                                                                            "passed":  true,
+                                                                            "skill_count":  67,
+                                                                            "missing_count":  0,
+                                                                            "missing":  [
+
+                                                                                        ]
+                                                                        },
+                                                                        {
+                                                                            "platform":  "Generic agents default",
+                                                                            "path":  "C:\\Users\\liuji\\.agents\\skills",
+                                                                            "passed":  true,
+                                                                            "skill_count":  66,
+                                                                            "missing_count":  0,
+                                                                            "missing":  [
+
+                                                                                        ]
+                                                                        }
+                                                                    ],
+                                                  "passed":  true
+                                              }
+                       }
+                   ]
+}

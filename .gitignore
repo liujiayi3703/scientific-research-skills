@@ -1,0 +1,12 @@
+# Generated Python cache files
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local database exports can contain API tokens or provider credentials.
+archive/database-exports/*.sql
+

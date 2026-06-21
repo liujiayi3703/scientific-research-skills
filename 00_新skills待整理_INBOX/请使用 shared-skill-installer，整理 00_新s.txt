@@ -1,0 +1,7 @@
+请使用 shared-skill-installer，整理 00_新skills待整理_INBOX 里的新 skill，并放到正确位置，补触发测试、跑质量闸门并接入。
+
+
+请使用 shared-skill-installer，把 C:\路径\xxx.skill 安装到共享 Skills 库，并按标准流程整理、测试和接入。
+
+
+请使用 shared-skill-installer，把【新 skill 名称 / GitHub URL / 本地文件路径 / inbox 中的新内容】下载或整理到共享 Skills 库的正确位置，并按标准流程整理、测试和接入。

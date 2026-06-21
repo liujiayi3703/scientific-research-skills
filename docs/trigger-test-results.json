@@ -1,0 +1,6225 @@
+{
+  "summary": {
+    "claude-code": {
+      "total": 66,
+      "top1": 66,
+      "top3": 66,
+      "blocked_top3": 0,
+      "allowed_related_top3": 11
+    },
+    "codex": {
+      "total": 66,
+      "top1": 66,
+      "top3": 66,
+      "blocked_top3": 0,
+      "allowed_related_top3": 10
+    },
+    "trae-solo": {
+      "total": 66,
+      "top1": 66,
+      "top3": 66,
+      "blocked_top3": 0,
+      "allowed_related_top3": 11
+    },
+    "generic-agents": {
+      "total": 66,
+      "top1": 66,
+      "top3": 66,
+      "blocked_top3": 0,
+      "allowed_related_top3": 11
+    }
+  },
+  "results": [
+    {
+      "id": "spreadsheet-clean-xlsx",
+      "prompt": "I have an Excel file with messy headers and blank rows. Clean it up, add formulas, and return a polished xlsx.",
+      "expected_skill": "xlsx",
+      "blocked_skills": [
+        "docx",
+        "pdf",
+        "pptx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xlsx",
+              "score": 129.2233
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 79.2327
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 79.2327
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xlsx",
+              "score": 118.0756
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 71.3094
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 71.3094
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xlsx",
+              "score": 114.6667
+            },
+            {
+              "skill": "pua-en",
+              "score": 58.5777
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 58.104
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xlsx",
+              "score": 112.653
+            },
+            {
+              "skill": "pua-en",
+              "score": 60.7592
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 52.8218
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "word-report-template",
+      "prompt": "Create a formatted Word report template with headings, page numbers, a table of contents, and tracked comment placeholders.",
+      "expected_skill": "docx",
+      "blocked_skills": [
+        "pdf",
+        "pptx",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "docx",
+              "score": 364.2891
+            },
+            {
+              "skill": "xlsx",
+              "score": 108.8018
+            },
+            {
+              "skill": "timeline-report",
+              "score": 106.357
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "docx",
+              "score": 326.9434
+            },
+            {
+              "skill": "timeline-report",
+              "score": 104.859
+            },
+            {
+              "skill": "xlsx",
+              "score": 96.5508
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "docx",
+              "score": 273.2576
+            },
+            {
+              "skill": "timeline-report",
+              "score": 105.3583
+            },
+            {
+              "skill": "xlsx",
+              "score": 88.9267
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "docx",
+              "score": 251.4166
+            },
+            {
+              "skill": "timeline-report",
+              "score": 108.8536
+            },
+            {
+              "skill": "xlsx",
+              "score": 85.3287
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "slide-deck-edit",
+      "prompt": "Open this pptx deck, rewrite the speaker notes, and combine it with another presentation.",
+      "expected_skill": "pptx",
+      "blocked_skills": [
+        "docx",
+        "pdf",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pptx",
+              "score": 375.4134
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 80.1864
+            },
+            {
+              "skill": "theme-factory",
+              "score": 11.4552
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pptx",
+              "score": 364.6419
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 71.0222
+            },
+            {
+              "skill": "theme-factory",
+              "score": 9.1642
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pptx",
+              "score": 341.2755
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 66.4401
+            },
+            {
+              "skill": "theme-factory",
+              "score": 16.0373
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pptx",
+              "score": 340.4106
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 64.1491
+            },
+            {
+              "skill": "theme-factory",
+              "score": 18.3283
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pdf-extract-merge",
+      "prompt": "Extract the tables from this PDF, rotate page 3, and merge it with another PDF.",
+      "expected_skill": "pdf",
+      "blocked_skills": [
+        "docx",
+        "pptx",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pdf",
+              "score": 456.3453
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 119.0721
+            },
+            {
+              "skill": "docx",
+              "score": 93.3142
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pdf",
+              "score": 426.9526
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 116.2593
+            },
+            {
+              "skill": "docx",
+              "score": 83.3289
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pdf",
+              "score": 405.4526
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 137.1985
+            },
+            {
+              "skill": "docx",
+              "score": 72.7892
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pdf",
+              "score": 401.3893
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 148.762
+            },
+            {
+              "skill": "docx",
+              "score": 68.3117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scientific-figure-from-csv",
+      "prompt": "Use this CSV to make a publication-ready scientific figure with error bars, statistical annotations, and a caption.",
+      "expected_skill": "sci-figure",
+      "blocked_skills": [
+        "algorithmic-art",
+        "canvas-design",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "sci-figure",
+              "score": 354.4342
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 53.379
+            },
+            {
+              "skill": "pua-en",
+              "score": 49.9689
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "sci-figure",
+              "score": 328.9115
+            },
+            {
+              "skill": "make-plan",
+              "score": 55.3808
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 47.6305
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "sci-figure",
+              "score": 320.9087
+            },
+            {
+              "skill": "make-plan",
+              "score": 64.7031
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 41.882
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "sci-figure",
+              "score": 321.1582
+            },
+            {
+              "skill": "make-plan",
+              "score": 72.4539
+            },
+            {
+              "skill": "pua-en",
+              "score": 39.6834
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frontend-dashboard",
+      "prompt": "Build a polished React dashboard UI with filters, table view, chart panel, and responsive layout.",
+      "expected_skill": "frontend-design",
+      "blocked_skills": [
+        "web-artifacts-builder",
+        "xlsx"
+      ],
+      "allowed_related_skills": [
+        "web-artifacts-builder"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "web-artifacts-builder"
+          ],
+          "top3": [
+            {
+              "skill": "frontend-design",
+              "score": 231.9858
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 127.9651
+            },
+            {
+              "skill": "version-bump",
+              "score": 51.3338
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "frontend-design",
+              "score": 207.7751
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 111.8814
+            },
+            {
+              "skill": "docx",
+              "score": 44.3457
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "web-artifacts-builder"
+          ],
+          "top3": [
+            {
+              "skill": "frontend-design",
+              "score": 176.8705
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 115.7553
+            },
+            {
+              "skill": "version-bump",
+              "score": 50.7493
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "web-artifacts-builder"
+          ],
+          "top3": [
+            {
+              "skill": "frontend-design",
+              "score": 164.1038
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 115.9899
+            },
+            {
+              "skill": "version-bump",
+              "score": 52.5689
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "complex-html-artifact",
+      "prompt": "Create a multi-view HTML artifact with React state, Tailwind styling, shadcn components, and client-side routing.",
+      "expected_skill": "web-artifacts-builder",
+      "blocked_skills": [
+        "frontend-design",
+        "webapp-testing"
+      ],
+      "allowed_related_skills": [
+        "frontend-design"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "frontend-design"
+          ],
+          "top3": [
+            {
+              "skill": "web-artifacts-builder",
+              "score": 345.5855
+            },
+            {
+              "skill": "frontend-design",
+              "score": 266.6121
+            },
+            {
+              "skill": "theme-factory",
+              "score": 73.3602
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "frontend-design"
+          ],
+          "top3": [
+            {
+              "skill": "web-artifacts-builder",
+              "score": 304.6056
+            },
+            {
+              "skill": "frontend-design",
+              "score": 238.5434
+            },
+            {
+              "skill": "theme-factory",
+              "score": 64.5779
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "frontend-design"
+          ],
+          "top3": [
+            {
+              "skill": "web-artifacts-builder",
+              "score": 296.2385
+            },
+            {
+              "skill": "frontend-design",
+              "score": 204.8988
+            },
+            {
+              "skill": "theme-factory",
+              "score": 63.4392
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "frontend-design"
+          ],
+          "top3": [
+            {
+              "skill": "web-artifacts-builder",
+              "score": 290.3231
+            },
+            {
+              "skill": "frontend-design",
+              "score": 190.8779
+            },
+            {
+              "skill": "theme-factory",
+              "score": 62.4053
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playwright-localhost-test",
+      "prompt": "Use Playwright to click through my localhost app, capture screenshots, and inspect browser console errors.",
+      "expected_skill": "webapp-testing",
+      "blocked_skills": [
+        "frontend-design",
+        "web-access-main"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "webapp-testing",
+              "score": 222.2665
+            },
+            {
+              "skill": "web-access-main",
+              "score": 104.705
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 43.1431
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "webapp-testing",
+              "score": 198.4955
+            },
+            {
+              "skill": "web-access-main",
+              "score": 93.6186
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 38.8288
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "webapp-testing",
+              "score": 173.2911
+            },
+            {
+              "skill": "web-access-main",
+              "score": 80.8898
+            },
+            {
+              "skill": "shot",
+              "score": 34.0
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "webapp-testing",
+              "score": 162.5916
+            },
+            {
+              "skill": "web-access-main",
+              "score": 75.5519
+            },
+            {
+              "skill": "shot",
+              "score": 34.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "web-search-current-info",
+      "prompt": "Search the web for the latest policy details, open the pages, and summarize the sources with links.",
+      "expected_skill": "web-access-main",
+      "blocked_skills": [
+        "academic-research-suite",
+        "browser:control-in-app-browser"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "web-access-main",
+              "score": 315.6979
+            },
+            {
+              "skill": "frontend-design",
+              "score": 175.8333
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 102.8243
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "web-access-main",
+              "score": 298.0057
+            },
+            {
+              "skill": "frontend-design",
+              "score": 157.4863
+            },
+            {
+              "skill": "web-artifacts-builder",
+              "score": 106.4195
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "web-access-main",
+              "score": 266.1221
+            },
+            {
+              "skill": "frontend-design",
+              "score": 134.0356
+            },
+            {
+              "skill": "mem-search",
+              "score": 114.8109
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "web-access-main",
+              "score": 258.402
+            },
+            {
+              "skill": "frontend-design",
+              "score": 124.3499
+            },
+            {
+              "skill": "mem-search",
+              "score": 123.9949
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "claude-api-prompt-cache",
+      "prompt": "This repo imports @anthropic-ai/sdk. Add Claude prompt caching and debug why cache hit rate is low.",
+      "expected_skill": "claude-api",
+      "blocked_skills": [
+        "Codex-api",
+        "openai-docs"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "claude-api",
+              "score": 378.9497
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 55.4321
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 54.8211
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "claude-api",
+              "score": 343.0898
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 49.273
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 49.1465
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "claude-api",
+              "score": 326.9417
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 44.7563
+            },
+            {
+              "skill": "nanobanana",
+              "score": 43.7808
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "claude-api",
+              "score": 321.0416
+            },
+            {
+              "skill": "nanobanana",
+              "score": 44.1817
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 42.7032
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "openclaw-memory-setup",
+      "prompt": "Set up Claude-Mem on an OpenClaw gateway with memory slots, worker startup, and observation feed.",
+      "expected_skill": "openclaw",
+      "blocked_skills": [
+        "how-it-works",
+        "knowledge-agent"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "openclaw",
+              "score": 720.6687
+            },
+            {
+              "skill": "how-it-works",
+              "score": 125.579
+            },
+            {
+              "skill": "mem-search",
+              "score": 95.1139
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "openclaw",
+              "score": 668.6657
+            },
+            {
+              "skill": "how-it-works",
+              "score": 111.1869
+            },
+            {
+              "skill": "mem-search",
+              "score": 91.7136
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "openclaw",
+              "score": 620.0524
+            },
+            {
+              "skill": "how-it-works",
+              "score": 104.3188
+            },
+            {
+              "skill": "mem-search",
+              "score": 86.6248
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "openclaw",
+              "score": 606.4843
+            },
+            {
+              "skill": "how-it-works",
+              "score": 100.8379
+            },
+            {
+              "skill": "mem-search",
+              "score": 86.7991
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "knowledge-agent-memory-brain",
+      "prompt": "Build a focused knowledge base from my past observations and query it for recurring project patterns.",
+      "expected_skill": "knowledge-agent",
+      "blocked_skills": [
+        "mem-search",
+        "timeline-report"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "knowledge-agent",
+              "score": 338.592
+            },
+            {
+              "skill": "timeline-report",
+              "score": 113.2817
+            },
+            {
+              "skill": "how-it-works",
+              "score": 51.0886
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "knowledge-agent",
+              "score": 314.8448
+            },
+            {
+              "skill": "timeline-report",
+              "score": 97.5904
+            },
+            {
+              "skill": "how-it-works",
+              "score": 44.9664
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "knowledge-agent",
+              "score": 326.0781
+            },
+            {
+              "skill": "timeline-report",
+              "score": 112.1606
+            },
+            {
+              "skill": "version-bump",
+              "score": 45.4036
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "knowledge-agent",
+              "score": 334.025
+            },
+            {
+              "skill": "timeline-report",
+              "score": 116.2435
+            },
+            {
+              "skill": "version-bump",
+              "score": 46.4595
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "memory-search-prior-solution",
+      "prompt": "Did we already solve this auth redirect issue before? Search memory for the earlier solution.",
+      "expected_skill": "mem-search",
+      "blocked_skills": [
+        "knowledge-agent",
+        "timeline-report"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mem-search",
+              "score": 450.3735
+            },
+            {
+              "skill": "openclaw",
+              "score": 170.6467
+            },
+            {
+              "skill": "how-it-works",
+              "score": 92.1492
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mem-search",
+              "score": 411.3899
+            },
+            {
+              "skill": "openclaw",
+              "score": 152.8994
+            },
+            {
+              "skill": "how-it-works",
+              "score": 81.9104
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mem-search",
+              "score": 389.1638
+            },
+            {
+              "skill": "openclaw",
+              "score": 129.6915
+            },
+            {
+              "skill": "how-it-works",
+              "score": 74.4019
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mem-search",
+              "score": 382.2907
+            },
+            {
+              "skill": "openclaw",
+              "score": 120.1352
+            },
+            {
+              "skill": "how-it-works",
+              "score": 70.989
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "timeline-project-history",
+      "prompt": "Generate a journey report of this project from the full development timeline and summarize major phases.",
+      "expected_skill": "timeline-report",
+      "blocked_skills": [
+        "knowledge-agent",
+        "mem-search"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "timeline-report",
+              "score": 555.0788
+            },
+            {
+              "skill": "pro",
+              "score": 93.9194
+            },
+            {
+              "skill": "sci-figure",
+              "score": 68.9336
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "timeline-report",
+              "score": 519.9528
+            },
+            {
+              "skill": "pro",
+              "score": 87.9275
+            },
+            {
+              "skill": "sci-figure",
+              "score": 61.1388
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "timeline-report",
+              "score": 518.9877
+            },
+            {
+              "skill": "pro",
+              "score": 77.9409
+            },
+            {
+              "skill": "sci-figure",
+              "score": 56.5608
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "timeline-report",
+              "score": 525.7452
+            },
+            {
+              "skill": "pro",
+              "score": 73.9463
+            },
+            {
+              "skill": "sci-figure",
+              "score": 54.369
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "learn-codebase-prime",
+      "prompt": "Learn this unfamiliar codebase by reading the source files and getting up to speed before changes.",
+      "expected_skill": "learn-codebase",
+      "blocked_skills": [
+        "pathfinder",
+        "smart-explore"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "learn-codebase",
+              "score": 538.4959
+            },
+            {
+              "skill": "smart-explore",
+              "score": 95.3142
+            },
+            {
+              "skill": "pathfinder",
+              "score": 82.6406
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "learn-codebase",
+              "score": 512.2199
+            },
+            {
+              "skill": "smart-explore",
+              "score": 84.1746
+            },
+            {
+              "skill": "pathfinder",
+              "score": 72.9098
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "learn-codebase",
+              "score": 483.3923
+            },
+            {
+              "skill": "smart-explore",
+              "score": 80.6181
+            },
+            {
+              "skill": "pathfinder",
+              "score": 70.3813
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "learn-codebase",
+              "score": 481.7817
+            },
+            {
+              "skill": "smart-explore",
+              "score": 78.5522
+            },
+            {
+              "skill": "pathfinder",
+              "score": 68.7831
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart-structural-search",
+      "prompt": "Use structural search to find where this function is defined and map related symbols without reading every file.",
+      "expected_skill": "smart-explore",
+      "blocked_skills": [
+        "learn-codebase",
+        "pathfinder"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "smart-explore",
+              "score": 237.4118
+            },
+            {
+              "skill": "mem-search",
+              "score": 99.1844
+            },
+            {
+              "skill": "pathfinder",
+              "score": 92.3315
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "smart-explore",
+              "score": 206.6347
+            },
+            {
+              "skill": "mem-search",
+              "score": 98.2092
+            },
+            {
+              "skill": "pathfinder",
+              "score": 82.0563
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "smart-explore",
+              "score": 221.008
+            },
+            {
+              "skill": "mem-search",
+              "score": 112.362
+            },
+            {
+              "skill": "pathfinder",
+              "score": 74.6572
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "smart-explore",
+              "score": 223.943
+            },
+            {
+              "skill": "mem-search",
+              "score": 121.1962
+            },
+            {
+              "skill": "pathfinder",
+              "score": 71.2807
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "architecture-pathfinder",
+      "prompt": "Find the ideal path through this codebase, map duplicated flows, and propose a unified architecture before refactor.",
+      "expected_skill": "pathfinder",
+      "blocked_skills": [
+        "learn-codebase",
+        "make-plan"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pathfinder",
+              "score": 511.4511
+            },
+            {
+              "skill": "learn-codebase",
+              "score": 201.0899
+            },
+            {
+              "skill": "smart-explore",
+              "score": 63.1297
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pathfinder",
+              "score": 454.8275
+            },
+            {
+              "skill": "learn-codebase",
+              "score": 193.6606
+            },
+            {
+              "skill": "smart-explore",
+              "score": 54.8181
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pathfinder",
+              "score": 411.5874
+            },
+            {
+              "skill": "learn-codebase",
+              "score": 190.0626
+            },
+            {
+              "skill": "smart-explore",
+              "score": 59.6196
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pathfinder",
+              "score": 392.0999
+            },
+            {
+              "skill": "learn-codebase",
+              "score": 193.1775
+            },
+            {
+              "skill": "smart-explore",
+              "score": 60.7407
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "implementation-plan",
+      "prompt": "Make a phased implementation plan for this feature with documentation discovery and clear verification gates.",
+      "expected_skill": "make-plan",
+      "blocked_skills": [
+        "do",
+        "p9"
+      ],
+      "allowed_related_skills": [
+        "do"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "do"
+          ],
+          "top3": [
+            {
+              "skill": "make-plan",
+              "score": 422.5927
+            },
+            {
+              "skill": "do",
+              "score": 256.565
+            },
+            {
+              "skill": "p7",
+              "score": 75.195
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "do"
+          ],
+          "top3": [
+            {
+              "skill": "make-plan",
+              "score": 398.8524
+            },
+            {
+              "skill": "do",
+              "score": 229.8491
+            },
+            {
+              "skill": "p7",
+              "score": 67.6755
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "do"
+          ],
+          "top3": [
+            {
+              "skill": "make-plan",
+              "score": 395.4044
+            },
+            {
+              "skill": "do",
+              "score": 226.9442
+            },
+            {
+              "skill": "pathfinder",
+              "score": 85.9556
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "do"
+          ],
+          "top3": [
+            {
+              "skill": "make-plan",
+              "score": 400.5819
+            },
+            {
+              "skill": "do",
+              "score": 223.9985
+            },
+            {
+              "skill": "pathfinder",
+              "score": 94.7246
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "execute-plan",
+      "prompt": "Execute the phased plan we already wrote and carry out the implementation steps.",
+      "expected_skill": "do",
+      "blocked_skills": [
+        "make-plan",
+        "p9"
+      ],
+      "allowed_related_skills": [
+        "make-plan"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "make-plan"
+          ],
+          "top3": [
+            {
+              "skill": "do",
+              "score": 357.9442
+            },
+            {
+              "skill": "make-plan",
+              "score": 265.1269
+            },
+            {
+              "skill": "mem-search",
+              "score": 137.8448
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "make-plan"
+          ],
+          "top3": [
+            {
+              "skill": "do",
+              "score": 319.576
+            },
+            {
+              "skill": "make-plan",
+              "score": 248.6691
+            },
+            {
+              "skill": "mem-search",
+              "score": 122.9999
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "make-plan"
+          ],
+          "top3": [
+            {
+              "skill": "do",
+              "score": 279.6511
+            },
+            {
+              "skill": "make-plan",
+              "score": 233.7383
+            },
+            {
+              "skill": "mem-search",
+              "score": 108.1551
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "make-plan"
+          ],
+          "top3": [
+            {
+              "skill": "do",
+              "score": 262.6516
+            },
+            {
+              "skill": "make-plan",
+              "score": 231.3548
+            },
+            {
+              "skill": "mem-search",
+              "score": 101.793
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "subagent-tech-lead",
+      "prompt": "Act as P9 tech lead, split this project into task prompts, and coordinate multiple P8 agents.",
+      "expected_skill": "p9",
+      "blocked_skills": [
+        "do",
+        "p10",
+        "p7"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p9",
+              "score": 556.2296
+            },
+            {
+              "skill": "pua-p9",
+              "score": 255.5857
+            },
+            {
+              "skill": "timeline-report",
+              "score": 104.4759
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p9",
+              "score": 519.7384
+            },
+            {
+              "skill": "pua-p9",
+              "score": 239.7733
+            },
+            {
+              "skill": "timeline-report",
+              "score": 90.5458
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p9",
+              "score": 459.4349
+            },
+            {
+              "skill": "pua-p9",
+              "score": 232.964
+            },
+            {
+              "skill": "shot",
+              "score": 136.6002
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p9",
+              "score": 441.0062
+            },
+            {
+              "skill": "pua-p9",
+              "score": 233.6887
+            },
+            {
+              "skill": "shot",
+              "score": 156.1145
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cto-strategy",
+      "prompt": "Use CTO mode to define strategic direction, architecture governance, and org topology across teams.",
+      "expected_skill": "p10",
+      "blocked_skills": [
+        "p7",
+        "p9"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p10",
+              "score": 508.8806
+            },
+            {
+              "skill": "pathfinder",
+              "score": 100.6646
+            },
+            {
+              "skill": "pua-p10",
+              "score": 99.1485
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p10",
+              "score": 457.9925
+            },
+            {
+              "skill": "pathfinder",
+              "score": 89.6959
+            },
+            {
+              "skill": "pua-p10",
+              "score": 86.8968
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p10",
+              "score": 373.1791
+            },
+            {
+              "skill": "pua-p10",
+              "score": 88.2875
+            },
+            {
+              "skill": "pathfinder",
+              "score": 79.8361
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "p10",
+              "score": 339.2537
+            },
+            {
+              "skill": "pua-p10",
+              "score": 87.9091
+            },
+            {
+              "skill": "pathfinder",
+              "score": 75.5313
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "academic-lit-review",
+      "prompt": "Help me do a systematic literature review, refine the research question, and draft an academic paper plan.",
+      "expected_skill": "academic-research-suite",
+      "blocked_skills": [
+        "research-idea-and-battle",
+        "scansci-pdf"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "academic-research-suite",
+              "score": 749.5786
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 184.6111
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 157.1095
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "academic-research-suite",
+              "score": 694.8517
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 177.4089
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 141.3986
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "academic-research-suite",
+              "score": 665.0671
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 175.5521
+            },
+            {
+              "skill": "scansci-pdf",
+              "score": 115.2136
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "academic-research-suite",
+              "score": 660.2266
+            },
+            {
+              "skill": "research-idea-and-battle",
+              "score": 178.8436
+            },
+            {
+              "skill": "do",
+              "score": 118.2554
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "research-idea-battle",
+      "prompt": "I have an AI/ML research idea. Battle-test the novelty, tell me what reviewers would attack, and help position it.",
+      "expected_skill": "research-idea-and-battle",
+      "blocked_skills": [
+        "academic-research-suite",
+        "p10"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "research-idea-and-battle",
+              "score": 529.7878
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 203.3066
+            },
+            {
+              "skill": "pua-en",
+              "score": 68.4395
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "research-idea-and-battle",
+              "score": 495.2474
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 194.3207
+            },
+            {
+              "skill": "pua-en",
+              "score": 58.6622
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "research-idea-and-battle",
+              "score": 460.5834
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 188.6907
+            },
+            {
+              "skill": "pua-en",
+              "score": 69.7451
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "research-idea-and-battle",
+              "score": 453.299
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 190.5074
+            },
+            {
+              "skill": "pua-en",
+              "score": 73.0049
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "paper-download-doi",
+      "prompt": "Download these DOI papers, get BibTeX citations, and save the PDFs for later reading.",
+      "expected_skill": "scansci-pdf",
+      "blocked_skills": [
+        "academic-research-suite",
+        "pdf"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "scansci-pdf",
+              "score": 430.1103
+            },
+            {
+              "skill": "pdf",
+              "score": 83.6392
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 59.394
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "scansci-pdf",
+              "score": 382.2988
+            },
+            {
+              "skill": "pdf",
+              "score": 78.2934
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 52.4425
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "scansci-pdf",
+              "score": 347.4177
+            },
+            {
+              "skill": "pdf",
+              "score": 72.9477
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 50.3029
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "scansci-pdf",
+              "score": 331.545
+            },
+            {
+              "skill": "pdf",
+              "score": 70.6566
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 49.0423
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nsfc-proposal",
+      "prompt": "帮我写国自然基金本子，重点打磨立项依据、科学问题、技术路线和创新点。",
+      "expected_skill": "nsfc-grant-writing",
+      "blocked_skills": [
+        "academic-research-suite",
+        "internal-comms"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 685.6901
+            },
+            {
+              "skill": "mama",
+              "score": 51.5901
+            },
+            {
+              "skill": "p9",
+              "score": 47.948
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 607.8933
+            },
+            {
+              "skill": "p9",
+              "score": 42.6656
+            },
+            {
+              "skill": "mama",
+              "score": 41.2721
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 564.3579
+            },
+            {
+              "skill": "mama",
+              "score": 72.2261
+            },
+            {
+              "skill": "pua",
+              "score": 50.6137
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 543.2526
+            },
+            {
+              "skill": "mama",
+              "score": 82.5441
+            },
+            {
+              "skill": "pua",
+              "score": 57.8442
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "xgboost-tabular-model",
+      "prompt": "Train an XGBoost or LightGBM model on this tabular CSV, check leakage, tune parameters, and report feature importance.",
+      "expected_skill": "xgboost-lightgbm",
+      "blocked_skills": [
+        "academic-research-suite",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xgboost-lightgbm",
+              "score": 508.3375
+            },
+            {
+              "skill": "sci-figure",
+              "score": 112.0552
+            },
+            {
+              "skill": "timeline-report",
+              "score": 109.2591
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xgboost-lightgbm",
+              "score": 485.9787
+            },
+            {
+              "skill": "timeline-report",
+              "score": 107.1807
+            },
+            {
+              "skill": "sci-figure",
+              "score": 100.2182
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xgboost-lightgbm",
+              "score": 502.0043
+            },
+            {
+              "skill": "timeline-report",
+              "score": 109.4213
+            },
+            {
+              "skill": "sci-figure",
+              "score": 86.3839
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "xgboost-lightgbm",
+              "score": 518.5052
+            },
+            {
+              "skill": "timeline-report",
+              "score": 113.497
+            },
+            {
+              "skill": "sci-figure",
+              "score": 80.5975
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nano-banana-image",
+      "prompt": "Use Nano Banana style image editing prompts to turn this product photo into a clean studio mockup.",
+      "expected_skill": "nanobanana",
+      "blocked_skills": [
+        "canvas-design",
+        "imagegen"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nanobanana",
+              "score": 565.4342
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 89.8814
+            },
+            {
+              "skill": "p9",
+              "score": 72.1792
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nanobanana",
+              "score": 500.5727
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 80.5337
+            },
+            {
+              "skill": "p9",
+              "score": 64.9613
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nanobanana",
+              "score": 470.1056
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 68.3098
+            },
+            {
+              "skill": "p9",
+              "score": 52.9314
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "nanobanana",
+              "score": 454.5915
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 63.2765
+            },
+            {
+              "skill": "p9",
+              "score": 48.1195
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "algorithmic-p5-art",
+      "prompt": "Create generative art with p5.js, seeded randomness, flow fields, and interactive parameters.",
+      "expected_skill": "algorithmic-art",
+      "blocked_skills": [
+        "canvas-design",
+        "frontend-design"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "algorithmic-art",
+              "score": 585.6491
+            },
+            {
+              "skill": "canvas-design",
+              "score": 68.1798
+            },
+            {
+              "skill": "skill-creator",
+              "score": 41.2336
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "algorithmic-art",
+              "score": 534.7634
+            },
+            {
+              "skill": "canvas-design",
+              "score": 60.8374
+            },
+            {
+              "skill": "skill-creator",
+              "score": 36.9453
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "algorithmic-art",
+              "score": 505.4093
+            },
+            {
+              "skill": "canvas-design",
+              "score": 53.4949
+            },
+            {
+              "skill": "do",
+              "score": 34.0
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "algorithmic-art",
+              "score": 496.2216
+            },
+            {
+              "skill": "canvas-design",
+              "score": 50.3482
+            },
+            {
+              "skill": "do",
+              "score": 34.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "static-poster-design",
+      "prompt": "Design a polished static poster as a PNG/PDF with strong typography and visual composition.",
+      "expected_skill": "canvas-design",
+      "blocked_skills": [
+        "algorithmic-art",
+        "frontend-design"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "canvas-design",
+              "score": 662.0303
+            },
+            {
+              "skill": "pdf",
+              "score": 478.5927
+            },
+            {
+              "skill": "frontend-design",
+              "score": 190.2319
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "canvas-design",
+              "score": 616.6005
+            },
+            {
+              "skill": "pdf",
+              "score": 462.0721
+            },
+            {
+              "skill": "frontend-design",
+              "score": 180.932
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "canvas-design",
+              "score": 584.0113
+            },
+            {
+              "skill": "pdf",
+              "score": 442.4552
+            },
+            {
+              "skill": "frontend-design",
+              "score": 181.0258
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "canvas-design",
+              "score": 573.2518
+            },
+            {
+              "skill": "pdf",
+              "score": 439.9838
+            },
+            {
+              "skill": "frontend-design",
+              "score": 184.5195
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "theme-artifact",
+      "prompt": "Apply a coherent visual theme with colors, typography, and layout rules to this slide/report artifact.",
+      "expected_skill": "theme-factory",
+      "blocked_skills": [
+        "brand-guidelines",
+        "frontend-design"
+      ],
+      "allowed_related_skills": [
+        "brand-guidelines"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "brand-guidelines"
+          ],
+          "top3": [
+            {
+              "skill": "theme-factory",
+              "score": 337.8603
+            },
+            {
+              "skill": "canvas-design",
+              "score": 289.7987
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 193.5602
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "brand-guidelines"
+          ],
+          "top3": [
+            {
+              "skill": "theme-factory",
+              "score": 310.1677
+            },
+            {
+              "skill": "canvas-design",
+              "score": 272.7136
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 171.1813
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "theme-factory",
+              "score": 352.3327
+            },
+            {
+              "skill": "canvas-design",
+              "score": 263.8872
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 162.097
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "theme-factory",
+              "score": 371.0448
+            },
+            {
+              "skill": "canvas-design",
+              "score": 259.5146
+            },
+            {
+              "skill": "brand-guidelines",
+              "score": 157.2541
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "anthropic-brand",
+      "prompt": "Apply Anthropic brand colors, typography, and official visual guidelines to this artifact.",
+      "expected_skill": "brand-guidelines",
+      "blocked_skills": [
+        "canvas-design",
+        "theme-factory"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "brand-guidelines",
+              "score": 643.7589
+            },
+            {
+              "skill": "canvas-design",
+              "score": 289.7987
+            },
+            {
+              "skill": "theme-factory",
+              "score": 159.8569
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "brand-guidelines",
+              "score": 602.8024
+            },
+            {
+              "skill": "canvas-design",
+              "score": 272.7136
+            },
+            {
+              "skill": "theme-factory",
+              "score": 140.1721
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "brand-guidelines",
+              "score": 588.28
+            },
+            {
+              "skill": "canvas-design",
+              "score": 263.8872
+            },
+            {
+              "skill": "theme-factory",
+              "score": 141.8893
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "brand-guidelines",
+              "score": 590.7298
+            },
+            {
+              "skill": "canvas-design",
+              "score": 259.5146
+            },
+            {
+              "skill": "theme-factory",
+              "score": 141.0965
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "internal-status-update",
+      "prompt": "Write a concise internal 3P update for leadership with progress, plans, problems, and next steps.",
+      "expected_skill": "internal-comms",
+      "blocked_skills": [
+        "doc-coauthoring",
+        "docx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "internal-comms",
+              "score": 282.1401
+            },
+            {
+              "skill": "p9",
+              "score": 59.9194
+            },
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 49.235
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "internal-comms",
+              "score": 264.1326
+            },
+            {
+              "skill": "p9",
+              "score": 53.9275
+            },
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 43.7023
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "internal-comms",
+              "score": 284.05
+            },
+            {
+              "skill": "p9",
+              "score": 43.9409
+            },
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 40.1669
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "internal-comms",
+              "score": 295.5083
+            },
+            {
+              "skill": "p9",
+              "score": 39.9463
+            },
+            {
+              "skill": "nsfc-grant-writing",
+              "score": 38.5091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "doc-coauthor-spec",
+      "prompt": "Co-author a technical spec with me, refine it iteratively, and make sure it works for readers.",
+      "expected_skill": "doc-coauthoring",
+      "blocked_skills": [
+        "docx",
+        "internal-comms"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "doc-coauthoring",
+              "score": 108.1515
+            },
+            {
+              "skill": "make-plan",
+              "score": 48.175
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 40.6295
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "doc-coauthoring",
+              "score": 95.3872
+            },
+            {
+              "skill": "make-plan",
+              "score": 54.5596
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 35.9861
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "doc-coauthoring",
+              "score": 92.3051
+            },
+            {
+              "skill": "make-plan",
+              "score": 63.2659
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 33.6644
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "doc-coauthoring",
+              "score": 90.2926
+            },
+            {
+              "skill": "make-plan",
+              "score": 70.8114
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 32.5036
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "slack-gif",
+      "prompt": "Make a Slack emoji GIF that loops cleanly, stays small enough to upload, and uses the right frame rate.",
+      "expected_skill": "slack-gif-creator",
+      "blocked_skills": [
+        "canvas-design",
+        "imagegen"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "slack-gif-creator",
+              "score": 366.9971
+            },
+            {
+              "skill": "make-plan",
+              "score": 56.4195
+            },
+            {
+              "skill": "pua-ja",
+              "score": 54.1385
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "slack-gif-creator",
+              "score": 362.1104
+            },
+            {
+              "skill": "make-plan",
+              "score": 61.1552
+            },
+            {
+              "skill": "pua-ja",
+              "score": 48.7247
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "slack-gif-creator",
+              "score": 376.1013
+            },
+            {
+              "skill": "make-plan",
+              "score": 74.8082
+            },
+            {
+              "skill": "frontend-design",
+              "score": 53.3772
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "slack-gif-creator",
+              "score": 393.1235
+            },
+            {
+              "skill": "make-plan",
+              "score": 84.0026
+            },
+            {
+              "skill": "frontend-design",
+              "score": 56.7458
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wowerpoint-deck",
+      "prompt": "Wowerpoint this report into a cute NotebookLM-style slide-deck PDF.",
+      "expected_skill": "wowerpoint",
+      "blocked_skills": [
+        "pptx",
+        "theme-factory"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "wowerpoint",
+              "score": 381.5729
+            },
+            {
+              "skill": "timeline-report",
+              "score": 106.357
+            },
+            {
+              "skill": "pptx",
+              "score": 67.3923
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "wowerpoint",
+              "score": 367.176
+            },
+            {
+              "skill": "timeline-report",
+              "score": 104.859
+            },
+            {
+              "skill": "pptx",
+              "score": 60.6531
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "wowerpoint",
+              "score": 365.8556
+            },
+            {
+              "skill": "timeline-report",
+              "score": 105.3583
+            },
+            {
+              "skill": "pdf",
+              "score": 49.8191
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "wowerpoint",
+              "score": 372.6054
+            },
+            {
+              "skill": "timeline-report",
+              "score": 108.8536
+            },
+            {
+              "skill": "pdf",
+              "score": 48.381
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "debugging-pua-en",
+      "prompt": "This failed twice and you keep tweaking the same thing. Stop giving up, verify the environment, and figure it out.",
+      "expected_skill": "pua-en",
+      "blocked_skills": [
+        "pua",
+        "yes"
+      ],
+      "allowed_related_skills": [
+        "pua"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-en",
+              "score": 408.0096
+            },
+            {
+              "skill": "pua",
+              "score": 381.4311
+            },
+            {
+              "skill": "sci-figure",
+              "score": 117.2053
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-en",
+              "score": 360.4412
+            },
+            {
+              "skill": "pua",
+              "score": 343.288
+            },
+            {
+              "skill": "sci-figure",
+              "score": 117.9244
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-en",
+              "score": 344.3233
+            },
+            {
+              "skill": "pua",
+              "score": 279.7161
+            },
+            {
+              "skill": "sci-figure",
+              "score": 130.1482
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-en",
+              "score": 335.1692
+            },
+            {
+              "skill": "pua",
+              "score": 254.2874
+            },
+            {
+              "skill": "sci-figure",
+              "score": 139.4959
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "yes-encouragement-mode",
+      "prompt": "开启夸夸模式，给我一点情绪价值，但底层做事标准不要降低。",
+      "expected_skill": "yes",
+      "blocked_skills": [
+        "mama",
+        "pua"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "yes",
+              "score": 638.1583
+            },
+            {
+              "skill": "mama",
+              "score": 132.0501
+            },
+            {
+              "skill": "pua",
+              "score": 67.7509
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "yes",
+              "score": 566.672
+            },
+            {
+              "skill": "mama",
+              "score": 110.5879
+            },
+            {
+              "skill": "pua",
+              "score": 57.4906
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "yes",
+              "score": 519.1192
+            },
+            {
+              "skill": "mama",
+              "score": 151.8846
+            },
+            {
+              "skill": "pua",
+              "score": 72.9189
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "yes",
+              "score": 497.0299
+            },
+            {
+              "skill": "mama",
+              "score": 165.1005
+            },
+            {
+              "skill": "pua",
+              "score": 77.6962
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mama-mode",
+      "prompt": "妈妈模式，唠叨一点也行，盯着我把这个问题彻底解决。",
+      "expected_skill": "mama",
+      "blocked_skills": [
+        "pua-en",
+        "yes"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mama",
+              "score": 464.619
+            },
+            {
+              "skill": "yes",
+              "score": 201.7868
+            },
+            {
+              "skill": "pua",
+              "score": 93.3335
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mama",
+              "score": 402.1155
+            },
+            {
+              "skill": "yes",
+              "score": 175.389
+            },
+            {
+              "skill": "pua",
+              "score": 78.7919
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mama",
+              "score": 447.6642
+            },
+            {
+              "skill": "yes",
+              "score": 189.4378
+            },
+            {
+              "skill": "pua",
+              "score": 103.1659
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mama",
+              "score": 459.4671
+            },
+            {
+              "skill": "yes",
+              "score": 192.5697
+            },
+            {
+              "skill": "pua",
+              "score": 110.8322
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "release-plugin-version",
+      "prompt": "Bump the plugin version, update package.json and plugin.json, publish to npm, tag git, and write the changelog.",
+      "expected_skill": "version-bump",
+      "blocked_skills": [
+        "plugin-creator",
+        "skill-creator"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "version-bump",
+              "score": 593.2928
+            },
+            {
+              "skill": "p9",
+              "score": 59.9194
+            },
+            {
+              "skill": "nanobanana",
+              "score": 55.3668
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "version-bump",
+              "score": 538.2528
+            },
+            {
+              "skill": "p9",
+              "score": 53.9275
+            },
+            {
+              "skill": "nanobanana",
+              "score": 48.8755
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "version-bump",
+              "score": 634.6647
+            },
+            {
+              "skill": "nanobanana",
+              "score": 46.9663
+            },
+            {
+              "skill": "p9",
+              "score": 43.9409
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "version-bump",
+              "score": 674.0159
+            },
+            {
+              "skill": "nanobanana",
+              "score": 45.8208
+            },
+            {
+              "skill": "timeline-report",
+              "score": 43.413
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "babysit-pr",
+      "prompt": "Babysit this pull request: keep checking CI, review comments, and merge readiness until all actionable issues are resolved.",
+      "expected_skill": "babysit",
+      "blocked_skills": [
+        "do",
+        "webapp-testing"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "babysit",
+              "score": 802.4141
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 150.7851
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 94.0266
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "babysit",
+              "score": 742.9108
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 133.2594
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 93.1224
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "babysit",
+              "score": 694.6207
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 126.89
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 92.2183
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "babysit",
+              "score": 681.3737
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 123.3634
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 94.9307
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "claude-mem-how-it-works",
+      "prompt": "How does claude-mem work? Explain how observations are captured, when memory injection happens, and where the data lives.",
+      "expected_skill": "how-it-works",
+      "blocked_skills": [
+        "knowledge-agent",
+        "mem-search"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "how-it-works",
+              "score": 632.6204
+            },
+            {
+              "skill": "openclaw",
+              "score": 220.8145
+            },
+            {
+              "skill": "mem-search",
+              "score": 153.2594
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "how-it-works",
+              "score": 582.0327
+            },
+            {
+              "skill": "openclaw",
+              "score": 197.1292
+            },
+            {
+              "skill": "mem-search",
+              "score": 143.2822
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "how-it-works",
+              "score": 528.2989
+            },
+            {
+              "skill": "openclaw",
+              "score": 172.623
+            },
+            {
+              "skill": "mem-search",
+              "score": 134.3469
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "how-it-works",
+              "score": 511.2688
+            },
+            {
+              "skill": "openclaw",
+              "score": 162.1789
+            },
+            {
+              "skill": "mem-search",
+              "score": 132.6777
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "build-mcp-server",
+      "prompt": "Help me build a high-quality MCP server for an external API with well-designed tools and schemas.",
+      "expected_skill": "mcp-builder",
+      "blocked_skills": [
+        "claude-api",
+        "plugin-creator"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mcp-builder",
+              "score": 441.462
+            },
+            {
+              "skill": "claude-api",
+              "score": 80.7722
+            },
+            {
+              "skill": "frontend-design",
+              "score": 56.0154
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mcp-builder",
+              "score": 402.9449
+            },
+            {
+              "skill": "claude-api",
+              "score": 82.8947
+            },
+            {
+              "skill": "frontend-design",
+              "score": 50.0278
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mcp-builder",
+              "score": 413.3393
+            },
+            {
+              "skill": "claude-api",
+              "score": 87.4063
+            },
+            {
+              "skill": "version-bump",
+              "score": 45.4036
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "mcp-builder",
+              "score": 419.231
+            },
+            {
+              "skill": "claude-api",
+              "score": 92.8992
+            },
+            {
+              "skill": "webapp-testing",
+              "score": 49.2307
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "p7-senior-engineer-mode",
+      "prompt": "Use P7 senior engineer mode to implement this solution under P8 supervision and include the three-question self-review.",
+      "expected_skill": "p7",
+      "blocked_skills": [
+        "p10",
+        "p9",
+        "pua-p7"
+      ],
+      "allowed_related_skills": [
+        "pua-p7"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua-p7"
+          ],
+          "top3": [
+            {
+              "skill": "p7",
+              "score": 457.1333
+            },
+            {
+              "skill": "pua-p7",
+              "score": 301.6825
+            },
+            {
+              "skill": "shot",
+              "score": 134.6865
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua-p7"
+          ],
+          "top3": [
+            {
+              "skill": "p7",
+              "score": 432.0275
+            },
+            {
+              "skill": "pua-p7",
+              "score": 282.3165
+            },
+            {
+              "skill": "shot",
+              "score": 111.769
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua-p7"
+          ],
+          "top3": [
+            {
+              "skill": "p7",
+              "score": 390.4888
+            },
+            {
+              "skill": "pua-p7",
+              "score": 269.8998
+            },
+            {
+              "skill": "shot",
+              "score": 161.7621
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua-p7"
+          ],
+          "top3": [
+            {
+              "skill": "p7",
+              "score": 380.1011
+            },
+            {
+              "skill": "pua-p7",
+              "score": 268.7626
+            },
+            {
+              "skill": "shot",
+              "score": 177.9798
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-pro-extensions",
+      "prompt": "Use PUA Pro extensions: KPI report, leaderboard, compaction-state protection, and self-evolution tracking.",
+      "expected_skill": "pro",
+      "blocked_skills": [
+        "pua-kpi",
+        "pua-pro"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pro",
+              "score": 678.0773
+            },
+            {
+              "skill": "pua-pro",
+              "score": 305.1182
+            },
+            {
+              "skill": "pua-kpi",
+              "score": 261.3318
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pro",
+              "score": 627.4499
+            },
+            {
+              "skill": "pua-pro",
+              "score": 297.4797
+            },
+            {
+              "skill": "pua-kpi",
+              "score": 254.0972
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pro",
+              "score": 583.9588
+            },
+            {
+              "skill": "pua-pro",
+              "score": 296.3371
+            },
+            {
+              "skill": "pua-kpi",
+              "score": 252.545
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pro",
+              "score": 571.3842
+            },
+            {
+              "skill": "pua-pro",
+              "score": 302.882
+            },
+            {
+              "skill": "pua-kpi",
+              "score": 258.7225
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-main-mode",
+      "prompt": "开启 PUA 模式，别再被动等指令，系统性排查、搜索源码、验证结论，把这个问题彻底解决。",
+      "expected_skill": "pua",
+      "blocked_skills": [
+        "mama",
+        "pua-en",
+        "yes"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua",
+              "score": 395.6795
+            },
+            {
+              "skill": "yes",
+              "score": 210.7236
+            },
+            {
+              "skill": "shot",
+              "score": 205.2272
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua",
+              "score": 373.2984
+            },
+            {
+              "skill": "yes",
+              "score": 182.8909
+            },
+            {
+              "skill": "shot",
+              "score": 179.4573
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua",
+              "score": 407.6006
+            },
+            {
+              "skill": "mama",
+              "score": 209.897
+            },
+            {
+              "skill": "yes",
+              "score": 199.5995
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua",
+              "score": 421.6768
+            },
+            {
+              "skill": "mama",
+              "score": 221.7704
+            },
+            {
+              "skill": "yes",
+              "score": 203.5789
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-cancel-loop-alias",
+      "prompt": "Invoke the $pua-cancel-loop alias to cancel the current autonomous loop cleanly.",
+      "expected_skill": "pua-cancel-loop",
+      "blocked_skills": [
+        "pua-loop",
+        "pua-off"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-cancel-loop",
+              "score": 1022.5315
+            },
+            {
+              "skill": "pua-loop",
+              "score": 350.5833
+            },
+            {
+              "skill": "pua",
+              "score": 94.4996
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-cancel-loop",
+              "score": 1000.7747
+            },
+            {
+              "skill": "pua-loop",
+              "score": 339.295
+            },
+            {
+              "skill": "pua",
+              "score": 92.6609
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-cancel-loop",
+              "score": 979.7949
+            },
+            {
+              "skill": "pua-loop",
+              "score": 334.2606
+            },
+            {
+              "skill": "pua",
+              "score": 94.432
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-cancel-loop",
+              "score": 990.1992
+            },
+            {
+              "skill": "pua-loop",
+              "score": 340.7952
+            },
+            {
+              "skill": "pua",
+              "score": 96.6452
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-flavor-alias",
+      "prompt": "Invoke $pua-flavor and show me the available PUA flavor options.",
+      "expected_skill": "pua-flavor",
+      "blocked_skills": [
+        "pro",
+        "pua"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-flavor",
+              "score": 779.236
+            },
+            {
+              "skill": "pro",
+              "score": 219.5861
+            },
+            {
+              "skill": "pua",
+              "score": 213.3072
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-flavor",
+              "score": 762.8551
+            },
+            {
+              "skill": "pua",
+              "score": 208.2295
+            },
+            {
+              "skill": "pro",
+              "score": 192.1339
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-flavor",
+              "score": 752.2653
+            },
+            {
+              "skill": "pua",
+              "score": 212.2278
+            },
+            {
+              "skill": "pro",
+              "score": 197.6534
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-flavor",
+              "score": 759.9587
+            },
+            {
+              "skill": "pua",
+              "score": 218.429
+            },
+            {
+              "skill": "pro",
+              "score": 197.6638
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-ja-mode",
+      "prompt": "日本語の詰め文化で pua-ja mode にして、同じ失敗を繰り返さず徹底的にデバッグして。",
+      "expected_skill": "pua-ja",
+      "blocked_skills": [
+        "pua",
+        "pua-en"
+      ],
+      "allowed_related_skills": [
+        "pua"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-ja",
+              "score": 196.9554
+            },
+            {
+              "skill": "pua",
+              "score": 167.8262
+            },
+            {
+              "skill": "shot",
+              "score": 155.817
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-ja",
+              "score": 193.753
+            },
+            {
+              "skill": "pua",
+              "score": 155.2958
+            },
+            {
+              "skill": "shot",
+              "score": 138.8319
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-ja",
+              "score": 205.6709
+            },
+            {
+              "skill": "pua",
+              "score": 170.5985
+            },
+            {
+              "skill": "shot",
+              "score": 123.622
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-ja",
+              "score": 215.1074
+            },
+            {
+              "skill": "pua",
+              "score": 176.8807
+            },
+            {
+              "skill": "shot",
+              "score": 116.9766
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-kpi-alias",
+      "prompt": "Run $pua-kpi and generate the current PUA KPI report.",
+      "expected_skill": "pua-kpi",
+      "blocked_skills": [
+        "pro",
+        "pua-pro"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-kpi",
+              "score": 790.0795
+            },
+            {
+              "skill": "pro",
+              "score": 280.3369
+            },
+            {
+              "skill": "pua",
+              "score": 215.3388
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-kpi",
+              "score": 770.7451
+            },
+            {
+              "skill": "pro",
+              "score": 246.513
+            },
+            {
+              "skill": "pua",
+              "score": 209.8547
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-kpi",
+              "score": 751.172
+            },
+            {
+              "skill": "pro",
+              "score": 244.1823
+            },
+            {
+              "skill": "pua",
+              "score": 215.072
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-kpi",
+              "score": 754.6119
+            },
+            {
+              "skill": "pro",
+              "score": 240.9339
+            },
+            {
+              "skill": "pua",
+              "score": 221.6795
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-loop-mode",
+      "prompt": "Start /pua:pua-loop 自动循环 and keep iterating until independent verification says the task is done.",
+      "expected_skill": "pua-loop",
+      "blocked_skills": [
+        "pua",
+        "pua-cancel-loop"
+      ],
+      "allowed_related_skills": [
+        "pua"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-loop",
+              "score": 908.1966
+            },
+            {
+              "skill": "pua",
+              "score": 512.9741
+            },
+            {
+              "skill": "pua-cancel-loop",
+              "score": 222.0494
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-loop",
+              "score": 865.2603
+            },
+            {
+              "skill": "pua",
+              "score": 501.2267
+            },
+            {
+              "skill": "pua-cancel-loop",
+              "score": 216.6907
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-loop",
+              "score": 805.2694
+            },
+            {
+              "skill": "pua",
+              "score": 510.0031
+            },
+            {
+              "skill": "pua-cancel-loop",
+              "score": 217.3535
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "pua-loop",
+              "score": 788.2787
+            },
+            {
+              "skill": "pua",
+              "score": 517.4344
+            },
+            {
+              "skill": "pua-cancel-loop",
+              "score": 223.6777
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-mama-alias",
+      "prompt": "Invoke $pua-mama as the alias form of mama mode.",
+      "expected_skill": "pua-mama",
+      "blocked_skills": [
+        "mama",
+        "yes"
+      ],
+      "allowed_related_skills": [
+        "mama"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "mama"
+          ],
+          "top3": [
+            {
+              "skill": "pua-mama",
+              "score": 762.0038
+            },
+            {
+              "skill": "mama",
+              "score": 464.0071
+            },
+            {
+              "skill": "pua-yes",
+              "score": 153.9111
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "mama"
+          ],
+          "top3": [
+            {
+              "skill": "pua-mama",
+              "score": 742.1962
+            },
+            {
+              "skill": "mama",
+              "score": 453.2456
+            },
+            {
+              "skill": "pua-yes",
+              "score": 141.437
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "mama"
+          ],
+          "top3": [
+            {
+              "skill": "pua-mama",
+              "score": 723.0078
+            },
+            {
+              "skill": "mama",
+              "score": 424.792
+            },
+            {
+              "skill": "pua-yes",
+              "score": 126.5272
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "mama"
+          ],
+          "top3": [
+            {
+              "skill": "pua-mama",
+              "score": 725.4093
+            },
+            {
+              "skill": "mama",
+              "score": 425.1237
+            },
+            {
+              "skill": "pua-yes",
+              "score": 121.5953
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-off-alias",
+      "prompt": "Run $pua-off to turn off PUA mode for this session.",
+      "expected_skill": "pua-off",
+      "blocked_skills": [
+        "pua",
+        "pua-on"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-off",
+              "score": 840.9975
+            },
+            {
+              "skill": "pua-on",
+              "score": 255.6391
+            },
+            {
+              "skill": "shot",
+              "score": 237.8059
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-off",
+              "score": 817.2174
+            },
+            {
+              "skill": "pua-on",
+              "score": 239.1225
+            },
+            {
+              "skill": "pua",
+              "score": 230.6112
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-off",
+              "score": 796.2642
+            },
+            {
+              "skill": "pua-on",
+              "score": 226.4705
+            },
+            {
+              "skill": "pua",
+              "score": 226.1796
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-off",
+              "score": 799.3615
+            },
+            {
+              "skill": "pua",
+              "score": 229.238
+            },
+            {
+              "skill": "pua-on",
+              "score": 224.6242
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-offline-alias",
+      "prompt": "Invoke $pua-offline so the PUA workflow runs without network access.",
+      "expected_skill": "pua-offline",
+      "blocked_skills": [
+        "pua-off",
+        "pua-on"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-offline",
+              "score": 596.0714
+            },
+            {
+              "skill": "shot",
+              "score": 207.8462
+            },
+            {
+              "skill": "pua",
+              "score": 207.5796
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-offline",
+              "score": 585.0177
+            },
+            {
+              "skill": "pua",
+              "score": 203.6474
+            },
+            {
+              "skill": "shot",
+              "score": 186.4998
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-offline",
+              "score": 584.165
+            },
+            {
+              "skill": "pua",
+              "score": 204.2092
+            },
+            {
+              "skill": "pua-off",
+              "score": 181.5466
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-offline",
+              "score": 591.0477
+            },
+            {
+              "skill": "pua",
+              "score": 209.2649
+            },
+            {
+              "skill": "pua-off",
+              "score": 186.7353
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-on-alias",
+      "prompt": "Run $pua-on to enable PUA mode.",
+      "expected_skill": "pua-on",
+      "blocked_skills": [
+        "pua",
+        "pua-off"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-on",
+              "score": 540.0714
+            },
+            {
+              "skill": "shot",
+              "score": 207.8462
+            },
+            {
+              "skill": "pua",
+              "score": 207.5796
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-on",
+              "score": 526.2442
+            },
+            {
+              "skill": "pua",
+              "score": 203.6474
+            },
+            {
+              "skill": "shot",
+              "score": 186.4998
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-on",
+              "score": 519.1579
+            },
+            {
+              "skill": "pua",
+              "score": 204.2092
+            },
+            {
+              "skill": "shot",
+              "score": 156.1655
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-on",
+              "score": 520.5226
+            },
+            {
+              "skill": "pua",
+              "score": 209.2649
+            },
+            {
+              "skill": "pro",
+              "score": 152.795
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-p10-alias",
+      "prompt": "Invoke $pua-p10 for P10 CTO mode with PUA enforcement.",
+      "expected_skill": "pua-p10",
+      "blocked_skills": [
+        "p10",
+        "pua-p9"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p10",
+              "score": 838.5115
+            },
+            {
+              "skill": "p10",
+              "score": 413.7179
+            },
+            {
+              "skill": "shot",
+              "score": 278.5872
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p10",
+              "score": 815.1511
+            },
+            {
+              "skill": "p10",
+              "score": 402.569
+            },
+            {
+              "skill": "shot",
+              "score": 246.0886
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p10",
+              "score": 793.3001
+            },
+            {
+              "skill": "p10",
+              "score": 387.8971
+            },
+            {
+              "skill": "shot",
+              "score": 235.2298
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p10",
+              "score": 796.1067
+            },
+            {
+              "skill": "p10",
+              "score": 391.7221
+            },
+            {
+              "skill": "pua",
+              "score": 229.238
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-p7-alias",
+      "prompt": "Invoke $pua-p7 for P7 senior engineer mode with PUA enforcement.",
+      "expected_skill": "pua-p7",
+      "blocked_skills": [
+        "p7",
+        "pua-p9"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p7",
+              "score": 874.3815
+            },
+            {
+              "skill": "p7",
+              "score": 429.0943
+            },
+            {
+              "skill": "shot",
+              "score": 305.5052
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p7",
+              "score": 845.8314
+            },
+            {
+              "skill": "p7",
+              "score": 415.0048
+            },
+            {
+              "skill": "shot",
+              "score": 267.623
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p7",
+              "score": 820.6195
+            },
+            {
+              "skill": "p7",
+              "score": 395.6325
+            },
+            {
+              "skill": "shot",
+              "score": 272.915
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p7",
+              "score": 821.4801
+            },
+            {
+              "skill": "p7",
+              "score": 397.0686
+            },
+            {
+              "skill": "shot",
+              "score": 272.0991
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-p9-alias",
+      "prompt": "Invoke $pua-p9 for tech-lead task decomposition with PUA enforcement.",
+      "expected_skill": "pua-p9",
+      "blocked_skills": [
+        "p9",
+        "pua-p10"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p9",
+              "score": 619.9643
+            },
+            {
+              "skill": "p9",
+              "score": 245.7123
+            },
+            {
+              "skill": "shot",
+              "score": 235.7124
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p9",
+              "score": 604.4404
+            },
+            {
+              "skill": "p9",
+              "score": 231.4339
+            },
+            {
+              "skill": "shot",
+              "score": 208.7928
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p9",
+              "score": 591.0497
+            },
+            {
+              "skill": "p9",
+              "score": 216.9764
+            },
+            {
+              "skill": "pua",
+              "score": 204.2092
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-p9",
+              "score": 592.1847
+            },
+            {
+              "skill": "p9",
+              "score": 213.6506
+            },
+            {
+              "skill": "pua",
+              "score": 209.2649
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-pro-alias",
+      "prompt": "Invoke $pua-pro for the Pro alias command.",
+      "expected_skill": "pua-pro",
+      "blocked_skills": [
+        "pro",
+        "pua-kpi"
+      ],
+      "allowed_related_skills": [
+        "pro"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-pro",
+              "score": 676.6175
+            },
+            {
+              "skill": "pro",
+              "score": 368.929
+            },
+            {
+              "skill": "pua",
+              "score": 97.2528
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-pro",
+              "score": 662.6505
+            },
+            {
+              "skill": "pro",
+              "score": 361.2871
+            },
+            {
+              "skill": "pua",
+              "score": 94.8634
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pro"
+          ],
+          "top3": [
+            {
+              "skill": "pua-pro",
+              "score": 651.284
+            },
+            {
+              "skill": "pro",
+              "score": 361.5308
+            },
+            {
+              "skill": "pua",
+              "score": 98.2864
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pro"
+          ],
+          "top3": [
+            {
+              "skill": "pua-pro",
+              "score": 655.8454
+            },
+            {
+              "skill": "pro",
+              "score": 370.9332
+            },
+            {
+              "skill": "pua",
+              "score": 101.0502
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-reap-orphans-alias",
+      "prompt": "Run $pua-reap-orphans to clean up orphaned PUA agents or processes.",
+      "expected_skill": "pua-reap-orphans",
+      "blocked_skills": [
+        "pua-team-status",
+        "pua-teardown-all"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-reap-orphans",
+              "score": 803.7396
+            },
+            {
+              "skill": "pua",
+              "score": 279.7589
+            },
+            {
+              "skill": "shot",
+              "score": 234.9134
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-reap-orphans",
+              "score": 781.9037
+            },
+            {
+              "skill": "pua",
+              "score": 268.6087
+            },
+            {
+              "skill": "shot",
+              "score": 209.9581
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-reap-orphans",
+              "score": 749.6551
+            },
+            {
+              "skill": "pua",
+              "score": 257.1406
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 194.8892
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-reap-orphans",
+              "score": 747.6485
+            },
+            {
+              "skill": "pua",
+              "score": 257.3844
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 193.2584
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-survey-alias",
+      "prompt": "Invoke $pua-survey to inspect the current PUA environment and status.",
+      "expected_skill": "pua-survey",
+      "blocked_skills": [
+        "pua-kpi",
+        "pua-team-status"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-survey",
+              "score": 684.3058
+            },
+            {
+              "skill": "pua",
+              "score": 210.2194
+            },
+            {
+              "skill": "shot",
+              "score": 207.8462
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-survey",
+              "score": 664.0818
+            },
+            {
+              "skill": "pua",
+              "score": 205.7592
+            },
+            {
+              "skill": "shot",
+              "score": 186.4998
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-survey",
+              "score": 638.9276
+            },
+            {
+              "skill": "pua",
+              "score": 207.9048
+            },
+            {
+              "skill": "pua-on",
+              "score": 169.3665
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-survey",
+              "score": 636.0009
+            },
+            {
+              "skill": "pua",
+              "score": 213.4885
+            },
+            {
+              "skill": "pua-on",
+              "score": 171.8944
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-team-status-alias",
+      "prompt": "Run $pua-team-status to report all active PUA team agents and their state.",
+      "expected_skill": "pua-team-status",
+      "blocked_skills": [
+        "pua-reap-orphans",
+        "pua-survey"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-team-status",
+              "score": 917.1466
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 238.0028
+            },
+            {
+              "skill": "shot",
+              "score": 234.9134
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-team-status",
+              "score": 892.4174
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 232.2339
+            },
+            {
+              "skill": "shot",
+              "score": 209.9581
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-team-status",
+              "score": 861.5625
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 233.5659
+            },
+            {
+              "skill": "pua",
+              "score": 204.2092
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-team-status",
+              "score": 863.1459
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 240.5813
+            },
+            {
+              "skill": "pua",
+              "score": 209.2649
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-teardown-all-alias",
+      "prompt": "Invoke $pua-teardown-all to stop and clean up all PUA agent activity.",
+      "expected_skill": "pua-teardown-all",
+      "blocked_skills": [
+        "pua-off",
+        "pua-reap-orphans"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-teardown-all",
+              "score": 862.2513
+            },
+            {
+              "skill": "pua",
+              "score": 359.7582
+            },
+            {
+              "skill": "shot",
+              "score": 227.8193
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-teardown-all",
+              "score": 838.1295
+            },
+            {
+              "skill": "pua",
+              "score": 340.1088
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 209.8111
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-teardown-all",
+              "score": 808.9147
+            },
+            {
+              "skill": "pua",
+              "score": 319.1356
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 198.3845
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-teardown-all",
+              "score": 809.3844
+            },
+            {
+              "skill": "pua",
+              "score": 315.3776
+            },
+            {
+              "skill": "pua-reap-orphans",
+              "score": 197.253
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-yes-alias",
+      "prompt": "Invoke $pua-yes as the alias form for encouragement mode.",
+      "expected_skill": "pua-yes",
+      "blocked_skills": [
+        "pua",
+        "yes"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-yes",
+              "score": 589.6201
+            },
+            {
+              "skill": "pua-mama",
+              "score": 157.7295
+            },
+            {
+              "skill": "yes",
+              "score": 133.5758
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-yes",
+              "score": 571.6974
+            },
+            {
+              "skill": "pua-mama",
+              "score": 144.4917
+            },
+            {
+              "skill": "yes",
+              "score": 133.4179
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-yes",
+              "score": 551.0619
+            },
+            {
+              "skill": "pua-mama",
+              "score": 131.873
+            },
+            {
+              "skill": "yes",
+              "score": 131.7033
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "pua-yes",
+              "score": 547.3454
+            },
+            {
+              "skill": "yes",
+              "score": 134.5708
+            },
+            {
+              "skill": "pua-mama",
+              "score": 127.7047
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pua-shot-mode",
+      "prompt": "Use /pua:shot, the concentrated single-file strongest PUA injection for a sub-agent.",
+      "expected_skill": "shot",
+      "blocked_skills": [
+        "pua",
+        "pua-pro"
+      ],
+      "allowed_related_skills": [
+        "pua"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "shot",
+              "score": 798.981
+            },
+            {
+              "skill": "pua",
+              "score": 457.5796
+            },
+            {
+              "skill": "pua-on",
+              "score": 180.0397
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "shot",
+              "score": 768.6012
+            },
+            {
+              "skill": "pua",
+              "score": 453.6474
+            },
+            {
+              "skill": "pua-on",
+              "score": 171.3327
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "shot",
+              "score": 714.4517
+            },
+            {
+              "skill": "pua",
+              "score": 454.2092
+            },
+            {
+              "skill": "pua-on",
+              "score": 169.3665
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "pua"
+          ],
+          "top3": [
+            {
+              "skill": "shot",
+              "score": 700.4508
+            },
+            {
+              "skill": "pua",
+              "score": 459.2649
+            },
+            {
+              "skill": "pua-on",
+              "score": 171.8944
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "create-new-skill",
+      "prompt": "Create a new Codex skill from scratch, write its SKILL.md, design trigger evals, and package it.",
+      "expected_skill": "skill-creator",
+      "blocked_skills": [
+        "mcp-builder",
+        "plugin-creator"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "skill-creator",
+              "score": 364.309
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 212.3111
+            },
+            {
+              "skill": "canvas-design",
+              "score": 194.1608
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "skill-creator",
+              "score": 330.6122
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 196.2583
+            },
+            {
+              "skill": "canvas-design",
+              "score": 184.736
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "skill-creator",
+              "score": 309.334
+            },
+            {
+              "skill": "canvas-design",
+              "score": 182.1204
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 181.5741
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "skill-creator",
+              "score": 301.6704
+            },
+            {
+              "skill": "canvas-design",
+              "score": 184.6376
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 177.5258
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shared-skill-install-download",
+      "prompt": "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+      "expected_skill": "shared-skill-installer",
+      "blocked_skills": [
+        "mcp-builder",
+        "plugin-creator",
+        "skill-creator"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "shared-skill-installer",
+              "score": 995.0446
+            },
+            {
+              "skill": "skill-creator",
+              "score": 315.1271
+            },
+            {
+              "skill": "claude-api",
+              "score": 216.0721
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "shared-skill-installer",
+              "score": 882.2981
+            },
+            {
+              "skill": "skill-creator",
+              "score": 287.5761
+            },
+            {
+              "skill": "claude-api",
+              "score": 196.8464
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "shared-skill-installer",
+              "score": 878.3809
+            },
+            {
+              "skill": "skill-creator",
+              "score": 265.0838
+            },
+            {
+              "skill": "claude-api",
+              "score": 205.1878
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "shared-skill-installer",
+              "score": 871.2713
+            },
+            {
+              "skill": "skill-creator",
+              "score": 257.4255
+            },
+            {
+              "skill": "claude-api",
+              "score": 209.222
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

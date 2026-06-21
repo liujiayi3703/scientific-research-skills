@@ -1,0 +1,1970 @@
+﻿{
+    "schema_version":  1,
+    "generated_at":  "2026-06-21T11:45:41",
+    "csv_path":  "C:\\Users\\liuji\\Desktop\\Skills\\docs\\platform-validation-prompts.csv",
+    "total_cases":  66,
+    "all_platforms_perfect":  false,
+    "require_complete":  false,
+    "platform_summary":  {
+                             "claude_code":  {
+                                                 "label":  "Claude Code",
+                                                 "total":  66,
+                                                 "pass":  0,
+                                                 "fail":  0,
+                                                 "fail_related":  0,
+                                                 "skipped":  0,
+                                                 "untested":  66,
+                                                 "complete":  false,
+                                                 "perfect":  false
+                                             },
+                             "generic_agents":  {
+                                                    "label":  "Generic agents",
+                                                    "total":  66,
+                                                    "pass":  0,
+                                                    "fail":  0,
+                                                    "fail_related":  0,
+                                                    "skipped":  0,
+                                                    "untested":  66,
+                                                    "complete":  false,
+                                                    "perfect":  false
+                                                },
+                             "trae_solo":  {
+                                               "label":  "Trae IDE / SOLO",
+                                               "total":  66,
+                                               "pass":  0,
+                                               "fail":  0,
+                                               "fail_related":  0,
+                                               "skipped":  0,
+                                               "untested":  66,
+                                               "complete":  false,
+                                               "perfect":  false
+                                           },
+                             "codex":  {
+                                           "label":  "Codex",
+                                           "total":  66,
+                                           "pass":  0,
+                                           "fail":  0,
+                                           "fail_related":  0,
+                                           "skipped":  0,
+                                           "untested":  66,
+                                           "complete":  false,
+                                           "perfect":  false
+                                       }
+                         },
+    "cases":  [
+                  {
+                      "id":  "spreadsheet-clean-xlsx",
+                      "expected_skill":  "xlsx",
+                      "prompt":  "I have an Excel file with messy headers and blank rows. Clean it up, add formulas, and return a polished xlsx.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "word-report-template",
+                      "expected_skill":  "docx",
+                      "prompt":  "Create a formatted Word report template with headings, page numbers, a table of contents, and tracked comment placeholders.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "slide-deck-edit",
+                      "expected_skill":  "pptx",
+                      "prompt":  "Open this pptx deck, rewrite the speaker notes, and combine it with another presentation.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pdf-extract-merge",
+                      "expected_skill":  "pdf",
+                      "prompt":  "Extract the tables from this PDF, rotate page 3, and merge it with another PDF.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "scientific-figure-from-csv",
+                      "expected_skill":  "sci-figure",
+                      "prompt":  "Use this CSV to make a publication-ready scientific figure with error bars, statistical annotations, and a caption.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "frontend-dashboard",
+                      "expected_skill":  "frontend-design",
+                      "prompt":  "Build a polished React dashboard UI with filters, table view, chart panel, and responsive layout.",
+                      "allowed_related_skills":  "web-artifacts-builder",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "complex-html-artifact",
+                      "expected_skill":  "web-artifacts-builder",
+                      "prompt":  "Create a multi-view HTML artifact with React state, Tailwind styling, shadcn components, and client-side routing.",
+                      "allowed_related_skills":  "frontend-design",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "playwright-localhost-test",
+                      "expected_skill":  "webapp-testing",
+                      "prompt":  "Use Playwright to click through my localhost app, capture screenshots, and inspect browser console errors.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "web-search-current-info",
+                      "expected_skill":  "web-access-main",
+                      "prompt":  "Search the web for the latest policy details, open the pages, and summarize the sources with links.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "claude-api-prompt-cache",
+                      "expected_skill":  "claude-api",
+                      "prompt":  "This repo imports @anthropic-ai/sdk. Add Claude prompt caching and debug why cache hit rate is low.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "openclaw-memory-setup",
+                      "expected_skill":  "openclaw",
+                      "prompt":  "Set up Claude-Mem on an OpenClaw gateway with memory slots, worker startup, and observation feed.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "knowledge-agent-memory-brain",
+                      "expected_skill":  "knowledge-agent",
+                      "prompt":  "Build a focused knowledge base from my past observations and query it for recurring project patterns.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "memory-search-prior-solution",
+                      "expected_skill":  "mem-search",
+                      "prompt":  "Did we already solve this auth redirect issue before? Search memory for the earlier solution.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "timeline-project-history",
+                      "expected_skill":  "timeline-report",
+                      "prompt":  "Generate a journey report of this project from the full development timeline and summarize major phases.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "learn-codebase-prime",
+                      "expected_skill":  "learn-codebase",
+                      "prompt":  "Learn this unfamiliar codebase by reading the source files and getting up to speed before changes.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "smart-structural-search",
+                      "expected_skill":  "smart-explore",
+                      "prompt":  "Use structural search to find where this function is defined and map related symbols without reading every file.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "architecture-pathfinder",
+                      "expected_skill":  "pathfinder",
+                      "prompt":  "Find the ideal path through this codebase, map duplicated flows, and propose a unified architecture before refactor.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "implementation-plan",
+                      "expected_skill":  "make-plan",
+                      "prompt":  "Make a phased implementation plan for this feature with documentation discovery and clear verification gates.",
+                      "allowed_related_skills":  "do",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "execute-plan",
+                      "expected_skill":  "do",
+                      "prompt":  "Execute the phased plan we already wrote and carry out the implementation steps.",
+                      "allowed_related_skills":  "make-plan",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "subagent-tech-lead",
+                      "expected_skill":  "p9",
+                      "prompt":  "Act as P9 tech lead, split this project into task prompts, and coordinate multiple P8 agents.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "cto-strategy",
+                      "expected_skill":  "p10",
+                      "prompt":  "Use CTO mode to define strategic direction, architecture governance, and org topology across teams.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "academic-lit-review",
+                      "expected_skill":  "academic-research-suite",
+                      "prompt":  "Help me do a systematic literature review, refine the research question, and draft an academic paper plan.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "research-idea-battle",
+                      "expected_skill":  "research-idea-and-battle",
+                      "prompt":  "I have an AI/ML research idea. Battle-test the novelty, tell me what reviewers would attack, and help position it.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "paper-download-doi",
+                      "expected_skill":  "scansci-pdf",
+                      "prompt":  "Download these DOI papers, get BibTeX citations, and save the PDFs for later reading.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "nsfc-proposal",
+                      "expected_skill":  "nsfc-grant-writing",
+                      "prompt":  "帮我写国自然基金本子，重点打磨立项依据、科学问题、技术路线和创新点。",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "xgboost-tabular-model",
+                      "expected_skill":  "xgboost-lightgbm",
+                      "prompt":  "Train an XGBoost or LightGBM model on this tabular CSV, check leakage, tune parameters, and report feature importance.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "nano-banana-image",
+                      "expected_skill":  "nanobanana",
+                      "prompt":  "Use Nano Banana style image editing prompts to turn this product photo into a clean studio mockup.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "algorithmic-p5-art",
+                      "expected_skill":  "algorithmic-art",
+                      "prompt":  "Create generative art with p5.js, seeded randomness, flow fields, and interactive parameters.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "static-poster-design",
+                      "expected_skill":  "canvas-design",
+                      "prompt":  "Design a polished static poster as a PNG/PDF with strong typography and visual composition.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "theme-artifact",
+                      "expected_skill":  "theme-factory",
+                      "prompt":  "Apply a coherent visual theme with colors, typography, and layout rules to this slide/report artifact.",
+                      "allowed_related_skills":  "brand-guidelines",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "anthropic-brand",
+                      "expected_skill":  "brand-guidelines",
+                      "prompt":  "Apply Anthropic brand colors, typography, and official visual guidelines to this artifact.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "internal-status-update",
+                      "expected_skill":  "internal-comms",
+                      "prompt":  "Write a concise internal 3P update for leadership with progress, plans, problems, and next steps.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "doc-coauthor-spec",
+                      "expected_skill":  "doc-coauthoring",
+                      "prompt":  "Co-author a technical spec with me, refine it iteratively, and make sure it works for readers.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "slack-gif",
+                      "expected_skill":  "slack-gif-creator",
+                      "prompt":  "Make a Slack emoji GIF that loops cleanly, stays small enough to upload, and uses the right frame rate.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "wowerpoint-deck",
+                      "expected_skill":  "wowerpoint",
+                      "prompt":  "Wowerpoint this report into a cute NotebookLM-style slide-deck PDF.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "debugging-pua-en",
+                      "expected_skill":  "pua-en",
+                      "prompt":  "This failed twice and you keep tweaking the same thing. Stop giving up, verify the environment, and figure it out.",
+                      "allowed_related_skills":  "pua",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "yes-encouragement-mode",
+                      "expected_skill":  "yes",
+                      "prompt":  "开启夸夸模式，给我一点情绪价值，但底层做事标准不要降低。",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "mama-mode",
+                      "expected_skill":  "mama",
+                      "prompt":  "妈妈模式，唠叨一点也行，盯着我把这个问题彻底解决。",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "release-plugin-version",
+                      "expected_skill":  "version-bump",
+                      "prompt":  "Bump the plugin version, update package.json and plugin.json, publish to npm, tag git, and write the changelog.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "babysit-pr",
+                      "expected_skill":  "babysit",
+                      "prompt":  "Babysit this pull request: keep checking CI, review comments, and merge readiness until all actionable issues are resolved.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "claude-mem-how-it-works",
+                      "expected_skill":  "how-it-works",
+                      "prompt":  "How does claude-mem work? Explain how observations are captured, when memory injection happens, and where the data lives.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "build-mcp-server",
+                      "expected_skill":  "mcp-builder",
+                      "prompt":  "Help me build a high-quality MCP server for an external API with well-designed tools and schemas.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "p7-senior-engineer-mode",
+                      "expected_skill":  "p7",
+                      "prompt":  "Use P7 senior engineer mode to implement this solution under P8 supervision and include the three-question self-review.",
+                      "allowed_related_skills":  "pua-p7",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-pro-extensions",
+                      "expected_skill":  "pro",
+                      "prompt":  "Use PUA Pro extensions: KPI report, leaderboard, compaction-state protection, and self-evolution tracking.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-main-mode",
+                      "expected_skill":  "pua",
+                      "prompt":  "开启 PUA 模式，别再被动等指令，系统性排查、搜索源码、验证结论，把这个问题彻底解决。",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-cancel-loop-alias",
+                      "expected_skill":  "pua-cancel-loop",
+                      "prompt":  "Invoke the $pua-cancel-loop alias to cancel the current autonomous loop cleanly.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-flavor-alias",
+                      "expected_skill":  "pua-flavor",
+                      "prompt":  "Invoke $pua-flavor and show me the available PUA flavor options.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-ja-mode",
+                      "expected_skill":  "pua-ja",
+                      "prompt":  "日本語の詰め文化で pua-ja mode にして、同じ失敗を繰り返さず徹底的にデバッグして。",
+                      "allowed_related_skills":  "pua",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-kpi-alias",
+                      "expected_skill":  "pua-kpi",
+                      "prompt":  "Run $pua-kpi and generate the current PUA KPI report.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-loop-mode",
+                      "expected_skill":  "pua-loop",
+                      "prompt":  "Start /pua:pua-loop 自动循环 and keep iterating until independent verification says the task is done.",
+                      "allowed_related_skills":  "pua",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-mama-alias",
+                      "expected_skill":  "pua-mama",
+                      "prompt":  "Invoke $pua-mama as the alias form of mama mode.",
+                      "allowed_related_skills":  "mama",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-off-alias",
+                      "expected_skill":  "pua-off",
+                      "prompt":  "Run $pua-off to turn off PUA mode for this session.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-offline-alias",
+                      "expected_skill":  "pua-offline",
+                      "prompt":  "Invoke $pua-offline so the PUA workflow runs without network access.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-on-alias",
+                      "expected_skill":  "pua-on",
+                      "prompt":  "Run $pua-on to enable PUA mode.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-p10-alias",
+                      "expected_skill":  "pua-p10",
+                      "prompt":  "Invoke $pua-p10 for P10 CTO mode with PUA enforcement.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-p7-alias",
+                      "expected_skill":  "pua-p7",
+                      "prompt":  "Invoke $pua-p7 for P7 senior engineer mode with PUA enforcement.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-p9-alias",
+                      "expected_skill":  "pua-p9",
+                      "prompt":  "Invoke $pua-p9 for tech-lead task decomposition with PUA enforcement.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-pro-alias",
+                      "expected_skill":  "pua-pro",
+                      "prompt":  "Invoke $pua-pro for the Pro alias command.",
+                      "allowed_related_skills":  "pro",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-reap-orphans-alias",
+                      "expected_skill":  "pua-reap-orphans",
+                      "prompt":  "Run $pua-reap-orphans to clean up orphaned PUA agents or processes.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-survey-alias",
+                      "expected_skill":  "pua-survey",
+                      "prompt":  "Invoke $pua-survey to inspect the current PUA environment and status.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-team-status-alias",
+                      "expected_skill":  "pua-team-status",
+                      "prompt":  "Run $pua-team-status to report all active PUA team agents and their state.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-teardown-all-alias",
+                      "expected_skill":  "pua-teardown-all",
+                      "prompt":  "Invoke $pua-teardown-all to stop and clean up all PUA agent activity.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-yes-alias",
+                      "expected_skill":  "pua-yes",
+                      "prompt":  "Invoke $pua-yes as the alias form for encouragement mode.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "pua-shot-mode",
+                      "expected_skill":  "shot",
+                      "prompt":  "Use /pua:shot, the concentrated single-file strongest PUA injection for a sub-agent.",
+                      "allowed_related_skills":  "pua",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "create-new-skill",
+                      "expected_skill":  "skill-creator",
+                      "prompt":  "Create a new Codex skill from scratch, write its SKILL.md, design trigger evals, and package it.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "shared-skill-install-download",
+                      "expected_skill":  "shared-skill-installer",
+                      "prompt":  "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  }
+              ]
+}
