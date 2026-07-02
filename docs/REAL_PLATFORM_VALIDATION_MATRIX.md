@@ -1,6 +1,6 @@
 ﻿# Real Platform Validation Matrix
 
-Generated: 2026-06-21 11:45:41
+Generated: 2026-07-02 23:45:23
 
 This matrix is for real app verification. Local proxy routing tests are useful, but they do not prove a vendor app's internal skill router.
 
@@ -16,9 +16,9 @@ This matrix is for real app verification. Local proxy routing tests are useful, 
 
 | Platform target | Path | Status | Skill count | Missing shared skills |
 | --- | --- | --- | ---: | ---: |
-| Claude Code default | `C:\Users\liuji\.claude\skills` | connected | 66 | 0 |
-| Codex default | `C:\Users\liuji\.codex\skills` | connected | 67 | 0 |
-| Generic agents default | `C:\Users\liuji\.agents\skills` | connected | 66 | 0 |
+| Claude Code default | `C:\Users\liuji\.claude\skills` | connected | 72 | 0 |
+| Codex default | `C:\Users\liuji\.codex\skills` | connected | 73 | 0 |
+| Generic agents default | `C:\Users\liuji\.agents\skills` | connected | 72 | 0 |
 
 Trae IDE/SOLO, Doubao, Marvis, GLM, and other apps do not have a universal default skills path. Use `docs/skills-manifest.json` if they cannot scan `library/skills` directly.
 
@@ -110,4 +110,10 @@ Per-platform prompt packs are in `docs/platform-prompt-packs/`.
 | pua-yes-alias | pua-yes | [ ] | [ ] | [ ] | [ ] | Invoke $pua-yes as the alias form for encouragement mode. |
 | pua-shot-mode | shot | [ ] | [ ] | [ ] | [ ] | Use /pua:shot, the concentrated single-file strongest PUA injection for a sub-agent. |
 | create-new-skill | skill-creator | [ ] | [ ] | [ ] | [ ] | Create a new Codex skill from scratch, write its SKILL.md, design trigger evals, and package it. |
-| shared-skill-install-download | shared-skill-installer | [ ] | [ ] | [ ] | [ ] | ??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents? |
+| shared-skill-install-download | shared-skill-installer | [ ] | [ ] | [ ] | [ ] | Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents. |
+| buy-side-equity-memo | buy-side-equity-research-memo | [ ] | [ ] | [ ] | [ ] | Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard. |
+| bayesian-growth-valuation | bayesian-intrinsic-growth-valuation | [ ] | [ ] | [ ] | [ ] | Use Bayesian intrinsic-growth valuation to judge whether this company's current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO. |
+| gf-dma-health-score | gf-dma-health-index | [ ] | [ ] | [ ] | [ ] | Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support. |
+| tam-adjusted-peg | tam-adj-peg | [ ] | [ ] | [ ] | [ ] | Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability. |
+| serenity-alpha-news | serenity-alpha | [ ] | [ ] | [ ] | [ ] | Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions. |
+| desktop-screenshot-capture | screenshot | [ ] | [ ] | [ ] | [ ] | Take a screenshot of my desktop and save it as a PNG file. |

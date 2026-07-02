@@ -1,15 +1,15 @@
 ﻿{
     "schema_version":  1,
-    "generated_at":  "2026-06-21T11:45:41",
-    "source_root":  "C:\\Users\\liuji\\Desktop\\Skills",
-    "skills_dir":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills",
-    "evals_path":  "C:\\Users\\liuji\\Desktop\\Skills\\docs\\trigger-evals.json",
-    "skill_count":  66,
+    "generated_at":  "2026-07-02T23:45:23",
+    "source_root":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills",
+    "skills_dir":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills",
+    "evals_path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\trigger-evals.json",
+    "skill_count":  72,
     "recommended_generic_agent_files":  [
-                                            "C:\\Users\\liuji\\Desktop\\Skills\\docs\\SKILLS_MANIFEST.md",
-                                            "C:\\Users\\liuji\\Desktop\\Skills\\docs\\skills-manifest.json",
-                                            "C:\\Users\\liuji\\Desktop\\Skills\\docs\\SKILL_INDEX.md",
-                                            "C:\\Users\\liuji\\Desktop\\Skills\\docs\\TRIGGER_TEST_RESULTS.md"
+                                            "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\SKILLS_MANIFEST.md",
+                                            "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\skills-manifest.json",
+                                            "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\SKILL_INDEX.md",
+                                            "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\TRIGGER_TEST_RESULTS.md"
                                         ],
     "generic_agent_usage":  [
                                 "Load skills-manifest.json first to choose candidate skills by id, name, and description.",
@@ -22,8 +22,8 @@
                        "id":  "academic-research-suite",
                        "name":  "academic-research-suite",
                        "description":  "Use when the user asks for academic research tasks: deep research, literature review, systematic review, meta-analysis, research question refinement, academic paper drafting or revision, citation checks, peer review, editorial decisions, research-to-paper pipelines, experiment planning, statistical interpretation, or human study protocol support. Also trigger on ARS aliases such as ars-plan, ars-outline, ars-lit-review, ars-reviewer, and ars-full.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\academic-research-suite",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\academic-research-suite\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\academic-research-suite",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\academic-research-suite\\SKILL.md",
                        "resource_dirs":  [
                                              "agents",
                                              "ars",
@@ -49,8 +49,8 @@
                        "id":  "algorithmic-art",
                        "name":  "algorithmic-art",
                        "description":  "Use when the user requests code-generated art, generative art, algorithmic art, p5.js sketches, seeded randomness, flow fields, particle systems, or interactive visual parameter exploration.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\algorithmic-art",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\algorithmic-art\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\algorithmic-art",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\algorithmic-art\\SKILL.md",
                        "resource_dirs":  [
                                              "templates"
                                          ],
@@ -73,8 +73,8 @@
                        "id":  "babysit",
                        "name":  "babysit",
                        "description":  "Watch a pull request or review cycle until it is ready to merge. Use when asked to babysit, monitor, or keep checking PR comments, reviews, and CI until all actionable issues are resolved.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\babysit",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\babysit\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\babysit",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\babysit\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -94,11 +94,37 @@
                                       ]
                    },
                    {
+                       "id":  "bayesian-intrinsic-growth-valuation",
+                       "name":  "bayesian-intrinsic-growth-valuation",
+                       "description":  "Use when the user wants Bayesian intrinsic-growth valuation for a company, including implied growth, 3-5 year growth probabilities, FOMO versus fundamentals, TAM, market share, margin trajectory, valuation multiples, industry cycle, or probability updates from new information.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\bayesian-intrinsic-growth-valuation",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\bayesian-intrinsic-growth-valuation\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "references"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "bayesian-growth-valuation",
+                                              "prompt":  "Use Bayesian intrinsic-growth valuation to judge whether this company\u0027s current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO.",
+                                              "blocked_skills":  [
+                                                                     "buy-side-equity-research-memo",
+                                                                     "tam-adj-peg",
+                                                                     "gf-dma-health-index"
+                                                                 ],
+                                              "allowed_related_skills":  [
+
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
                        "id":  "brand-guidelines",
                        "name":  "brand-guidelines",
                        "description":  "Applies Anthropic\u0027s official brand colors and typography to any sort of artifact that may benefit from having Anthropic\u0027s look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\brand-guidelines",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\brand-guidelines\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\brand-guidelines",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\brand-guidelines\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -118,11 +144,37 @@
                                       ]
                    },
                    {
+                       "id":  "buy-side-equity-research-memo",
+                       "name":  "buy-side-equity-research-memo",
+                       "description":  "Use when the user provides a ticker or listed company and wants a source-backed buy-side equity memo, investment committee note, deep stock analysis, target-price scenarios, SEC/IR financial analysis, industry chain, competition, valuation, catalysts, risks, or monitoring dashboard.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\buy-side-equity-research-memo",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\buy-side-equity-research-memo\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "references"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "buy-side-equity-memo",
+                                              "prompt":  "Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard.",
+                                              "blocked_skills":  [
+                                                                     "tam-adj-peg",
+                                                                     "bayesian-intrinsic-growth-valuation",
+                                                                     "gf-dma-health-index"
+                                                                 ],
+                                              "allowed_related_skills":  [
+
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
                        "id":  "canvas-design",
                        "name":  "canvas-design",
                        "description":  "Use when the user asks to create a poster, visual art, static design, PNG/PDF design artifact, print piece, cover, composition, or typography-led visual deliverable. Use for original visual design even when the final export is PDF.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\canvas-design",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\canvas-design\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\canvas-design",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\canvas-design\\SKILL.md",
                        "resource_dirs":  [
                                              "canvas-fonts"
                                          ],
@@ -145,8 +197,8 @@
                        "id":  "claude-api",
                        "name":  "claude-api",
                        "description":  "Use when code imports `anthropic` or `@anthropic-ai/sdk`, or when the user asks for Claude API, Anthropic SDK, Managed Agents, prompt caching, tool use, batch, files, citations, memory, model migration, or cache-hit debugging. Skip provider-neutral, OpenAI, or other-provider SDK work unless the user asks to switch to Claude.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\claude-api",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\claude-api\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\claude-api",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\claude-api\\SKILL.md",
                        "resource_dirs":  [
                                              "csharp",
                                              "curl",
@@ -177,8 +229,8 @@
                        "id":  "do",
                        "name":  "do",
                        "description":  "Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\do",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\do\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\do",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\do\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -201,8 +253,8 @@
                        "id":  "doc-coauthoring",
                        "name":  "doc-coauthoring",
                        "description":  "Use when the user wants to co-author documentation, proposals, technical specs, decision docs, structured content, writing plans, draft refinement, reader-focused review, or iterative document collaboration.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\doc-coauthoring",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\doc-coauthoring\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\doc-coauthoring",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\doc-coauthoring\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -225,8 +277,8 @@
                        "id":  "docx",
                        "name":  "docx",
                        "description":  "Use when the user wants to create, read, edit, format, convert, or inspect Word documents (.docx), including reports, memos, letters, templates, headings, page numbers, tables of contents, images, tracked changes, comments, find-and-replace, or polished Word deliverables. Do not use for PDFs, spreadsheets, Google Docs, or unrelated coding tasks.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\docx",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\docx\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\docx",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\docx\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -250,8 +302,8 @@
                        "id":  "frontend-design",
                        "name":  "frontend-design",
                        "description":  "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\frontend-design",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\frontend-design\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\frontend-design",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\frontend-design\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -271,11 +323,37 @@
                                       ]
                    },
                    {
+                       "id":  "gf-dma-health-index",
+                       "name":  "gf-dma-health-index",
+                       "description":  "Use when the user provides a ticker or asks for GF-DMA scoring, valuation/trend health, moving-average support, price-to-DMA divergence, ATR divergence, escape risk, estimate revisions, healthy momentum, or whether a rising/falling stock is fundamentally supported.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\gf-dma-health-index",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\gf-dma-health-index\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "references"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "gf-dma-health-score",
+                                              "prompt":  "Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support.",
+                                              "blocked_skills":  [
+                                                                     "buy-side-equity-research-memo",
+                                                                     "tam-adj-peg",
+                                                                     "bayesian-intrinsic-growth-valuation"
+                                                                 ],
+                                              "allowed_related_skills":  [
+
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
                        "id":  "how-it-works",
                        "name":  "how-it-works",
                        "description":  "Use when the user asks how claude-mem works, what it is doing, how observations are captured, when memory injection happens, where data lives, or how persistent memory is added to sessions.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\how-it-works",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\how-it-works\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\how-it-works",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\how-it-works\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -298,8 +376,8 @@
                        "id":  "internal-comms",
                        "name":  "internal-comms",
                        "description":  "Use when writing internal communications such as status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, team announcements, or executive summaries.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\internal-comms",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\internal-comms\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\internal-comms",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\internal-comms\\SKILL.md",
                        "resource_dirs":  [
                                              "examples"
                                          ],
@@ -322,8 +400,8 @@
                        "id":  "knowledge-agent",
                        "name":  "knowledge-agent",
                        "description":  "Build and query AI-powered knowledge bases from claude-mem observations. Use when users want to create focused \"brains\" from their observation history, ask questions about past work patterns, or compile expertise on specific topics.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\knowledge-agent",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\knowledge-agent\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\knowledge-agent",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\knowledge-agent\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -346,8 +424,8 @@
                        "id":  "learn-codebase",
                        "name":  "learn-codebase",
                        "description":  "Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to \"learn the codebase\", \"read the codebase\", \"prime\", or \"get up to speed\".",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\learn-codebase",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\learn-codebase\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\learn-codebase",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\learn-codebase\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -370,8 +448,8 @@
                        "id":  "make-plan",
                        "name":  "make-plan",
                        "description":  "Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\make-plan",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\make-plan\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\make-plan",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\make-plan\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -394,8 +472,8 @@
                        "id":  "mama",
                        "name":  "mama",
                        "description":  "Use when the user asks for 妈妈模式, 妈妈唠叨, mama mode, 唠叨模式, /pua:mama, /pua mama, or $pua-mama; applies a Chinese-mom nagging tone while preserving the same quality bar.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mama",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mama\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mama",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mama\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -418,8 +496,8 @@
                        "id":  "mcp-builder",
                        "name":  "mcp-builder",
                        "description":  "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mcp-builder",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mcp-builder\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mcp-builder",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mcp-builder\\SKILL.md",
                        "resource_dirs":  [
                                              "reference",
                                              "scripts"
@@ -443,8 +521,8 @@
                        "id":  "mem-search",
                        "name":  "mem-search",
                        "description":  "Search claude-mem\u0027s persistent cross-session memory database. Use when user asks \"did we already solve this?\", \"how did we do X last time?\", or needs work from previous sessions.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mem-search",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\mem-search\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mem-search",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\mem-search\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -467,8 +545,8 @@
                        "id":  "nanobanana",
                        "name":  "nanobanana",
                        "description":  "Use when the user mentions Nano Banana, nanobanana, AI image editing, image generation, prompt-to-image iteration, image-to-image refinement, product mockups, visual concept generation, or local Nano Banana plugin assets.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\nanobanana",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\nanobanana\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\nanobanana",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\nanobanana\\SKILL.md",
                        "resource_dirs":  [
                                              ".claude-plugin",
                                              "references",
@@ -493,8 +571,8 @@
                        "id":  "nsfc-grant-writing",
                        "name":  "nsfc-grant-writing",
                        "description":  "Use when the user writes, revises, reviews, or plans a Chinese NSFC grant application, National Natural Science Foundation proposal, guo-zi-ran, 国自然, 基金本子, 立项依据, 科学问题, 研究内容, 技术路线, 创新点, 可行性分析, or grant review response.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\nsfc-grant-writing",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\nsfc-grant-writing\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\nsfc-grant-writing",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\nsfc-grant-writing\\SKILL.md",
                        "resource_dirs":  [
                                              "dist",
                                              "output",
@@ -520,8 +598,8 @@
                        "id":  "openclaw",
                        "name":  "openclaw",
                        "description":  "Use when setting up, configuring, or troubleshooting OpenClaw agent memory, memory plugins, gateway memory, persistent observations, memory slots, worker startup, observation feeds, or OpenClaw install commands.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\openclaw",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\openclaw\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\openclaw",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\openclaw\\SKILL.md",
                        "resource_dirs":  [
                                              "skills",
                                              "src"
@@ -545,8 +623,8 @@
                        "id":  "p10",
                        "name":  "p10",
                        "description":  "P10 CTO mode — define strategic direction, design org topology, manage P9 teams. Use when user says \u0027CTO模式\u0027, \u0027P10\u0027, \u0027战略规划\u0027, \u0027架构委员会\u0027, or when facing cross-team architectural decisions. Produces: strategic input templates + org design.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p10",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p10\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p10",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p10\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -569,8 +647,8 @@
                        "id":  "p7",
                        "name":  "p7",
                        "description":  "P7 Senior Engineer mode — solution-driven execution under P8 supervision. Use when user says \u0027P7模式\u0027, \u0027方案驱动\u0027, or when spawned as sub-task executor by P8. Produces: implementation plan + code + 3-question self-review, delivered via [P7-COMPLETION].",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p7",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p7\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p7",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p7\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -594,8 +672,8 @@
                        "id":  "p9",
                        "name":  "p9",
                        "description":  "P9 Tech Lead mode — write Task Prompts, manage P8 agent teams, never write code yourself. Use when user says \u0027P9模式\u0027, \u0027tech-lead\u0027, \u0027帮我管理这个项目\u0027, \u0027任务拆解\u0027, or when coordinating 3+ parallel agents. Produces: Task Prompts (六要素) + P8 team delivery.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p9",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\p9\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p9",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\p9\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -619,8 +697,8 @@
                        "id":  "pathfinder",
                        "name":  "pathfinder",
                        "description":  "Use when asked to find the ideal path, map a codebase into feature-grouped flowcharts, identify duplicated concerns across features, unify duplicated systems, or audit architecture before a refactor.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pathfinder",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pathfinder\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pathfinder",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pathfinder\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -643,8 +721,8 @@
                        "id":  "pdf",
                        "name":  "pdf",
                        "description":  "Use when the user needs PDF document processing: read, extract text/tables/images, merge, split, rotate, watermark, fill forms, encrypt/decrypt, OCR scanned PDFs, inspect PDF layout, or create utility PDFs. Do not use when PDF is only the export format for a poster, slide, visual artwork, or design artifact.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pdf",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pdf\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pdf",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pdf\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -668,8 +746,8 @@
                        "id":  "pptx",
                        "name":  "pptx",
                        "description":  "Use when a PowerPoint file is involved as input or output: .pptx, slide deck, pitch deck, presentation, speaker notes, templates, layouts, comments, extracting text, editing slides, creating decks, combining files, or splitting presentations.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pptx",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pptx\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pptx",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pptx\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -693,8 +771,8 @@
                        "id":  "pro",
                        "name":  "pro",
                        "description":  "Use when the user asks for PUA Pro platform extensions: self-evolution tracking, compaction-state protection, KPI reporting, leaderboard, ranking, weekly report, promotion report, 段位, 周报, 述职, 排行榜, 自进化, or /pua:pro features. Do not use for exact alias commands such as $pua-kpi, $pua-flavor, or $pua-pro.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pro",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pro\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pro",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pro\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -717,8 +795,8 @@
                        "id":  "pua",
                        "name":  "pua",
                        "description":  "Use when the user explicitly requests PUA mode or signals frustration, repeated failures (2+), passive behavior, quality complaints, unverified completion, giving up, or asks to try harder/change approach. Common triggers: \u0027try harder\u0027, \u0027figure it out\u0027, \u0027stop giving up\u0027, \u0027you keep failing\u0027, \u0027加油\u0027, \u0027别偷懒\u0027, \u0027你再试试\u0027, \u0027为什么还不行\u0027, \u0027你怎么又失败了\u0027, \u0027又错了\u0027, \u0027质量太差\u0027, \u0027换个方法\u0027, \u0027stop spinning\u0027, \u0027you broke it\u0027, \u0027/pua\u0027, \u0027PUA模式\u0027. Do not trigger for normal first-attempt coding or information requests.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua\\SKILL.md",
                        "resource_dirs":  [
                                              "references"
                                          ],
@@ -742,8 +820,8 @@
                        "id":  "pua-cancel-loop",
                        "name":  "pua-cancel-loop",
                        "description":  "Use when the user invokes $pua-cancel-loop or /pua:cancel-loop to cancel the current PUA autonomous loop cleanly.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-cancel-loop",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-cancel-loop\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-cancel-loop",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-cancel-loop\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -766,8 +844,8 @@
                        "id":  "pua-en",
                        "name":  "pua-en",
                        "description":  "Use when a task has failed repeatedly, the agent is stuck tweaking the same approach, suggests manual work too early, blames the environment without verification, or the user says try harder, stop giving up, figure it out, or similar. Also useful for complex debugging, config, deployment, API, research, and writing failures. Do not trigger on first-attempt failures or while a known fix is executing.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-en",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-en\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-en",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-en\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -790,8 +868,8 @@
                        "id":  "pua-flavor",
                        "name":  "pua-flavor",
                        "description":  "Use when the user invokes $pua-flavor or /pua:flavor to list or switch PUA flavor options.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-flavor",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-flavor\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-flavor",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-flavor\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -814,8 +892,8 @@
                        "id":  "pua-ja",
                        "name":  "pua-ja",
                        "description":  "Use when the user asks for pua-ja mode or Japanese 詰め style after repeated task failures, same-approach tweaking loops, passive debugging, unverified environment blame, or frustration such as もっと頑張れ / なんとかしろ.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-ja",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-ja\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-ja",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-ja\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -838,8 +916,8 @@
                        "id":  "pua-kpi",
                        "name":  "pua-kpi",
                        "description":  "Use when the user invokes $pua-kpi or /pua:kpi to generate a PUA KPI report.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-kpi",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-kpi\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-kpi",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-kpi\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -862,8 +940,8 @@
                        "id":  "pua-loop",
                        "name":  "pua-loop",
                        "description":  "Use when the user asks for /pua:pua-loop, $pua-loop, PUA loop mode, 自动循环, 一直跑, or autonomous iterative development that continues until independent verification says the task is done.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-loop",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-loop\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-loop",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-loop\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -886,8 +964,8 @@
                        "id":  "pua-mama",
                        "name":  "pua-mama",
                        "description":  "Use when the user invokes $pua-mama or /pua:mama as the alias form of mama mode.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-mama",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-mama\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-mama",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-mama\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -910,8 +988,8 @@
                        "id":  "pua-off",
                        "name":  "pua-off",
                        "description":  "Use when the user invokes $pua-off or /pua:off to turn off PUA mode for the session.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-off",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-off\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-off",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-off\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -934,8 +1012,8 @@
                        "id":  "pua-offline",
                        "name":  "pua-offline",
                        "description":  "Use when the user invokes $pua-offline or /pua:offline for offline PUA mode, no-network debugging, or local-only task execution.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-offline",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-offline\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-offline",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-offline\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -958,8 +1036,8 @@
                        "id":  "pua-on",
                        "name":  "pua-on",
                        "description":  "Use when the user invokes $pua-on or /pua:on to enable PUA mode, turn on PUA enforcement, or reactivate strict task execution.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-on",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-on\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-on",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-on\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -982,8 +1060,8 @@
                        "id":  "pua-p10",
                        "name":  "pua-p10",
                        "description":  "Use when the user invokes $pua-p10 or /pua:p10 for P10 CTO mode with PUA enforcement.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p10",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p10\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p10",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p10\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1006,8 +1084,8 @@
                        "id":  "pua-p7",
                        "name":  "pua-p7",
                        "description":  "Use when the user invokes $pua-p7 or /pua:p7 for P7 senior engineer mode with PUA enforcement.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p7",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p7\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p7",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p7\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1030,8 +1108,8 @@
                        "id":  "pua-p9",
                        "name":  "pua-p9",
                        "description":  "Use when the user invokes $pua-p9 or /pua:p9 for P9 tech lead mode with PUA enforcement.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p9",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-p9\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p9",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-p9\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1054,8 +1132,8 @@
                        "id":  "pua-pro",
                        "name":  "pua-pro",
                        "description":  "Use when the user invokes $pua-pro or /pua:pro for the PUA Pro alias command.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-pro",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-pro\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-pro",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-pro\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1078,8 +1156,8 @@
                        "id":  "pua-reap-orphans",
                        "name":  "pua-reap-orphans",
                        "description":  "Use when the user invokes $pua-reap-orphans or /pua:reap-orphans to clean up orphaned PUA agents or processes.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-reap-orphans",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-reap-orphans\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-reap-orphans",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-reap-orphans\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1102,8 +1180,8 @@
                        "id":  "pua-survey",
                        "name":  "pua-survey",
                        "description":  "Use when the user invokes $pua-survey or /pua:survey to inspect the current PUA environment and status.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-survey",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-survey\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-survey",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-survey\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1126,8 +1204,8 @@
                        "id":  "pua-team-status",
                        "name":  "pua-team-status",
                        "description":  "Use when the user invokes $pua-team-status or /pua:team-status to report active PUA team agents and their state.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-team-status",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-team-status\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-team-status",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-team-status\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1150,8 +1228,8 @@
                        "id":  "pua-teardown-all",
                        "name":  "pua-teardown-all",
                        "description":  "Use when the user invokes $pua-teardown-all or /pua:teardown-all to stop and clean up all PUA agent activity.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-teardown-all",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-teardown-all\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-teardown-all",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-teardown-all\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1174,8 +1252,8 @@
                        "id":  "pua-yes",
                        "name":  "pua-yes",
                        "description":  "Use when the user invokes $pua-yes or /pua:yes as the alias form for encouragement mode.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-yes",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\pua-yes\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-yes",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\pua-yes\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1198,8 +1276,8 @@
                        "id":  "research-idea-and-battle",
                        "name":  "research-idea-and-battle",
                        "description":  "Use when the user wants rigorous AI/ML research ideation, novelty critique, hypothesis stress-testing, reviewer-style pushback, field positioning, research mentorship, or brainstorming. Trigger on phrases like research idea, battle this, is this novel, what would reviewers think, critique my idea, contribution, positioning, worth pursuing, weaknesses, or who is working on this.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\research-idea-and-battle",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\research-idea-and-battle\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\research-idea-and-battle",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\research-idea-and-battle\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1222,8 +1300,8 @@
                        "id":  "scansci-pdf",
                        "name":  "scansci-pdf",
                        "description":  "Use when the user wants to download academic papers, search research literature, fetch DOI/arXiv PDFs, export BibTeX/RIS/EndNote citations, batch-download from a DOI list or .bib file, use Sci-Hub/WebVPN/ institutional access, or says \"帮我下载论文\", \"搜索文献\", \"批量下载\", \"论文下载\", or \"文献检索\". Skip ordinary non-academic PDF work.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\scansci-pdf",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\scansci-pdf\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\scansci-pdf",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\scansci-pdf\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1246,8 +1324,8 @@
                        "id":  "sci-figure",
                        "name":  "sci-figure",
                        "description":  "Use when the user provides Excel, CSV, or structured data and wants publication-grade scientific figures, charts, plotting, exploratory analysis, statistical annotations, captions, figure export, or a traceable analysis report for a paper, thesis, lab report, or formal submission.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\sci-figure",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\sci-figure\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\sci-figure",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\sci-figure\\SKILL.md",
                        "resource_dirs":  [
                                              "agents",
                                              "references"
@@ -1269,11 +1347,64 @@
                                       ]
                    },
                    {
+                       "id":  "screenshot",
+                       "name":  "screenshot",
+                       "description":  "Use when the user explicitly asks for an OS-level desktop or system screenshot, such as full screen, a native app window, or a pixel region, and no tool-specific capture or app-testing capability is the better fit.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\screenshot",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\screenshot\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "assets",
+                                             "scripts"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "desktop-screenshot-capture",
+                                              "prompt":  "Take a screenshot of my desktop and save it as a PNG file.",
+                                              "blocked_skills":  [
+                                                                     "xlsx",
+                                                                     "pdf",
+                                                                     "frontend-design"
+                                                                 ],
+                                              "allowed_related_skills":  [
+
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
+                       "id":  "serenity-alpha",
+                       "name":  "serenity-alpha",
+                       "description":  "Use when the user wants Serenity-style alpha research that converts market-moving news, product launches, procurement signals, supply-chain changes, or earnings-call clues into investable hypotheses, small-cap beneficiaries, financial-statement transmission paths, validation metrics, downside risks, and position-sizing conditions.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\serenity-alpha",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\serenity-alpha\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "references"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "serenity-alpha-news",
+                                              "prompt":  "Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions.",
+                                              "blocked_skills":  [
+                                                                     "buy-side-equity-research-memo",
+                                                                     "bayesian-intrinsic-growth-valuation",
+                                                                     "tam-adj-peg"
+                                                                 ],
+                                              "allowed_related_skills":  [
+
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
                        "id":  "shared-skill-installer",
                        "name":  "shared-skill-installer",
                        "description":  "Use when the user asks to download, install, import, update, or add new AI skills into the shared WPS/desktop Skills library, especially when they mention placing skills in the correct folder, using the inbox, GitHub skill repos, curated skills, .skill packages, or making newly downloaded skills available to local coding agents, IDE agents, or generic agents. Do not use for designing a brand-new skill from scratch; use skill-creator for that.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\shared-skill-installer",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\shared-skill-installer\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\shared-skill-installer",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\shared-skill-installer\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -1281,7 +1412,7 @@
                        "eval_cases":  [
                                           {
                                               "id":  "shared-skill-install-download",
-                                              "prompt":  "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+                                              "prompt":  "Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents.",
                                               "blocked_skills":  [
                                                                      "skill-creator",
                                                                      "mcp-builder",
@@ -1297,8 +1428,8 @@
                        "id":  "shot",
                        "name":  "shot",
                        "description":  "PUA Shot — v2 原始浓缩版（449行全量注入），拆分前的完整单文件版本，味道最浓。零依赖零 reference，一次性全部注入上下文。适合 sub-agent 注入、需要最强 PUA 效果、或不想渐进式加载的场景。Triggers on: \u0027/pua:shot\u0027, \u0027/pua shot\u0027, \u0027PUA浓缩\u0027, \u0027shot mode\u0027, \u0027最强PUA\u0027, \u0027全量注入\u0027. Also great for injecting into sub-agents via Read tool since it\u0027s self-contained.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\shot",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\shot\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\shot",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\shot\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1321,8 +1452,8 @@
                        "id":  "skill-creator",
                        "name":  "skill-creator",
                        "description":  "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill\u0027s description for better triggering accuracy.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\skill-creator",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\skill-creator\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\skill-creator",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\skill-creator\\SKILL.md",
                        "resource_dirs":  [
                                              "agents",
                                              "assets",
@@ -1349,8 +1480,8 @@
                        "id":  "slack-gif-creator",
                        "name":  "slack-gif-creator",
                        "description":  "Use when the user wants an animated GIF optimized for Slack, including emoji GIFs, message GIFs, looped animations, size constraints, frame-rate tuning, palette reduction, or validation before upload.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\slack-gif-creator",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\slack-gif-creator\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\slack-gif-creator",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\slack-gif-creator\\SKILL.md",
                        "resource_dirs":  [
                                              "core"
                                          ],
@@ -1373,8 +1504,8 @@
                        "id":  "smart-explore",
                        "name":  "smart-explore",
                        "description":  "Use when exploring a codebase efficiently with structural search, tree-sitter AST parsing, function discovery, symbol lookup, or token-optimized code navigation instead of reading full files.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\smart-explore",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\smart-explore\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\smart-explore",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\smart-explore\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1394,11 +1525,36 @@
                                       ]
                    },
                    {
+                       "id":  "tam-adj-peg",
+                       "name":  "tam-adj-peg",
+                       "description":  "Use when the user provides a ticker or asks for TAM-Adj-PEG valuation, growth-stock cheap/expensive judgment, TAM-supported runway, quality-adjusted PEG, or classification as core growth, high-beta growth, turnaround, option-like, or cyclical exposure.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\tam-adj-peg",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\tam-adj-peg\\SKILL.md",
+                       "resource_dirs":  [
+                                             "agents",
+                                             "references"
+                                         ],
+                       "eval_case_count":  1,
+                       "eval_cases":  [
+                                          {
+                                              "id":  "tam-adjusted-peg",
+                                              "prompt":  "Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability.",
+                                              "blocked_skills":  [
+                                                                     "buy-side-equity-research-memo",
+                                                                     "gf-dma-health-index"
+                                                                 ],
+                                              "allowed_related_skills":  [
+                                                                             "bayesian-intrinsic-growth-valuation"
+                                                                         ]
+                                          }
+                                      ]
+                   },
+                   {
                        "id":  "theme-factory",
                        "name":  "theme-factory",
                        "description":  "Use when the user wants to apply or create a visual theme for slides, documents, reports, HTML pages, landing pages, or other artifacts, including color palettes, typography, and reusable style systems.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\theme-factory",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\theme-factory\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\theme-factory",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\theme-factory\\SKILL.md",
                        "resource_dirs":  [
                                              "themes"
                                          ],
@@ -1421,8 +1577,8 @@
                        "id":  "timeline-report",
                        "name":  "timeline-report",
                        "description":  "Use when asked for a timeline report, project history analysis, development journey, full project report, or narrative summary built from memory/timeline observations.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\timeline-report",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\timeline-report\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\timeline-report",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\timeline-report\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1445,8 +1601,8 @@
                        "id":  "version-bump",
                        "name":  "claude-code-plugin-release",
                        "description":  "Use when releasing or versioning an agent plugin/package, including semantic version bumps, package.json, marketplace or plugin manifests, npm publishing, build verification, git tags, GitHub releases, and changelog updates.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\version-bump",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\version-bump\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\version-bump",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\version-bump\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -1469,8 +1625,8 @@
                        "id":  "web-access-main",
                        "name":  "web-access",
                        "description":  "Use when the user needs internet or browser access: web search, latest/current information, opening URLs, scraping pages, fetching web content, logged-in browsing, operating websites, dynamic rendered pages, social media collection, source links, or any task requiring a real browser environment. 也用于搜索信息、查看网页内容、访问登录网站、网页抓取、小红书/微博/推特等社交媒体抓取、 动态页面读取和真实浏览器操作。",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\web-access-main",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\web-access-main\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\web-access-main",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\web-access-main\\SKILL.md",
                        "resource_dirs":  [
                                              ".claude-plugin",
                                              "references",
@@ -1495,9 +1651,9 @@
                    {
                        "id":  "webapp-testing",
                        "name":  "webapp-testing",
-                       "description":  "Use when interacting with or testing local web applications using Playwright, including verifying frontend behavior, debugging UI issues, capturing screenshots, checking browser logs, and exercising localhost apps.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\webapp-testing",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\webapp-testing\\SKILL.md",
+                       "description":  "Use when interacting with or testing local web applications using Playwright, especially localhost apps that need clicking through flows, capturing page screenshots, inspecting browser console errors, debugging UI behavior, or verifying frontend behavior.",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\webapp-testing",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\webapp-testing\\SKILL.md",
                        "resource_dirs":  [
                                              "examples",
                                              "scripts"
@@ -1521,8 +1677,8 @@
                        "id":  "web-artifacts-builder",
                        "name":  "web-artifacts-builder",
                        "description":  "Use when creating complex multi-component HTML/web artifacts with React, Tailwind CSS, shadcn/ui, routing, or state management. Do not use for simple single-file HTML or JSX artifacts.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\web-artifacts-builder",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\web-artifacts-builder\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\web-artifacts-builder",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\web-artifacts-builder\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -1545,8 +1701,8 @@
                        "id":  "wowerpoint",
                        "name":  "wowerpoint",
                        "description":  "Turn one document into a kawaii NotebookLM slide-deck PDF. Use for \"wowerpoint this\", \"make a deck about \u003cfile\u003e\", \"turn this report into slides\", or any request to render a single document as shareable narrative slides.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\wowerpoint",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\wowerpoint\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\wowerpoint",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\wowerpoint\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1569,8 +1725,8 @@
                        "id":  "xgboost-lightgbm",
                        "name":  "xgboost-lightgbm",
                        "description":  "Use when the user works with tabular machine learning using XGBoost, LightGBM, gradient boosting decision trees, feature importance, hyperparameter tuning, model validation, leakage checks, or structured-data prediction tasks.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\xgboost-lightgbm",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\xgboost-lightgbm\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\xgboost-lightgbm",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\xgboost-lightgbm\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],
@@ -1593,8 +1749,8 @@
                        "id":  "xlsx",
                        "name":  "xlsx",
                        "description":  "Use when a spreadsheet is the primary input or output: .xlsx, .xlsm, .csv, .tsv, formulas, formatting, charts, data cleaning, table restructuring, or file conversion. Trigger when the user references a spreadsheet path/name or wants a spreadsheet deliverable. Do not use when the primary deliverable is Word, PDF, HTML, code, a database pipeline, or Google Sheets API integration.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\xlsx",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\xlsx\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\xlsx",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\xlsx\\SKILL.md",
                        "resource_dirs":  [
                                              "scripts"
                                          ],
@@ -1618,8 +1774,8 @@
                        "id":  "yes",
                        "name":  "yes",
                        "description":  "SB Leader 夸夸模式 — ENFP 型领导，懂情绪有节奏。底层行为不变（三条红线、方法论），旁白从施压变成共情+鼓励+偶尔戏谑吐槽。Triggers on: \u0027/pua:yes\u0027, \u0027夸夸模式\u0027, \u0027唠嗑模式\u0027, \u0027情绪价值\u0027, \u0027yes\u0027, \u0027夸我\u0027, \u0027鼓励模式\u0027.",
-                       "path":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\yes",
-                       "skill_md":  "C:\\Users\\liuji\\Desktop\\Skills\\library\\skills\\yes\\SKILL.md",
+                       "path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\yes",
+                       "skill_md":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\library\\skills\\yes\\SKILL.md",
                        "resource_dirs":  [
 
                                          ],

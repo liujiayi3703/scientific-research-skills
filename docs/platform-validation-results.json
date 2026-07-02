@@ -1,52 +1,52 @@
 ﻿{
     "schema_version":  1,
-    "generated_at":  "2026-06-21T11:45:41",
-    "csv_path":  "C:\\Users\\liuji\\Desktop\\Skills\\docs\\platform-validation-prompts.csv",
-    "total_cases":  66,
+    "generated_at":  "2026-07-02T23:45:23",
+    "csv_path":  "C:\\Users\\liuji\\Desktop\\scientific-research-skills\\docs\\platform-validation-prompts.csv",
+    "total_cases":  72,
     "all_platforms_perfect":  false,
     "require_complete":  false,
     "platform_summary":  {
                              "claude_code":  {
                                                  "label":  "Claude Code",
-                                                 "total":  66,
+                                                 "total":  72,
                                                  "pass":  0,
                                                  "fail":  0,
                                                  "fail_related":  0,
                                                  "skipped":  0,
-                                                 "untested":  66,
+                                                 "untested":  72,
                                                  "complete":  false,
                                                  "perfect":  false
                                              },
                              "generic_agents":  {
                                                     "label":  "Generic agents",
-                                                    "total":  66,
+                                                    "total":  72,
                                                     "pass":  0,
                                                     "fail":  0,
                                                     "fail_related":  0,
                                                     "skipped":  0,
-                                                    "untested":  66,
+                                                    "untested":  72,
                                                     "complete":  false,
                                                     "perfect":  false
                                                 },
                              "trae_solo":  {
                                                "label":  "Trae IDE / SOLO",
-                                               "total":  66,
+                                               "total":  72,
                                                "pass":  0,
                                                "fail":  0,
                                                "fail_related":  0,
                                                "skipped":  0,
-                                               "untested":  66,
+                                               "untested":  72,
                                                "complete":  false,
                                                "perfect":  false
                                            },
                              "codex":  {
                                            "label":  "Codex",
-                                           "total":  66,
+                                           "total":  72,
                                            "pass":  0,
                                            "fail":  0,
                                            "fail_related":  0,
                                            "skipped":  0,
-                                           "untested":  66,
+                                           "untested":  72,
                                            "complete":  false,
                                            "perfect":  false
                                        }
@@ -1940,7 +1940,181 @@
                   {
                       "id":  "shared-skill-install-download",
                       "expected_skill":  "shared-skill-installer",
-                      "prompt":  "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+                      "prompt":  "Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "buy-side-equity-memo",
+                      "expected_skill":  "buy-side-equity-research-memo",
+                      "prompt":  "Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "bayesian-growth-valuation",
+                      "expected_skill":  "bayesian-intrinsic-growth-valuation",
+                      "prompt":  "Use Bayesian intrinsic-growth valuation to judge whether this company\u0027s current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "gf-dma-health-score",
+                      "expected_skill":  "gf-dma-health-index",
+                      "prompt":  "Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "tam-adjusted-peg",
+                      "expected_skill":  "tam-adj-peg",
+                      "prompt":  "Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability.",
+                      "allowed_related_skills":  "bayesian-intrinsic-growth-valuation",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "serenity-alpha-news",
+                      "expected_skill":  "serenity-alpha",
+                      "prompt":  "Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions.",
+                      "allowed_related_skills":  "",
+                      "notes":  "",
+                      "platforms":  {
+                                        "claude_code":  {
+                                                            "status":  "untested",
+                                                            "evidence":  "",
+                                                            "selected_skill":  ""
+                                                        },
+                                        "codex":  {
+                                                      "status":  "untested",
+                                                      "evidence":  "",
+                                                      "selected_skill":  ""
+                                                  },
+                                        "trae_solo":  {
+                                                          "status":  "untested",
+                                                          "evidence":  "",
+                                                          "selected_skill":  ""
+                                                      },
+                                        "generic_agents":  {
+                                                               "status":  "untested",
+                                                               "evidence":  "",
+                                                               "selected_skill":  ""
+                                                           }
+                                    }
+                  },
+                  {
+                      "id":  "desktop-screenshot-capture",
+                      "expected_skill":  "screenshot",
+                      "prompt":  "Take a screenshot of my desktop and save it as a PNG file.",
                       "allowed_related_skills":  "",
                       "notes":  "",
                       "platforms":  {

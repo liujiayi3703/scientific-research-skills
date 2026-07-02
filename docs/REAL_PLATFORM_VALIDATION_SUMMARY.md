@@ -1,6 +1,6 @@
 ﻿# Real Platform Validation Summary
 
-Generated: 2026-06-21T11:45:41
+Generated: 2026-07-02T23:45:23
 
 This report summarizes real app validation results recorded in `docs/platform-validation-prompts.csv`.
 
@@ -8,10 +8,10 @@ This report summarizes real app validation results recorded in `docs/platform-va
 
 | Platform | Total | Pass | Fail | Related Fail | Skipped | Untested | Perfect |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Claude Code | 66 | 0 | 0 | 0 | 0 | 66 | no |
-| Codex | 66 | 0 | 0 | 0 | 0 | 66 | no |
-| Trae IDE / SOLO | 66 | 0 | 0 | 0 | 0 | 66 | no |
-| Generic agents | 66 | 0 | 0 | 0 | 0 | 66 | no |
+| Claude Code | 72 | 0 | 0 | 0 | 0 | 72 | no |
+| Codex | 72 | 0 | 0 | 0 | 0 | 72 | no |
+| Trae IDE / SOLO | 72 | 0 | 0 | 0 | 0 | 72 | no |
+| Generic agents | 72 | 0 | 0 | 0 | 0 | 72 | no |
 
 ## How To Record Results
 
@@ -287,3 +287,27 @@ This report summarizes real app validation results recorded in `docs/platform-va
 - `shared-skill-install-download` / Codex: untested; expected `shared-skill-installer`.
 - `shared-skill-install-download` / Trae IDE / SOLO: untested; expected `shared-skill-installer`.
 - `shared-skill-install-download` / Generic agents: untested; expected `shared-skill-installer`.
+- `buy-side-equity-memo` / Claude Code: untested; expected `buy-side-equity-research-memo`.
+- `buy-side-equity-memo` / Codex: untested; expected `buy-side-equity-research-memo`.
+- `buy-side-equity-memo` / Trae IDE / SOLO: untested; expected `buy-side-equity-research-memo`.
+- `buy-side-equity-memo` / Generic agents: untested; expected `buy-side-equity-research-memo`.
+- `bayesian-growth-valuation` / Claude Code: untested; expected `bayesian-intrinsic-growth-valuation`.
+- `bayesian-growth-valuation` / Codex: untested; expected `bayesian-intrinsic-growth-valuation`.
+- `bayesian-growth-valuation` / Trae IDE / SOLO: untested; expected `bayesian-intrinsic-growth-valuation`.
+- `bayesian-growth-valuation` / Generic agents: untested; expected `bayesian-intrinsic-growth-valuation`.
+- `gf-dma-health-score` / Claude Code: untested; expected `gf-dma-health-index`.
+- `gf-dma-health-score` / Codex: untested; expected `gf-dma-health-index`.
+- `gf-dma-health-score` / Trae IDE / SOLO: untested; expected `gf-dma-health-index`.
+- `gf-dma-health-score` / Generic agents: untested; expected `gf-dma-health-index`.
+- `tam-adjusted-peg` / Claude Code: untested; expected `tam-adj-peg`.
+- `tam-adjusted-peg` / Codex: untested; expected `tam-adj-peg`.
+- `tam-adjusted-peg` / Trae IDE / SOLO: untested; expected `tam-adj-peg`.
+- `tam-adjusted-peg` / Generic agents: untested; expected `tam-adj-peg`.
+- `serenity-alpha-news` / Claude Code: untested; expected `serenity-alpha`.
+- `serenity-alpha-news` / Codex: untested; expected `serenity-alpha`.
+- `serenity-alpha-news` / Trae IDE / SOLO: untested; expected `serenity-alpha`.
+- `serenity-alpha-news` / Generic agents: untested; expected `serenity-alpha`.
+- `desktop-screenshot-capture` / Claude Code: untested; expected `screenshot`.
+- `desktop-screenshot-capture` / Codex: untested; expected `screenshot`.
+- `desktop-screenshot-capture` / Trae IDE / SOLO: untested; expected `screenshot`.
+- `desktop-screenshot-capture` / Generic agents: untested; expected `screenshot`.

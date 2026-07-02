@@ -633,12 +633,74 @@
     },
     {
       "id": "shared-skill-install-download",
-      "prompt": "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+      "prompt": "Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents.",
       "expected_skill": "shared-skill-installer",
       "blocked_skills": [
         "skill-creator",
         "mcp-builder",
         "plugin-creator"
+      ]
+    },
+    {
+      "id": "buy-side-equity-memo",
+      "prompt": "Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard.",
+      "expected_skill": "buy-side-equity-research-memo",
+      "blocked_skills": [
+        "tam-adj-peg",
+        "bayesian-intrinsic-growth-valuation",
+        "gf-dma-health-index"
+      ]
+    },
+    {
+      "id": "bayesian-growth-valuation",
+      "prompt": "Use Bayesian intrinsic-growth valuation to judge whether this company's current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO.",
+      "expected_skill": "bayesian-intrinsic-growth-valuation",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "tam-adj-peg",
+        "gf-dma-health-index"
+      ]
+    },
+    {
+      "id": "gf-dma-health-score",
+      "prompt": "Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support.",
+      "expected_skill": "gf-dma-health-index",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "tam-adj-peg",
+        "bayesian-intrinsic-growth-valuation"
+      ]
+    },
+    {
+      "id": "tam-adjusted-peg",
+      "prompt": "Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability.",
+      "expected_skill": "tam-adj-peg",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "gf-dma-health-index"
+      ],
+      "allowed_related_skills": [
+        "bayesian-intrinsic-growth-valuation"
+      ]
+    },
+    {
+      "id": "serenity-alpha-news",
+      "prompt": "Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions.",
+      "expected_skill": "serenity-alpha",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "bayesian-intrinsic-growth-valuation",
+        "tam-adj-peg"
+      ]
+    },
+    {
+      "id": "desktop-screenshot-capture",
+      "prompt": "Take a screenshot of my desktop and save it as a PNG file.",
+      "expected_skill": "screenshot",
+      "blocked_skills": [
+        "xlsx",
+        "pdf",
+        "frontend-design"
       ]
     }
   ]

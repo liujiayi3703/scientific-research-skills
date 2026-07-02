@@ -1,6 +1,6 @@
 ---
 name: webapp-testing
-description: Use when interacting with or testing local web applications using Playwright, including verifying frontend behavior, debugging UI issues, capturing screenshots, checking browser logs, and exercising localhost apps.
+description: Use when interacting with or testing local web applications using Playwright, especially localhost apps that need clicking through flows, capturing page screenshots, inspecting browser console errors, debugging UI behavior, or verifying frontend behavior.
 license: Complete terms in LICENSE.txt
 ---
 

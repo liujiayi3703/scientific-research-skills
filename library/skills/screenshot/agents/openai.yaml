@@ -1,0 +1,6 @@
+interface:
+  display_name: "Screenshot Capture"
+  short_description: "Capture OS-level desktop or native app screenshots when no browser or tool-specific screenshot feature is a better fit"
+  icon_small: "./assets/screenshot-small.svg"
+  icon_large: "./assets/screenshot.png"
+  default_prompt: "Capture an OS-level desktop, native app window, or pixel-region screenshot for this task."
