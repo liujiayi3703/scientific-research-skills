@@ -1,11 +1,11 @@
 ﻿# Skill Trigger Audit
 
-Generated: 2026-06-21 11:45:23
+Generated: 2026-07-02 23:45:16
 
 ## Summary
 
-- Total standard skills: 66
-- Clean descriptions: 66
+- Total standard skills: 72
+- Clean descriptions: 72
 - Descriptions needing review: 0
 - Raw CSV: docs/trigger-audit.csv
 
@@ -28,13 +28,16 @@ No trigger description issues found.
 - academic-research-suite
 - algorithmic-art
 - babysit
+- bayesian-intrinsic-growth-valuation
 - brand-guidelines
+- buy-side-equity-research-memo
 - canvas-design
 - claude-api
 - do
 - doc-coauthoring
 - docx
 - frontend-design
+- gf-dma-health-index
 - how-it-works
 - internal-comms
 - knowledge-agent
@@ -76,11 +79,14 @@ No trigger description issues found.
 - research-idea-and-battle
 - scansci-pdf
 - sci-figure
+- screenshot
+- serenity-alpha
 - shared-skill-installer
 - shot
 - skill-creator
 - slack-gif-creator
 - smart-explore
+- tam-adj-peg
 - theme-factory
 - timeline-report
 - version-bump

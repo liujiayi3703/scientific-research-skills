@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+# Binary artifacts should not be line-ending normalized.
+*.7z binary
+*.db binary
+*.docx binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.pptx binary
+*.sqlite binary
+*.xls binary
+*.xlsm binary
+*.xlsx binary
+*.zip binary

@@ -6,7 +6,7 @@
 
 - 标准 skills 目录：`library/skills/`
 - 新 skills 收件夹：`00_新skills待整理_INBOX/`
-- 当前标准 skills 数量：66
+- 当前标准 skills 数量：72
 - 一键质量闸门：`运行-一键质量闸门.ps1`
 - 多平台接入：`运行-接入全部AI平台skills.ps1`
 - 技能索引：`docs/SKILL_INDEX.md`
@@ -46,7 +46,7 @@
 1. 把新 skill 或原始材料放进：
 
 ```text
-C:\Users\liuji\Desktop\Skills\00_新skills待整理_INBOX
+<repo-root>\00_新skills待整理_INBOX
 ```
 
 2. 对 AI 说：
@@ -82,7 +82,7 @@ archive/new-skill-intake/YYYY-MM-DD/
 在 PowerShell 里进入本目录：
 
 ```powershell
-cd C:\Users\liuji\Desktop\Skills
+cd C:\Users\liuji\Desktop\scientific-research-skills
 Set-ExecutionPolicy -Scope Process Bypass -Force
 .\运行-接入全部AI平台skills.ps1
 ```
@@ -98,6 +98,21 @@ Set-ExecutionPolicy -Scope Process Bypass -Force
 ```powershell
 .\tools\Connect-Skills.ps1 -CustomTargetDirs "D:\YourApp\skills"
 ```
+
+## GitHub 分支建议
+
+- `main`：稳定可用分支，只合并已经通过 `.\运行-一键质量闸门.ps1` 的版本。
+- `codex/<task>`：AI 或 agent 执行更新时使用的工作分支，例如 `codex/optimize-skills-library`。
+- `sync/<date>`：批量同步本机共享库、外部 skill 包或上游更新时使用。
+
+合并前必须确认：
+
+1. `library/skills/` 下每个目录都有 `SKILL.md`。
+2. `docs/trigger-evals.json` 覆盖新增或改名的 skill。
+3. `docs/skills-manifest.json`、`docs/SKILL_INDEX.md` 和质量报告已由脚本重新生成。
+4. 普通质量闸门通过；真实多平台 100% 只能由严格真实平台门禁证明。
+
+详细流程见 `docs/BRANCHING_AND_RELEASE_GUIDE.md`。
 
 ## 日常维护
 

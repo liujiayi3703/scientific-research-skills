@@ -3,7 +3,7 @@
 ## 一键接入推荐命令
 
 ```powershell
-cd C:\Users\liuji\Desktop\Skills
+cd C:\Users\liuji\Desktop\scientific-research-skills
 Set-ExecutionPolicy -Scope Process Bypass -Force
 .\运行-接入全部AI平台skills.ps1
 ```
@@ -33,7 +33,7 @@ Set-ExecutionPolicy -Scope Process Bypass -Force
 1. 如果 app 支持指定技能目录，直接指向：
 
 ```text
-C:\Users\liuji\Desktop\Skills\library\skills
+<repo-root>\library\skills
 ```
 
 2. 如果 app 要求复制到某个本地目录，用：
@@ -104,4 +104,3 @@ C:\Users\liuji\Desktop\Skills\library\skills
 - `docs/REAL_PLATFORM_VALIDATION_SUMMARY.md`
 - `docs/platform-prompt-packs/`
 - `docs/QUALITY_GATE_REPORT.md`
-

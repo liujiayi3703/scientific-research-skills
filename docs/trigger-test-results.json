@@ -1,32 +1,32 @@
 {
   "summary": {
     "claude-code": {
-      "total": 66,
-      "top1": 66,
-      "top3": 66,
+      "total": 72,
+      "top1": 72,
+      "top3": 72,
       "blocked_top3": 0,
-      "allowed_related_top3": 11
+      "allowed_related_top3": 12
     },
     "codex": {
-      "total": 66,
-      "top1": 66,
-      "top3": 66,
+      "total": 72,
+      "top1": 72,
+      "top3": 72,
       "blocked_top3": 0,
-      "allowed_related_top3": 10
+      "allowed_related_top3": 11
     },
     "trae-solo": {
-      "total": 66,
-      "top1": 66,
-      "top3": 66,
+      "total": 72,
+      "top1": 72,
+      "top3": 72,
       "blocked_top3": 0,
-      "allowed_related_top3": 11
+      "allowed_related_top3": 12
     },
     "generic-agents": {
-      "total": 66,
-      "top1": 66,
-      "top3": 66,
+      "total": 72,
+      "top1": 72,
+      "top3": 72,
       "blocked_top3": 0,
-      "allowed_related_top3": 11
+      "allowed_related_top3": 12
     }
   },
   "results": [
@@ -49,15 +49,15 @@
           "top3": [
             {
               "skill": "xlsx",
-              "score": 129.2233
+              "score": 131.6248
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 79.2327
+              "score": 81.2911
             },
             {
               "skill": "pua-teardown-all",
-              "score": 79.2327
+              "score": 81.2911
             }
           ]
         },
@@ -69,15 +69,15 @@
           "top3": [
             {
               "skill": "xlsx",
-              "score": 118.0756
+              "score": 120.2026
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 71.3094
+              "score": 73.162
             },
             {
               "skill": "pua-teardown-all",
-              "score": 71.3094
+              "score": 73.162
             }
           ]
         },
@@ -89,15 +89,15 @@
           "top3": [
             {
               "skill": "xlsx",
-              "score": 114.6667
-            },
-            {
-              "skill": "pua-en",
-              "score": 58.5777
+              "score": 116.6565
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 58.104
+              "score": 59.6135
+            },
+            {
+              "skill": "pua-teardown-all",
+              "score": 59.6135
             }
           ]
         },
@@ -109,15 +109,15 @@
           "top3": [
             {
               "skill": "xlsx",
-              "score": 112.653
+              "score": 114.5742
             },
             {
               "skill": "pua-en",
-              "score": 60.7592
+              "score": 60.3736
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 52.8218
+              "score": 54.1941
             }
           ]
         }
@@ -142,15 +142,15 @@
           "top3": [
             {
               "skill": "docx",
-              "score": 364.2891
+              "score": 365.3003
             },
             {
               "skill": "xlsx",
-              "score": 108.8018
+              "score": 111.2033
             },
             {
               "skill": "timeline-report",
-              "score": 106.357
+              "score": 110.0106
             }
           ]
         },
@@ -162,15 +162,15 @@
           "top3": [
             {
               "skill": "docx",
-              "score": 326.9434
+              "score": 327.8853
             },
             {
               "skill": "timeline-report",
-              "score": 104.859
+              "score": 108.4612
             },
             {
               "skill": "xlsx",
-              "score": 96.5508
+              "score": 98.6778
             }
           ]
         },
@@ -182,15 +182,15 @@
           "top3": [
             {
               "skill": "docx",
-              "score": 273.2576
+              "score": 273.7871
             },
             {
               "skill": "timeline-report",
-              "score": 105.3583
+              "score": 108.9777
             },
             {
               "skill": "xlsx",
-              "score": 88.9267
+              "score": 90.9165
             }
           ]
         },
@@ -202,15 +202,15 @@
           "top3": [
             {
               "skill": "docx",
-              "score": 251.4166
+              "score": 251.7938
             },
             {
               "skill": "timeline-report",
-              "score": 108.8536
+              "score": 112.593
             },
             {
               "skill": "xlsx",
-              "score": 85.3287
+              "score": 87.2499
             }
           ]
         }
@@ -235,15 +235,15 @@
           "top3": [
             {
               "skill": "pptx",
-              "score": 375.4134
+              "score": 382.4291
             },
             {
               "skill": "wowerpoint",
-              "score": 80.1864
+              "score": 81.9875
             },
             {
               "skill": "theme-factory",
-              "score": 11.4552
+              "score": 11.7125
             }
           ]
         },
@@ -255,15 +255,15 @@
           "top3": [
             {
               "skill": "pptx",
-              "score": 364.6419
+              "score": 371.4003
             },
             {
               "skill": "wowerpoint",
-              "score": 71.0222
+              "score": 72.6175
             },
             {
               "skill": "theme-factory",
-              "score": 9.1642
+              "score": 9.37
             }
           ]
         },
@@ -275,15 +275,15 @@
           "top3": [
             {
               "skill": "pptx",
-              "score": 341.2755
+              "score": 347.5021
             },
             {
               "skill": "wowerpoint",
-              "score": 66.4401
+              "score": 67.9325
             },
             {
               "skill": "theme-factory",
-              "score": 16.0373
+              "score": 16.3975
             }
           ]
         },
@@ -295,15 +295,15 @@
           "top3": [
             {
               "skill": "pptx",
-              "score": 340.4106
+              "score": 346.5858
             },
             {
               "skill": "wowerpoint",
-              "score": 64.1491
+              "score": 65.59
             },
             {
               "skill": "theme-factory",
-              "score": 18.3283
+              "score": 18.74
             }
           ]
         }
@@ -328,15 +328,15 @@
           "top3": [
             {
               "skill": "pdf",
-              "score": 456.3453
+              "score": 465.2273
             },
             {
               "skill": "scansci-pdf",
-              "score": 119.0721
+              "score": 122.3398
             },
             {
-              "skill": "docx",
-              "score": 93.3142
+              "skill": "canvas-design",
+              "score": 95.2564
             }
           ]
         },
@@ -348,15 +348,15 @@
           "top3": [
             {
               "skill": "pdf",
-              "score": 426.9526
+              "score": 435.4099
             },
             {
               "skill": "scansci-pdf",
-              "score": 116.2593
+              "score": 119.4499
             },
             {
-              "skill": "docx",
-              "score": 83.3289
+              "skill": "canvas-design",
+              "score": 85.0886
             }
           ]
         },
@@ -368,15 +368,15 @@
           "top3": [
             {
               "skill": "pdf",
-              "score": 405.4526
+              "score": 412.9198
             },
             {
               "skill": "scansci-pdf",
-              "score": 137.1985
+              "score": 140.9637
             },
             {
-              "skill": "docx",
-              "score": 72.7892
+              "skill": "canvas-design",
+              "score": 74.1361
             }
           ]
         },
@@ -388,15 +388,15 @@
           "top3": [
             {
               "skill": "pdf",
-              "score": 401.3893
+              "score": 408.6294
             },
             {
               "skill": "scansci-pdf",
-              "score": 148.762
+              "score": 152.8445
             },
             {
-              "skill": "docx",
-              "score": 68.3117
+              "skill": "canvas-design",
+              "score": 69.4982
             }
           ]
         }
@@ -421,15 +421,15 @@
           "top3": [
             {
               "skill": "sci-figure",
-              "score": 354.4342
+              "score": 356.1967
             },
             {
               "skill": "academic-research-suite",
-              "score": 53.379
+              "score": 54.494
             },
             {
-              "skill": "pua-en",
-              "score": 49.9689
+              "skill": "make-plan",
+              "score": 50.6467
             }
           ]
         },
@@ -441,15 +441,15 @@
           "top3": [
             {
               "skill": "sci-figure",
-              "score": 328.9115
+              "score": 330.11
             },
             {
               "skill": "make-plan",
-              "score": 55.3808
+              "score": 57.0104
             },
             {
               "skill": "academic-research-suite",
-              "score": 47.6305
+              "score": 48.6254
             }
           ]
         },
@@ -461,15 +461,15 @@
           "top3": [
             {
               "skill": "sci-figure",
-              "score": 320.9087
+              "score": 321.3716
             },
             {
               "skill": "make-plan",
-              "score": 64.7031
+              "score": 66.6028
             },
             {
               "skill": "academic-research-suite",
-              "score": 41.882
+              "score": 42.7568
             }
           ]
         },
@@ -481,15 +481,15 @@
           "top3": [
             {
               "skill": "sci-figure",
-              "score": 321.1582
+              "score": 321.1856
             },
             {
               "skill": "make-plan",
-              "score": 72.4539
+              "score": 74.5809
             },
             {
-              "skill": "pua-en",
-              "score": 39.6834
+              "skill": "academic-research-suite",
+              "score": 40.2417
             }
           ]
         }
@@ -517,15 +517,15 @@
           "top3": [
             {
               "skill": "frontend-design",
-              "score": 231.9858
+              "score": 237.2346
             },
             {
               "skill": "web-artifacts-builder",
-              "score": 127.9651
+              "score": 130.7954
             },
             {
               "skill": "version-bump",
-              "score": 51.3338
+              "score": 52.7402
             }
           ]
         },
@@ -537,15 +537,15 @@
           "top3": [
             {
               "skill": "frontend-design",
-              "score": 207.7751
+              "score": 212.4887
             },
             {
               "skill": "web-artifacts-builder",
-              "score": 111.8814
+              "score": 114.3515
             },
             {
-              "skill": "docx",
-              "score": 44.3457
+              "skill": "version-bump",
+              "score": 45.4628
             }
           ]
         },
@@ -559,15 +559,15 @@
           "top3": [
             {
               "skill": "frontend-design",
-              "score": 176.8705
+              "score": 180.7882
             },
             {
               "skill": "web-artifacts-builder",
-              "score": 115.7553
+              "score": 118.3454
             },
             {
               "skill": "version-bump",
-              "score": 50.7493
+              "score": 52.0322
             }
           ]
         },
@@ -581,15 +581,15 @@
           "top3": [
             {
               "skill": "frontend-design",
-              "score": 164.1038
+              "score": 167.699
             },
             {
               "skill": "web-artifacts-builder",
-              "score": 115.9899
+              "score": 118.5973
             },
             {
               "skill": "version-bump",
-              "score": 52.5689
+              "score": 53.8586
             }
           ]
         }
@@ -617,15 +617,15 @@
           "top3": [
             {
               "skill": "web-artifacts-builder",
-              "score": 345.5855
+              "score": 352.3323
             },
             {
               "skill": "frontend-design",
-              "score": 266.6121
+              "score": 273.096
             },
             {
               "skill": "theme-factory",
-              "score": 73.3602
+              "score": 75.7617
             }
           ]
         },
@@ -639,15 +639,15 @@
           "top3": [
             {
               "skill": "web-artifacts-builder",
-              "score": 304.6056
+              "score": 310.5319
             },
             {
               "skill": "frontend-design",
-              "score": 238.5434
+              "score": 244.3481
             },
             {
               "skill": "theme-factory",
-              "score": 64.5779
+              "score": 66.7049
             }
           ]
         },
@@ -661,15 +661,15 @@
           "top3": [
             {
               "skill": "web-artifacts-builder",
-              "score": 296.2385
+              "score": 302.1582
             },
             {
               "skill": "frontend-design",
-              "score": 204.8988
+              "score": 209.8595
             },
             {
               "skill": "theme-factory",
-              "score": 63.4392
+              "score": 65.429
             }
           ]
         },
@@ -683,15 +683,15 @@
           "top3": [
             {
               "skill": "web-artifacts-builder",
-              "score": 290.3231
+              "score": 296.1818
             },
             {
               "skill": "frontend-design",
-              "score": 190.8779
+              "score": 195.4887
             },
             {
-              "skill": "theme-factory",
-              "score": 62.4053
+              "skill": "buy-side-equity-research-memo",
+              "score": 67.5185
             }
           ]
         }
@@ -715,15 +715,15 @@
           "top3": [
             {
               "skill": "webapp-testing",
-              "score": 222.2665
+              "score": 314.6003
+            },
+            {
+              "skill": "screenshot",
+              "score": 188.3996
             },
             {
               "skill": "web-access-main",
-              "score": 104.705
-            },
-            {
-              "skill": "research-idea-and-battle",
-              "score": 43.1431
+              "score": 106.8921
             }
           ]
         },
@@ -735,15 +735,15 @@
           "top3": [
             {
               "skill": "webapp-testing",
-              "score": 198.4955
+              "score": 281.5616
+            },
+            {
+              "skill": "screenshot",
+              "score": 169.75
             },
             {
               "skill": "web-access-main",
-              "score": 93.6186
-            },
-            {
-              "skill": "research-idea-and-battle",
-              "score": 38.8288
+              "score": 95.5741
             }
           ]
         },
@@ -755,15 +755,15 @@
           "top3": [
             {
               "skill": "webapp-testing",
-              "score": 173.2911
+              "score": 241.2312
+            },
+            {
+              "skill": "screenshot",
+              "score": 168.6239
             },
             {
               "skill": "web-access-main",
-              "score": 80.8898
-            },
-            {
-              "skill": "shot",
-              "score": 34.0
+              "score": 82.5794
             }
           ]
         },
@@ -775,15 +775,15 @@
           "top3": [
             {
               "skill": "webapp-testing",
-              "score": 162.5916
+              "score": 224.4676
+            },
+            {
+              "skill": "screenshot",
+              "score": 166.8897
             },
             {
               "skill": "web-access-main",
-              "score": 75.5519
-            },
-            {
-              "skill": "shot",
-              "score": 34.0
+              "score": 77.13
             }
           ]
         }
@@ -807,15 +807,15 @@
           "top3": [
             {
               "skill": "web-access-main",
-              "score": 315.6979
+              "score": 297.9674
             },
             {
               "skill": "frontend-design",
-              "score": 175.8333
+              "score": 172.0463
             },
             {
-              "skill": "web-artifacts-builder",
-              "score": 102.8243
+              "skill": "mem-search",
+              "score": 100.9763
             }
           ]
         },
@@ -827,15 +827,15 @@
           "top3": [
             {
               "skill": "web-access-main",
-              "score": 298.0057
+              "score": 281.6757
             },
             {
               "skill": "frontend-design",
-              "score": 157.4863
+              "score": 154.0608
             },
             {
               "skill": "web-artifacts-builder",
-              "score": 106.4195
+              "score": 103.5615
             }
           ]
         },
@@ -847,15 +847,15 @@
           "top3": [
             {
               "skill": "web-access-main",
-              "score": 266.1221
+              "score": 252.1903
             },
             {
               "skill": "frontend-design",
-              "score": 134.0356
+              "score": 131.3728
             },
             {
               "skill": "mem-search",
-              "score": 114.8109
+              "score": 114.8824
             }
           ]
         },
@@ -867,15 +867,15 @@
           "top3": [
             {
               "skill": "web-access-main",
-              "score": 258.402
-            },
-            {
-              "skill": "frontend-design",
-              "score": 124.3499
+              "score": 245.2943
             },
             {
               "skill": "mem-search",
-              "score": 123.9949
+              "score": 124.0799
+            },
+            {
+              "skill": "frontend-design",
+              "score": 121.9853
             }
           ]
         }
@@ -899,15 +899,15 @@
           "top3": [
             {
               "skill": "claude-api",
-              "score": 378.9497
+              "score": 386.8068
             },
             {
               "skill": "brand-guidelines",
-              "score": 55.4321
+              "score": 56.5899
             },
             {
               "skill": "shared-skill-installer",
-              "score": 54.8211
+              "score": 55.9635
             }
           ]
         },
@@ -919,15 +919,15 @@
           "top3": [
             {
               "skill": "claude-api",
-              "score": 343.0898
+              "score": 350.3503
             },
             {
               "skill": "brand-guidelines",
-              "score": 49.273
+              "score": 50.3022
             },
             {
               "skill": "shared-skill-installer",
-              "score": 49.1465
+              "score": 50.1734
             }
           ]
         },
@@ -939,15 +939,15 @@
           "top3": [
             {
               "skill": "claude-api",
-              "score": 326.9417
+              "score": 334.4755
             },
             {
               "skill": "brand-guidelines",
-              "score": 44.7563
+              "score": 45.6911
             },
             {
               "skill": "nanobanana",
-              "score": 43.7808
+              "score": 44.7723
             }
           ]
         },
@@ -959,15 +959,15 @@
           "top3": [
             {
               "skill": "claude-api",
-              "score": 321.0416
+              "score": 328.7479
             },
             {
               "skill": "nanobanana",
-              "score": 44.1817
+              "score": 45.2094
             },
             {
               "skill": "brand-guidelines",
-              "score": 42.7032
+              "score": 43.5952
             }
           ]
         }
@@ -991,15 +991,15 @@
           "top3": [
             {
               "skill": "openclaw",
-              "score": 720.6687
+              "score": 735.9609
             },
             {
               "skill": "how-it-works",
-              "score": 125.579
+              "score": 128.9453
             },
             {
               "skill": "mem-search",
-              "score": 95.1139
+              "score": 97.6697
             }
           ]
         },
@@ -1011,15 +1011,15 @@
           "top3": [
             {
               "skill": "openclaw",
-              "score": 668.6657
+              "score": 682.7658
             },
             {
               "skill": "how-it-works",
-              "score": 111.1869
+              "score": 114.1631
             },
             {
               "skill": "mem-search",
-              "score": 91.7136
+              "score": 94.1751
             }
           ]
         },
@@ -1031,15 +1031,15 @@
           "top3": [
             {
               "skill": "openclaw",
-              "score": 620.0524
+              "score": 633.0632
             },
             {
               "skill": "how-it-works",
-              "score": 104.3188
+              "score": 107.1448
             },
             {
               "skill": "mem-search",
-              "score": 86.6248
+              "score": 88.9405
             }
           ]
         },
@@ -1051,15 +1051,15 @@
           "top3": [
             {
               "skill": "openclaw",
-              "score": 606.4843
+              "score": 619.1778
             },
             {
               "skill": "how-it-works",
-              "score": 100.8379
+              "score": 103.5824
             },
             {
               "skill": "mem-search",
-              "score": 86.7991
+              "score": 89.1148
             }
           ]
         }
@@ -1083,15 +1083,15 @@
           "top3": [
             {
               "skill": "knowledge-agent",
-              "score": 338.592
+              "score": 346.6197
             },
             {
               "skill": "timeline-report",
-              "score": 113.2817
+              "score": 116.5837
             },
             {
               "skill": "how-it-works",
-              "score": 51.0886
+              "score": 52.3751
             }
           ]
         },
@@ -1103,15 +1103,15 @@
           "top3": [
             {
               "skill": "knowledge-agent",
-              "score": 314.8448
+              "score": 322.2551
             },
             {
               "skill": "timeline-report",
-              "score": 97.5904
+              "score": 100.4379
             },
             {
               "skill": "how-it-works",
-              "score": 44.9664
+              "score": 46.0986
             }
           ]
         },
@@ -1123,15 +1123,15 @@
           "top3": [
             {
               "skill": "knowledge-agent",
-              "score": 326.0781
+              "score": 333.7629
             },
             {
               "skill": "timeline-report",
-              "score": 112.1606
+              "score": 115.4112
             },
             {
               "skill": "version-bump",
-              "score": 45.4036
+              "score": 46.8788
             }
           ]
         },
@@ -1143,15 +1143,15 @@
           "top3": [
             {
               "skill": "knowledge-agent",
-              "score": 334.025
+              "score": 341.8813
             },
             {
               "skill": "timeline-report",
-              "score": 116.2435
+              "score": 119.6055
             },
             {
               "skill": "version-bump",
-              "score": 46.4595
+              "score": 47.969
             }
           ]
         }
@@ -1175,15 +1175,15 @@
           "top3": [
             {
               "skill": "mem-search",
-              "score": 450.3735
+              "score": 451.5803
             },
             {
               "skill": "openclaw",
-              "score": 170.6467
+              "score": 174.935
             },
             {
               "skill": "how-it-works",
-              "score": 92.1492
+              "score": 94.4649
             }
           ]
         },
@@ -1195,15 +1195,15 @@
           "top3": [
             {
               "skill": "mem-search",
-              "score": 411.3899
+              "score": 412.4544
             },
             {
               "skill": "openclaw",
-              "score": 152.8994
+              "score": 156.7418
             },
             {
               "skill": "how-it-works",
-              "score": 81.9104
+              "score": 83.9688
             }
           ]
         },
@@ -1215,15 +1215,15 @@
           "top3": [
             {
               "skill": "mem-search",
-              "score": 389.1638
+              "score": 390.1487
             },
             {
               "skill": "openclaw",
-              "score": 129.6915
+              "score": 132.9506
             },
             {
               "skill": "how-it-works",
-              "score": 74.4019
+              "score": 76.2717
             }
           ]
         },
@@ -1235,15 +1235,15 @@
           "top3": [
             {
               "skill": "mem-search",
-              "score": 382.2907
+              "score": 383.2353
             },
             {
               "skill": "openclaw",
-              "score": 120.1352
+              "score": 123.1542
             },
             {
               "skill": "how-it-works",
-              "score": 70.989
+              "score": 72.773
             }
           ]
         }
@@ -1267,15 +1267,15 @@
           "top3": [
             {
               "skill": "timeline-report",
-              "score": 555.0788
+              "score": 567.2543
             },
             {
               "skill": "pro",
-              "score": 93.9194
+              "score": 95.9778
             },
             {
               "skill": "sci-figure",
-              "score": 68.9336
+              "score": 70.9823
             }
           ]
         },
@@ -1287,15 +1287,15 @@
           "top3": [
             {
               "skill": "timeline-report",
-              "score": 519.9528
+              "score": 531.4061
             },
             {
               "skill": "pro",
-              "score": 87.9275
+              "score": 89.78
             },
             {
               "skill": "sci-figure",
-              "score": 61.1388
+              "score": 62.9836
             }
           ]
         },
@@ -1307,15 +1307,15 @@
           "top3": [
             {
               "skill": "timeline-report",
-              "score": 518.9877
+              "score": 530.6794
             },
             {
               "skill": "pro",
-              "score": 77.9409
+              "score": 79.4504
             },
             {
               "skill": "sci-figure",
-              "score": 56.5608
+              "score": 58.0566
             }
           ]
         },
@@ -1327,15 +1327,15 @@
           "top3": [
             {
               "skill": "timeline-report",
-              "score": 525.7452
+              "score": 537.7057
             },
             {
               "skill": "pro",
-              "score": 73.9463
+              "score": 75.3185
             },
             {
               "skill": "sci-figure",
-              "score": 54.369
+              "score": 55.7257
             }
           ]
         }
@@ -1359,15 +1359,15 @@
           "top3": [
             {
               "skill": "learn-codebase",
-              "score": 538.4959
+              "score": 541.4018
             },
             {
               "skill": "smart-explore",
-              "score": 95.3142
+              "score": 97.2791
             },
             {
               "skill": "pathfinder",
-              "score": 82.6406
+              "score": 82.5254
             }
           ]
         },
@@ -1379,15 +1379,15 @@
           "top3": [
             {
               "skill": "learn-codebase",
-              "score": 512.2199
+              "score": 515.4716
             },
             {
               "skill": "smart-explore",
-              "score": 84.1746
+              "score": 85.9524
             },
             {
               "skill": "pathfinder",
-              "score": 72.9098
+              "score": 72.7875
             }
           ]
         },
@@ -1399,15 +1399,15 @@
           "top3": [
             {
               "skill": "learn-codebase",
-              "score": 483.3923
+              "score": 487.3459
             },
             {
               "skill": "smart-explore",
-              "score": 80.6181
+              "score": 81.9966
             },
             {
               "skill": "pathfinder",
-              "score": 70.3813
+              "score": 70.4214
             }
           ]
         },
@@ -1419,15 +1419,15 @@
           "top3": [
             {
               "skill": "learn-codebase",
-              "score": 481.7817
+              "score": 486.2459
             },
             {
               "skill": "smart-explore",
-              "score": 78.5522
+              "score": 79.7748
             },
             {
               "skill": "pathfinder",
-              "score": 68.7831
+              "score": 68.8808
             }
           ]
         }
@@ -1451,15 +1451,15 @@
           "top3": [
             {
               "skill": "smart-explore",
-              "score": 237.4118
+              "score": 241.5261
             },
             {
               "skill": "mem-search",
-              "score": 99.1844
+              "score": 99.1845
             },
             {
               "skill": "pathfinder",
-              "score": 92.3315
+              "score": 94.6472
             }
           ]
         },
@@ -1471,15 +1471,15 @@
           "top3": [
             {
               "skill": "smart-explore",
-              "score": 206.6347
+              "score": 210.2334
             },
             {
               "skill": "mem-search",
-              "score": 98.2092
+              "score": 98.2009
             },
             {
               "skill": "pathfinder",
-              "score": 82.0563
+              "score": 84.1147
             }
           ]
         },
@@ -1491,15 +1491,15 @@
           "top3": [
             {
               "skill": "smart-explore",
-              "score": 221.008
+              "score": 224.7195
             },
             {
               "skill": "mem-search",
-              "score": 112.362
+              "score": 112.3739
             },
             {
               "skill": "pathfinder",
-              "score": 74.6572
+              "score": 76.5269
             }
           ]
         },
@@ -1511,15 +1511,15 @@
           "top3": [
             {
               "skill": "smart-explore",
-              "score": 223.943
+              "score": 227.658
             },
             {
               "skill": "mem-search",
-              "score": 121.1962
+              "score": 121.2131
             },
             {
               "skill": "pathfinder",
-              "score": 71.2807
+              "score": 73.0647
             }
           ]
         }
@@ -1543,15 +1543,15 @@
           "top3": [
             {
               "skill": "pathfinder",
-              "score": 511.4511
+              "score": 516.0419
             },
             {
               "skill": "learn-codebase",
-              "score": 201.0899
+              "score": 205.6675
             },
             {
-              "skill": "smart-explore",
-              "score": 63.1297
+              "skill": "webapp-testing",
+              "score": 82.6493
             }
           ]
         },
@@ -1563,15 +1563,15 @@
           "top3": [
             {
               "skill": "pathfinder",
-              "score": 454.8275
+              "score": 458.852
             },
             {
               "skill": "learn-codebase",
-              "score": 193.6606
+              "score": 198.1049
             },
             {
-              "skill": "smart-explore",
-              "score": 54.8181
+              "skill": "webapp-testing",
+              "score": 74.0751
             }
           ]
         },
@@ -1583,15 +1583,15 @@
           "top3": [
             {
               "skill": "pathfinder",
-              "score": 411.5874
+              "score": 415.6687
             },
             {
               "skill": "learn-codebase",
-              "score": 190.0626
+              "score": 194.2894
             },
             {
-              "skill": "smart-explore",
-              "score": 59.6196
+              "skill": "webapp-testing",
+              "score": 62.6717
             }
           ]
         },
@@ -1603,15 +1603,15 @@
           "top3": [
             {
               "skill": "pathfinder",
-              "score": 392.0999
+              "score": 396.1611
             },
             {
               "skill": "learn-codebase",
-              "score": 193.1775
+              "score": 197.4347
             },
             {
               "skill": "smart-explore",
-              "score": 60.7407
+              "score": 59.9929
             }
           ]
         }
@@ -1639,15 +1639,15 @@
           "top3": [
             {
               "skill": "make-plan",
-              "score": 422.5927
+              "score": 433.6418
             },
             {
               "skill": "do",
-              "score": 256.565
+              "score": 261.8083
             },
             {
               "skill": "p7",
-              "score": 75.195
+              "score": 77.2534
             }
           ]
         },
@@ -1661,15 +1661,15 @@
           "top3": [
             {
               "skill": "make-plan",
-              "score": 398.8524
+              "score": 409.3589
             },
             {
               "skill": "do",
-              "score": 229.8491
+              "score": 234.5068
             },
             {
               "skill": "p7",
-              "score": 67.6755
+              "score": 69.5281
             }
           ]
         },
@@ -1683,15 +1683,15 @@
           "top3": [
             {
               "skill": "make-plan",
-              "score": 395.4044
+              "score": 405.8232
             },
             {
               "skill": "do",
-              "score": 226.9442
+              "score": 231.1972
             },
             {
               "skill": "pathfinder",
-              "score": 85.9556
+              "score": 88.1341
             }
           ]
         },
@@ -1705,15 +1705,15 @@
           "top3": [
             {
               "skill": "make-plan",
-              "score": 400.5819
+              "score": 411.1657
             },
             {
               "skill": "do",
-              "score": 223.9985
+              "score": 228.065
             },
             {
               "skill": "pathfinder",
-              "score": 94.7246
+              "score": 97.126
             }
           ]
         }
@@ -1741,15 +1741,15 @@
           "top3": [
             {
               "skill": "do",
-              "score": 357.9442
+              "score": 366.864
             },
             {
               "skill": "make-plan",
-              "score": 265.1269
+              "score": 272.1255
             },
             {
               "skill": "mem-search",
-              "score": 137.8448
+              "score": 134.5489
             }
           ]
         },
@@ -1763,15 +1763,15 @@
           "top3": [
             {
               "skill": "do",
-              "score": 319.576
+              "score": 327.5352
             },
             {
               "skill": "make-plan",
-              "score": 248.6691
+              "score": 255.2559
             },
             {
               "skill": "mem-search",
-              "score": 122.9999
+              "score": 120.059
             }
           ]
         },
@@ -1785,15 +1785,15 @@
           "top3": [
             {
               "skill": "do",
-              "score": 279.6511
+              "score": 286.6496
             },
             {
               "skill": "make-plan",
-              "score": 233.7383
+              "score": 239.9821
             },
             {
               "skill": "mem-search",
-              "score": 108.1551
+              "score": 105.5692
             }
           ]
         },
@@ -1807,15 +1807,15 @@
           "top3": [
             {
               "skill": "do",
-              "score": 262.6516
+              "score": 269.2385
             },
             {
               "skill": "make-plan",
-              "score": 231.3548
+              "score": 237.5643
             },
             {
               "skill": "mem-search",
-              "score": 101.793
+              "score": 99.3592
             }
           ]
         }
@@ -1840,15 +1840,15 @@
           "top3": [
             {
               "skill": "p9",
-              "score": 556.2296
+              "score": 568.0497
             },
             {
               "skill": "pua-p9",
-              "score": 255.5857
+              "score": 262.1788
             },
             {
               "skill": "timeline-report",
-              "score": 104.4759
+              "score": 107.5635
             }
           ]
         },
@@ -1860,15 +1860,15 @@
           "top3": [
             {
               "skill": "p9",
-              "score": 519.7384
+              "score": 530.808
             },
             {
               "skill": "pua-p9",
-              "score": 239.7733
+              "score": 245.9843
             },
             {
               "skill": "timeline-report",
-              "score": 90.5458
+              "score": 93.2217
             }
           ]
         },
@@ -1880,15 +1880,15 @@
           "top3": [
             {
               "skill": "p9",
-              "score": 459.4349
+              "score": 469.2706
             },
             {
               "skill": "pua-p9",
-              "score": 232.964
+              "score": 238.9831
             },
             {
               "skill": "shot",
-              "score": 136.6002
+              "score": 140.4425
             }
           ]
         },
@@ -1900,15 +1900,15 @@
           "top3": [
             {
               "skill": "p9",
-              "score": 441.0062
+              "score": 450.5044
             },
             {
               "skill": "pua-p9",
-              "score": 233.6887
+              "score": 239.7296
             },
             {
               "skill": "shot",
-              "score": 156.1145
+              "score": 160.5057
             }
           ]
         }
@@ -1932,15 +1932,15 @@
           "top3": [
             {
               "skill": "p10",
-              "score": 508.8806
+              "score": 520.2018
             },
             {
               "skill": "pathfinder",
-              "score": 100.6646
+              "score": 102.8946
             },
             {
               "skill": "pua-p10",
-              "score": 99.1485
+              "score": 101.7215
             }
           ]
         },
@@ -1952,15 +1952,15 @@
           "top3": [
             {
               "skill": "p10",
-              "score": 457.9925
+              "score": 468.1816
             },
             {
               "skill": "pathfinder",
-              "score": 89.6959
+              "score": 91.6857
             },
             {
               "skill": "pua-p10",
-              "score": 86.8968
+              "score": 89.1611
             }
           ]
         },
@@ -1972,15 +1972,15 @@
           "top3": [
             {
               "skill": "p10",
-              "score": 373.1791
+              "score": 381.4813
             },
             {
               "skill": "pua-p10",
-              "score": 88.2875
+              "score": 90.5175
             },
             {
               "skill": "pathfinder",
-              "score": 79.8361
+              "score": 81.5858
             }
           ]
         },
@@ -1992,15 +1992,15 @@
           "top3": [
             {
               "skill": "p10",
-              "score": 339.2537
+              "score": 346.8012
             },
             {
               "skill": "pua-p10",
-              "score": 87.9091
+              "score": 90.1047
             },
             {
               "skill": "pathfinder",
-              "score": 75.5313
+              "score": 77.178
             }
           ]
         }
@@ -2024,15 +2024,15 @@
           "top3": [
             {
               "skill": "academic-research-suite",
-              "score": 749.5786
+              "score": 732.4767
             },
             {
               "skill": "research-idea-and-battle",
-              "score": 184.6111
+              "score": 160.4869
             },
             {
               "skill": "scansci-pdf",
-              "score": 157.1095
+              "score": 154.2438
             }
           ]
         },
@@ -2044,15 +2044,15 @@
           "top3": [
             {
               "skill": "academic-research-suite",
-              "score": 694.8517
+              "score": 678.0486
             },
             {
               "skill": "research-idea-and-battle",
-              "score": 177.4089
+              "score": 153.9762
             },
             {
               "skill": "scansci-pdf",
-              "score": 141.3986
+              "score": 138.8194
             }
           ]
         },
@@ -2064,15 +2064,15 @@
           "top3": [
             {
               "skill": "academic-research-suite",
-              "score": 665.0671
+              "score": 648.9413
             },
             {
               "skill": "research-idea-and-battle",
-              "score": 175.5521
+              "score": 153.3085
             },
             {
-              "skill": "scansci-pdf",
-              "score": 115.2136
+              "skill": "do",
+              "score": 113.4059
             }
           ]
         },
@@ -2084,15 +2084,15 @@
           "top3": [
             {
               "skill": "academic-research-suite",
-              "score": 660.2266
+              "score": 643.86
             },
             {
               "skill": "research-idea-and-battle",
-              "score": 178.8436
+              "score": 156.4525
             },
             {
               "skill": "do",
-              "score": 118.2554
+              "score": 119.3893
             }
           ]
         }
@@ -2116,15 +2116,15 @@
           "top3": [
             {
               "skill": "research-idea-and-battle",
-              "score": 529.7878
+              "score": 504.1755
             },
             {
               "skill": "academic-research-suite",
-              "score": 203.3066
+              "score": 175.4045
             },
             {
-              "skill": "pua-en",
-              "score": 68.4395
+              "skill": "serenity-alpha",
+              "score": 64.5158
             }
           ]
         },
@@ -2136,15 +2136,15 @@
           "top3": [
             {
               "skill": "research-idea-and-battle",
-              "score": 495.2474
+              "score": 470.834
             },
             {
               "skill": "academic-research-suite",
-              "score": 194.3207
+              "score": 167.5935
             },
             {
-              "skill": "pua-en",
-              "score": 58.6622
+              "skill": "buy-side-equity-research-memo",
+              "score": 64.2583
             }
           ]
         },
@@ -2156,15 +2156,15 @@
           "top3": [
             {
               "skill": "research-idea-and-battle",
-              "score": 460.5834
+              "score": 436.3732
             },
             {
               "skill": "academic-research-suite",
-              "score": 188.6907
+              "score": 162.9708
             },
             {
-              "skill": "pua-en",
-              "score": 69.7451
+              "skill": "buy-side-equity-research-memo",
+              "score": 81.3104
             }
           ]
         },
@@ -2176,15 +2176,15 @@
           "top3": [
             {
               "skill": "research-idea-and-battle",
-              "score": 453.299
+              "score": 428.6843
             },
             {
               "skill": "academic-research-suite",
-              "score": 190.5074
+              "score": 164.6095
             },
             {
-              "skill": "pua-en",
-              "score": 73.0049
+              "skill": "buy-side-equity-research-memo",
+              "score": 91.4833
             }
           ]
         }
@@ -2208,15 +2208,15 @@
           "top3": [
             {
               "skill": "scansci-pdf",
-              "score": 430.1103
+              "score": 438.7728
             },
             {
               "skill": "pdf",
-              "score": 83.6392
+              "score": 84.7541
             },
             {
               "skill": "shared-skill-installer",
-              "score": 59.394
+              "score": 60.4698
             }
           ]
         },
@@ -2228,15 +2228,15 @@
           "top3": [
             {
               "skill": "scansci-pdf",
-              "score": 382.2988
+              "score": 390.0006
             },
             {
               "skill": "pdf",
-              "score": 78.2934
+              "score": 79.2883
             },
             {
               "skill": "shared-skill-installer",
-              "score": 52.4425
+              "score": 53.406
             }
           ]
         },
@@ -2248,15 +2248,15 @@
           "top3": [
             {
               "skill": "scansci-pdf",
-              "score": 347.4177
+              "score": 354.3991
             },
             {
               "skill": "pdf",
-              "score": 72.9477
+              "score": 73.8225
             },
             {
               "skill": "shared-skill-installer",
-              "score": 50.3029
+              "score": 51.1229
             }
           ]
         },
@@ -2268,15 +2268,15 @@
           "top3": [
             {
               "skill": "scansci-pdf",
-              "score": 331.545
+              "score": 338.2005
             },
             {
               "skill": "pdf",
-              "score": 70.6566
+              "score": 71.48
             },
             {
               "skill": "shared-skill-installer",
-              "score": 49.0423
+              "score": 49.8029
             }
           ]
         }
@@ -2300,15 +2300,15 @@
           "top3": [
             {
               "skill": "nsfc-grant-writing",
-              "score": 685.6901
+              "score": 700.2705
             },
             {
               "skill": "mama",
-              "score": 51.5901
+              "score": 52.9409
             },
             {
               "skill": "p9",
-              "score": 47.948
+              "score": 49.1058
             }
           ]
         },
@@ -2320,15 +2320,15 @@
           "top3": [
             {
               "skill": "nsfc-grant-writing",
-              "score": 607.8933
+              "score": 620.8184
             },
             {
               "skill": "p9",
-              "score": 42.6656
+              "score": 43.6948
             },
             {
               "skill": "mama",
-              "score": 41.2721
+              "score": 42.3527
             }
           ]
         },
@@ -2340,15 +2340,15 @@
           "top3": [
             {
               "skill": "nsfc-grant-writing",
-              "score": 564.3579
+              "score": 576.3653
             },
             {
               "skill": "mama",
-              "score": 72.2261
+              "score": 74.1173
             },
             {
               "skill": "pua",
-              "score": 50.6137
+              "score": 51.9945
             }
           ]
         },
@@ -2360,15 +2360,15 @@
           "top3": [
             {
               "skill": "nsfc-grant-writing",
-              "score": 543.2526
+              "score": 554.814
             },
             {
               "skill": "mama",
-              "score": 82.5441
+              "score": 84.7055
             },
             {
               "skill": "pua",
-              "score": 57.8442
+              "score": 59.4223
             }
           ]
         }
@@ -2392,15 +2392,15 @@
           "top3": [
             {
               "skill": "xgboost-lightgbm",
-              "score": 508.3375
+              "score": 518.7324
             },
             {
               "skill": "sci-figure",
-              "score": 112.0552
+              "score": 115.3144
             },
             {
               "skill": "timeline-report",
-              "score": 109.2591
+              "score": 112.9032
             }
           ]
         },
@@ -2412,15 +2412,15 @@
           "top3": [
             {
               "skill": "xgboost-lightgbm",
-              "score": 485.9787
+              "score": 495.859
             },
             {
               "skill": "timeline-report",
-              "score": 107.1807
+              "score": 110.7752
             },
             {
               "skill": "sci-figure",
-              "score": 100.2182
+              "score": 103.1343
             }
           ]
         },
@@ -2432,15 +2432,15 @@
           "top3": [
             {
               "skill": "xgboost-lightgbm",
-              "score": 502.0043
+              "score": 512.1934
             },
             {
               "skill": "timeline-report",
-              "score": 109.4213
+              "score": 113.0273
             },
             {
               "skill": "sci-figure",
-              "score": 86.3839
+              "score": 88.8883
             }
           ]
         },
@@ -2452,15 +2452,15 @@
           "top3": [
             {
               "skill": "xgboost-lightgbm",
-              "score": 518.5052
+              "score": 529.0031
             },
             {
               "skill": "timeline-report",
-              "score": 113.497
+              "score": 117.2211
             },
             {
               "skill": "sci-figure",
-              "score": 80.5975
+              "score": 82.9304
             }
           ]
         }
@@ -2484,15 +2484,15 @@
           "top3": [
             {
               "skill": "nanobanana",
-              "score": 565.4342
+              "score": 571.0517
             },
             {
               "skill": "wowerpoint",
-              "score": 89.8814
+              "score": 92.0255
             },
             {
               "skill": "p9",
-              "score": 72.1792
+              "score": 71.709
             }
           ]
         },
@@ -2504,15 +2504,15 @@
           "top3": [
             {
               "skill": "nanobanana",
-              "score": 500.5727
+              "score": 505.5579
             },
             {
               "skill": "wowerpoint",
-              "score": 80.5337
+              "score": 82.4549
             },
             {
               "skill": "p9",
-              "score": 64.9613
+              "score": 64.5381
             }
           ]
         },
@@ -2524,15 +2524,15 @@
           "top3": [
             {
               "skill": "nanobanana",
-              "score": 470.1056
+              "score": 474.6954
             },
             {
               "skill": "wowerpoint",
-              "score": 68.3098
+              "score": 69.9394
             },
             {
               "skill": "p9",
-              "score": 52.9314
+              "score": 52.5866
             }
           ]
         },
@@ -2544,15 +2544,15 @@
           "top3": [
             {
               "skill": "nanobanana",
-              "score": 454.5915
+              "score": 458.995
             },
             {
               "skill": "wowerpoint",
-              "score": 63.2765
+              "score": 64.786
             },
             {
               "skill": "p9",
-              "score": 48.1195
+              "score": 47.806
             }
           ]
         }
@@ -2576,15 +2576,15 @@
           "top3": [
             {
               "skill": "algorithmic-art",
-              "score": 585.6491
+              "score": 592.0217
             },
             {
               "skill": "canvas-design",
-              "score": 68.1798
+              "score": 70.4097
             },
             {
               "skill": "skill-creator",
-              "score": 41.2336
+              "score": 43.3778
             }
           ]
         },
@@ -2596,15 +2596,15 @@
           "top3": [
             {
               "skill": "algorithmic-art",
-              "score": 534.7634
+              "score": 540.6926
             },
             {
               "skill": "canvas-design",
-              "score": 60.8374
+              "score": 62.8271
             },
             {
               "skill": "skill-creator",
-              "score": 36.9453
+              "score": 38.8665
             }
           ]
         },
@@ -2616,11 +2616,11 @@
           "top3": [
             {
               "skill": "algorithmic-art",
-              "score": 505.4093
+              "score": 511.823
             },
             {
               "skill": "canvas-design",
-              "score": 53.4949
+              "score": 55.2446
             },
             {
               "skill": "do",
@@ -2636,11 +2636,11 @@
           "top3": [
             {
               "skill": "algorithmic-art",
-              "score": 496.2216
+              "score": 502.8944
             },
             {
               "skill": "canvas-design",
-              "score": 50.3482
+              "score": 51.9949
             },
             {
               "skill": "do",
@@ -2668,15 +2668,15 @@
           "top3": [
             {
               "skill": "canvas-design",
-              "score": 662.0303
+              "score": 675.5472
             },
             {
               "skill": "pdf",
-              "score": 478.5927
+              "score": 486.9807
             },
             {
               "skill": "frontend-design",
-              "score": 190.2319
+              "score": 195.2578
             }
           ]
         },
@@ -2688,15 +2688,15 @@
           "top3": [
             {
               "skill": "canvas-design",
-              "score": 616.6005
+              "score": 628.9681
             },
             {
               "skill": "pdf",
-              "score": 462.0721
+              "score": 470.0313
             },
             {
               "skill": "frontend-design",
-              "score": 180.932
+              "score": 185.7349
             }
           ]
         },
@@ -2708,15 +2708,15 @@
           "top3": [
             {
               "skill": "canvas-design",
-              "score": 584.0113
+              "score": 595.607
             },
             {
               "skill": "pdf",
-              "score": 442.4552
+              "score": 449.9169
             },
             {
               "skill": "frontend-design",
-              "score": 181.0258
+              "score": 185.8802
             }
           ]
         },
@@ -2728,15 +2728,15 @@
           "top3": [
             {
               "skill": "canvas-design",
-              "score": 573.2518
+              "score": 584.6073
             },
             {
               "skill": "pdf",
-              "score": 439.9838
+              "score": 447.3941
             },
             {
               "skill": "frontend-design",
-              "score": 184.5195
+              "score": 189.494
             }
           ]
         }
@@ -2764,15 +2764,15 @@
           "top3": [
             {
               "skill": "theme-factory",
-              "score": 337.8603
+              "score": 333.5775
             },
             {
               "skill": "canvas-design",
-              "score": 289.7987
+              "score": 294.0013
             },
             {
               "skill": "brand-guidelines",
-              "score": 193.5602
+              "score": 198.4489
             }
           ]
         },
@@ -2786,15 +2786,15 @@
           "top3": [
             {
               "skill": "theme-factory",
-              "score": 310.1677
+              "score": 305.6933
             },
             {
               "skill": "canvas-design",
-              "score": 272.7136
+              "score": 276.4359
             },
             {
               "skill": "brand-guidelines",
-              "score": 171.1813
+              "score": 175.5039
             }
           ]
         },
@@ -2806,15 +2806,15 @@
           "top3": [
             {
               "skill": "theme-factory",
-              "score": 352.3327
+              "score": 346.1844
             },
             {
               "skill": "canvas-design",
-              "score": 263.8872
+              "score": 267.3694
             },
             {
               "skill": "brand-guidelines",
-              "score": 162.097
+              "score": 166.1967
             }
           ]
         },
@@ -2826,15 +2826,15 @@
           "top3": [
             {
               "skill": "theme-factory",
-              "score": 371.0448
+              "score": 364.008
             },
             {
               "skill": "canvas-design",
-              "score": 259.5146
+              "score": 262.8767
             },
             {
               "skill": "brand-guidelines",
-              "score": 157.2541
+              "score": 161.2337
             }
           ]
         }
@@ -2858,15 +2858,15 @@
           "top3": [
             {
               "skill": "brand-guidelines",
-              "score": 643.7589
+              "score": 654.6165
             },
             {
               "skill": "canvas-design",
-              "score": 289.7987
+              "score": 294.0013
             },
             {
               "skill": "theme-factory",
-              "score": 159.8569
+              "score": 163.8022
             }
           ]
         },
@@ -2878,15 +2878,15 @@
           "top3": [
             {
               "skill": "brand-guidelines",
-              "score": 602.8024
+              "score": 613.1193
             },
             {
               "skill": "canvas-design",
-              "score": 272.7136
+              "score": 276.4359
             },
             {
               "skill": "theme-factory",
-              "score": 140.1721
+              "score": 143.6371
             }
           ]
         },
@@ -2898,15 +2898,15 @@
           "top3": [
             {
               "skill": "brand-guidelines",
-              "score": 588.28
+              "score": 598.6738
             },
             {
               "skill": "canvas-design",
-              "score": 263.8872
+              "score": 267.3694
             },
             {
               "skill": "theme-factory",
-              "score": 141.8893
+              "score": 145.3542
             }
           ]
         },
@@ -2918,15 +2918,15 @@
           "top3": [
             {
               "skill": "brand-guidelines",
-              "score": 590.7298
+              "score": 601.3477
             },
             {
               "skill": "canvas-design",
-              "score": 259.5146
+              "score": 262.8767
             },
             {
               "skill": "theme-factory",
-              "score": 141.0965
+              "score": 144.5272
             }
           ]
         }
@@ -2950,15 +2950,15 @@
           "top3": [
             {
               "skill": "internal-comms",
-              "score": 282.1401
+              "score": 287.6719
             },
             {
               "skill": "p9",
-              "score": 59.9194
+              "score": 61.9778
             },
             {
               "skill": "nsfc-grant-writing",
-              "score": 49.235
+              "score": 50.4357
             }
           ]
         },
@@ -2970,15 +2970,15 @@
           "top3": [
             {
               "skill": "internal-comms",
-              "score": 264.1326
+              "score": 269.3403
             },
             {
               "skill": "p9",
-              "score": 53.9275
+              "score": 55.78
             },
             {
               "skill": "nsfc-grant-writing",
-              "score": 43.7023
+              "score": 44.7658
             }
           ]
         },
@@ -2990,15 +2990,15 @@
           "top3": [
             {
               "skill": "internal-comms",
-              "score": 284.05
+              "score": 289.6126
             },
             {
               "skill": "p9",
-              "score": 43.9409
+              "score": 45.4504
             },
             {
               "skill": "nsfc-grant-writing",
-              "score": 40.1669
+              "score": 41.1618
             }
           ]
         },
@@ -3010,15 +3010,15 @@
           "top3": [
             {
               "skill": "internal-comms",
-              "score": 295.5083
+              "score": 301.2921
             },
             {
               "skill": "p9",
-              "score": 39.9463
+              "score": 41.3185
             },
             {
               "skill": "nsfc-grant-writing",
-              "score": 38.5091
+              "score": 39.4697
             }
           ]
         }
@@ -3042,15 +3042,15 @@
           "top3": [
             {
               "skill": "doc-coauthoring",
-              "score": 108.1515
+              "score": 106.5987
             },
             {
               "skill": "make-plan",
-              "score": 48.175
+              "score": 49.5987
             },
             {
               "skill": "wowerpoint",
-              "score": 40.6295
+              "score": 41.8302
             }
           ]
         },
@@ -3062,15 +3062,15 @@
           "top3": [
             {
               "skill": "doc-coauthoring",
-              "score": 95.3872
+              "score": 93.9799
             },
             {
               "skill": "make-plan",
-              "score": 54.5596
+              "score": 56.172
             },
             {
               "skill": "wowerpoint",
-              "score": 35.9861
+              "score": 37.0496
             }
           ]
         },
@@ -3082,15 +3082,15 @@
           "top3": [
             {
               "skill": "doc-coauthoring",
-              "score": 92.3051
+              "score": 91.2319
             },
             {
               "skill": "make-plan",
-              "score": 63.2659
+              "score": 65.1357
             },
             {
               "skill": "wowerpoint",
-              "score": 33.6644
+              "score": 34.6593
             }
           ]
         },
@@ -3102,15 +3102,15 @@
           "top3": [
             {
               "skill": "doc-coauthoring",
-              "score": 90.2926
+              "score": 89.3491
             },
             {
               "skill": "make-plan",
-              "score": 70.8114
+              "score": 72.9041
             },
             {
               "skill": "wowerpoint",
-              "score": 32.5036
+              "score": 33.4642
             }
           ]
         }
@@ -3134,15 +3134,15 @@
           "top3": [
             {
               "skill": "slack-gif-creator",
-              "score": 366.9971
+              "score": 374.0471
             },
             {
               "skill": "make-plan",
-              "score": 56.4195
+              "score": 57.8553
             },
             {
               "skill": "pua-ja",
-              "score": 54.1385
+              "score": 55.1677
             }
           ]
         },
@@ -3154,15 +3154,15 @@
           "top3": [
             {
               "skill": "slack-gif-creator",
-              "score": 362.1104
+              "score": 369.0575
             },
             {
               "skill": "make-plan",
-              "score": 61.1552
+              "score": 62.7773
             },
             {
               "skill": "pua-ja",
-              "score": 48.7247
+              "score": 49.651
             }
           ]
         },
@@ -3174,15 +3174,15 @@
           "top3": [
             {
               "skill": "slack-gif-creator",
-              "score": 376.1013
+              "score": 383.3229
             },
             {
               "skill": "make-plan",
-              "score": 74.8082
+              "score": 76.6949
             },
             {
               "skill": "frontend-design",
-              "score": 53.3772
+              "score": 52.829
             }
           ]
         },
@@ -3194,15 +3194,15 @@
           "top3": [
             {
               "skill": "slack-gif-creator",
-              "score": 393.1235
+              "score": 400.671
             },
             {
               "skill": "make-plan",
-              "score": 84.0026
+              "score": 86.1147
             },
             {
               "skill": "frontend-design",
-              "score": 56.7458
+              "score": 56.1952
             }
           ]
         }
@@ -3226,15 +3226,15 @@
           "top3": [
             {
               "skill": "wowerpoint",
-              "score": 381.5729
+              "score": 388.9746
             },
             {
               "skill": "timeline-report",
-              "score": 106.357
+              "score": 110.0106
             },
             {
               "skill": "pptx",
-              "score": 67.3923
+              "score": 68.9361
             }
           ]
         },
@@ -3246,15 +3246,15 @@
           "top3": [
             {
               "skill": "wowerpoint",
-              "score": 367.176
+              "score": 374.2174
             },
             {
               "skill": "timeline-report",
-              "score": 104.859
+              "score": 108.4612
             },
             {
               "skill": "pptx",
-              "score": 60.6531
+              "score": 62.0425
             }
           ]
         },
@@ -3266,15 +3266,15 @@
           "top3": [
             {
               "skill": "wowerpoint",
-              "score": 365.8556
+              "score": 372.7941
             },
             {
               "skill": "timeline-report",
-              "score": 105.3583
+              "score": 108.9777
             },
             {
-              "skill": "pdf",
-              "score": 49.8191
+              "skill": "pptx",
+              "score": 50.5531
             }
           ]
         },
@@ -3286,15 +3286,15 @@
           "top3": [
             {
               "skill": "wowerpoint",
-              "score": 372.6054
+              "score": 379.6382
             },
             {
               "skill": "timeline-report",
-              "score": 108.8536
+              "score": 112.593
             },
             {
               "skill": "pdf",
-              "score": 48.381
+              "score": 48.7241
             }
           ]
         }
@@ -3322,15 +3322,15 @@
           "top3": [
             {
               "skill": "pua-en",
-              "score": 408.0096
+              "score": 407.42
             },
             {
               "skill": "pua",
-              "score": 381.4311
+              "score": 386.1365
             },
             {
               "skill": "sci-figure",
-              "score": 117.2053
+              "score": 114.0576
             }
           ]
         },
@@ -3344,15 +3344,15 @@
           "top3": [
             {
               "skill": "pua-en",
-              "score": 360.4412
+              "score": 359.9611
             },
             {
               "skill": "pua",
-              "score": 343.288
+              "score": 347.5229
             },
             {
               "skill": "sci-figure",
-              "score": 117.9244
+              "score": 114.7574
             }
           ]
         },
@@ -3366,15 +3366,15 @@
           "top3": [
             {
               "skill": "pua-en",
-              "score": 344.3233
+              "score": 343.554
             },
             {
               "skill": "pua",
-              "score": 279.7161
+              "score": 283.1668
             },
             {
               "skill": "sci-figure",
-              "score": 130.1482
+              "score": 126.6529
             }
           ]
         },
@@ -3388,15 +3388,15 @@
           "top3": [
             {
               "skill": "pua-en",
-              "score": 335.1692
+              "score": 334.3044
             },
             {
               "skill": "pua",
-              "score": 254.2874
+              "score": 257.4243
             },
             {
               "skill": "sci-figure",
-              "score": 139.4959
+              "score": 135.7496
             }
           ]
         }
@@ -3420,15 +3420,15 @@
           "top3": [
             {
               "skill": "yes",
-              "score": 638.1583
+              "score": 652.5242
             },
             {
               "skill": "mama",
-              "score": 132.0501
+              "score": 135.8667
             },
             {
               "skill": "pua",
-              "score": 67.7509
+              "score": 69.745
             }
           ]
         },
@@ -3440,15 +3440,15 @@
           "top3": [
             {
               "skill": "yes",
-              "score": 566.672
+              "score": 579.3998
             },
             {
               "skill": "mama",
-              "score": 110.5879
+              "score": 113.7956
             },
             {
               "skill": "pua",
-              "score": 57.4906
+              "score": 59.1887
             }
           ]
         },
@@ -3460,15 +3460,15 @@
           "top3": [
             {
               "skill": "yes",
-              "score": 519.1192
+              "score": 530.9979
             },
             {
               "skill": "mama",
-              "score": 151.8846
+              "score": 156.1987
             },
             {
               "skill": "pua",
-              "score": 72.9189
+              "score": 75.0245
             }
           ]
         },
@@ -3480,15 +3480,15 @@
           "top3": [
             {
               "skill": "yes",
-              "score": 497.0299
+              "score": 508.4883
             },
             {
               "skill": "mama",
-              "score": 165.1005
+              "score": 169.7662
             },
             {
               "skill": "pua",
-              "score": 77.6962
+              "score": 79.9261
             }
           ]
         }
@@ -3512,15 +3512,15 @@
           "top3": [
             {
               "skill": "mama",
-              "score": 464.619
+              "score": 474.7609
             },
             {
               "skill": "yes",
-              "score": 201.7868
+              "score": 207.6189
             },
             {
               "skill": "pua",
-              "score": 93.3335
+              "score": 95.9708
             }
           ]
         },
@@ -3532,15 +3532,15 @@
           "top3": [
             {
               "skill": "mama",
-              "score": 402.1155
+              "score": 410.8723
             },
             {
               "skill": "yes",
-              "score": 175.389
+              "score": 180.4664
             },
             {
               "skill": "pua",
-              "score": 78.7919
+              "score": 81.0304
             }
           ]
         },
@@ -3552,15 +3552,15 @@
           "top3": [
             {
               "skill": "mama",
-              "score": 447.6642
+              "score": 457.5746
             },
             {
               "skill": "yes",
-              "score": 189.4378
+              "score": 194.8583
             },
             {
               "skill": "pua",
-              "score": 103.1659
+              "score": 106.0005
             }
           ]
         },
@@ -3572,15 +3572,15 @@
           "top3": [
             {
               "skill": "mama",
-              "score": 459.4671
+              "score": 469.6905
             },
             {
               "skill": "yes",
-              "score": 192.5697
+              "score": 198.0588
             },
             {
               "skill": "pua",
-              "score": 110.8322
+              "score": 113.8512
             }
           ]
         }
@@ -3604,15 +3604,15 @@
           "top3": [
             {
               "skill": "version-bump",
-              "score": 593.2928
+              "score": 601.3324
             },
             {
               "skill": "p9",
-              "score": 59.9194
+              "score": 61.9778
             },
             {
               "skill": "nanobanana",
-              "score": 55.3668
+              "score": 56.6104
             }
           ]
         },
@@ -3624,15 +3624,15 @@
           "top3": [
             {
               "skill": "version-bump",
-              "score": 538.2528
+              "score": 545.4395
             },
             {
               "skill": "p9",
-              "score": 53.9275
+              "score": 55.78
             },
             {
               "skill": "nanobanana",
-              "score": 48.8755
+              "score": 49.9733
             }
           ]
         },
@@ -3644,15 +3644,15 @@
           "top3": [
             {
               "skill": "version-bump",
-              "score": 634.6647
+              "score": 642.794
             },
             {
               "skill": "nanobanana",
-              "score": 46.9663
+              "score": 48.0212
             },
             {
               "skill": "p9",
-              "score": 43.9409
+              "score": 45.4504
             }
           ]
         },
@@ -3664,15 +3664,15 @@
           "top3": [
             {
               "skill": "version-bump",
-              "score": 674.0159
+              "score": 682.495
             },
             {
               "skill": "nanobanana",
-              "score": 45.8208
+              "score": 46.85
             },
             {
               "skill": "timeline-report",
-              "score": 43.413
+              "score": 44.3736
             }
           ]
         }
@@ -3696,15 +3696,15 @@
           "top3": [
             {
               "skill": "babysit",
-              "score": 802.4141
+              "score": 819.9387
             },
             {
               "skill": "academic-research-suite",
-              "score": 150.7851
+              "score": 155.0308
             },
             {
               "skill": "pua-teardown-all",
-              "score": 94.0266
+              "score": 97.5945
             }
           ]
         },
@@ -3716,15 +3716,15 @@
           "top3": [
             {
               "skill": "babysit",
-              "score": 742.9108
+              "score": 758.944
             },
             {
               "skill": "academic-research-suite",
-              "score": 133.2594
+              "score": 137.0163
             },
             {
               "skill": "pua-teardown-all",
-              "score": 93.1224
+              "score": 96.656
             }
           ]
         },
@@ -3736,15 +3736,15 @@
           "top3": [
             {
               "skill": "babysit",
-              "score": 694.6207
+              "score": 709.7748
             },
             {
               "skill": "academic-research-suite",
-              "score": 126.89
+              "score": 130.4326
             },
             {
               "skill": "pua-teardown-all",
-              "score": 92.2183
+              "score": 95.7176
             }
           ]
         },
@@ -3756,15 +3756,15 @@
           "top3": [
             {
               "skill": "babysit",
-              "score": 681.3737
+              "score": 696.2642
             },
             {
               "skill": "academic-research-suite",
-              "score": 123.3634
+              "score": 126.7945
             },
             {
               "skill": "pua-teardown-all",
-              "score": 94.9307
+              "score": 98.5329
             }
           ]
         }
@@ -3788,15 +3788,15 @@
           "top3": [
             {
               "skill": "how-it-works",
-              "score": 632.6204
+              "score": 636.7108
             },
             {
               "skill": "openclaw",
-              "score": 220.8145
+              "score": 226.3893
             },
             {
               "skill": "mem-search",
-              "score": 153.2594
+              "score": 155.8767
             }
           ]
         },
@@ -3808,15 +3808,15 @@
           "top3": [
             {
               "skill": "how-it-works",
-              "score": 582.0327
+              "score": 585.7019
             },
             {
               "skill": "openclaw",
-              "score": 197.1292
+              "score": 202.1037
             },
             {
               "skill": "mem-search",
-              "score": 143.2822
+              "score": 145.7907
             }
           ]
         },
@@ -3828,15 +3828,15 @@
           "top3": [
             {
               "skill": "how-it-works",
-              "score": 528.2989
+              "score": 531.3129
             },
             {
               "skill": "openclaw",
-              "score": 172.623
+              "score": 176.9971
             },
             {
               "skill": "mem-search",
-              "score": 134.3469
+              "score": 136.7637
             }
           ]
         },
@@ -3848,15 +3848,15 @@
           "top3": [
             {
               "skill": "how-it-works",
-              "score": 511.2688
+              "score": 514.0162
             },
             {
               "skill": "openclaw",
-              "score": 162.1789
+              "score": 166.2957
             },
             {
               "skill": "mem-search",
-              "score": 132.6777
+              "score": 135.1127
             }
           ]
         }
@@ -3880,15 +3880,15 @@
           "top3": [
             {
               "skill": "mcp-builder",
-              "score": 441.462
+              "score": 438.6093
             },
             {
               "skill": "claude-api",
-              "score": 80.7722
+              "score": 83.2338
             },
             {
               "skill": "frontend-design",
-              "score": 56.0154
+              "score": 56.6815
             }
           ]
         },
@@ -3900,15 +3900,15 @@
           "top3": [
             {
               "skill": "mcp-builder",
-              "score": 402.9449
+              "score": 400.05
             },
             {
               "skill": "claude-api",
-              "score": 82.8947
+              "score": 85.4404
             },
             {
               "skill": "frontend-design",
-              "score": 50.0278
+              "score": 50.6226
             }
           ]
         },
@@ -3920,15 +3920,15 @@
           "top3": [
             {
               "skill": "mcp-builder",
-              "score": 413.3393
+              "score": 410.0171
             },
             {
               "skill": "claude-api",
-              "score": 87.4063
+              "score": 90.0429
             },
             {
               "skill": "version-bump",
-              "score": 45.4036
+              "score": 46.8788
             }
           ]
         },
@@ -3940,15 +3940,15 @@
           "top3": [
             {
               "skill": "mcp-builder",
-              "score": 419.231
+              "score": 415.6208
             },
             {
               "skill": "claude-api",
-              "score": 92.8992
+              "score": 95.6919
             },
             {
               "skill": "webapp-testing",
-              "score": 49.2307
+              "score": 50.3285
             }
           ]
         }
@@ -3977,15 +3977,15 @@
           "top3": [
             {
               "skill": "p7",
-              "score": 457.1333
+              "score": 467.3329
             },
             {
               "skill": "pua-p7",
-              "score": 301.6825
+              "score": 309.3457
             },
             {
               "skill": "shot",
-              "score": 134.6865
+              "score": 138.5031
             }
           ]
         },
@@ -3999,15 +3999,15 @@
           "top3": [
             {
               "skill": "p7",
-              "score": 432.0275
+              "score": 441.6386
             },
             {
               "skill": "pua-p7",
-              "score": 282.3165
+              "score": 289.4866
             },
             {
               "skill": "shot",
-              "score": 111.769
+              "score": 114.951
             }
           ]
         },
@@ -4021,15 +4021,15 @@
           "top3": [
             {
               "skill": "p7",
-              "score": 390.4888
+              "score": 399.1361
             },
             {
               "skill": "pua-p7",
-              "score": 269.8998
+              "score": 276.7311
             },
             {
               "skill": "shot",
-              "score": 161.7621
+              "score": 166.2477
             }
           ]
         },
@@ -4043,15 +4043,15 @@
           "top3": [
             {
               "skill": "p7",
-              "score": 380.1011
+              "score": 388.519
             },
             {
               "skill": "pua-p7",
-              "score": 268.7626
+              "score": 275.5553
             },
             {
               "skill": "shot",
-              "score": 177.9798
+              "score": 182.8856
             }
           ]
         }
@@ -4075,15 +4075,15 @@
           "top3": [
             {
               "skill": "pro",
-              "score": 678.0773
+              "score": 695.3779
             },
             {
               "skill": "pua-pro",
-              "score": 305.1182
+              "score": 313.6048
             },
             {
               "skill": "pua-kpi",
-              "score": 261.3318
+              "score": 269.8398
             }
           ]
         },
@@ -4095,15 +4095,15 @@
           "top3": [
             {
               "skill": "pro",
-              "score": 627.4499
+              "score": 643.2825
             },
             {
               "skill": "pua-pro",
-              "score": 297.4797
+              "score": 305.7305
             },
             {
               "skill": "pua-kpi",
-              "score": 254.0972
+              "score": 262.3651
             }
           ]
         },
@@ -4115,15 +4115,15 @@
           "top3": [
             {
               "skill": "pro",
-              "score": 583.9588
+              "score": 598.9427
             },
             {
               "skill": "pua-pro",
-              "score": 296.3371
+              "score": 304.5407
             },
             {
               "skill": "pua-kpi",
-              "score": 252.545
+              "score": 260.7787
             }
           ]
         },
@@ -4135,15 +4135,15 @@
           "top3": [
             {
               "skill": "pro",
-              "score": 571.3842
+              "score": 586.117
             },
             {
               "skill": "pua-pro",
-              "score": 302.882
+              "score": 311.2872
             },
             {
               "skill": "pua-kpi",
-              "score": 258.7225
+              "score": 267.162
             }
           ]
         }
@@ -4168,15 +4168,15 @@
           "top3": [
             {
               "skill": "pua",
-              "score": 395.6795
+              "score": 404.3462
             },
             {
               "skill": "yes",
-              "score": 210.7236
+              "score": 217.2848
             },
             {
               "skill": "shot",
-              "score": 205.2272
+              "score": 213.4394
             }
           ]
         },
@@ -4188,15 +4188,15 @@
           "top3": [
             {
               "skill": "pua",
-              "score": 373.2984
+              "score": 381.3262
             },
             {
               "skill": "yes",
-              "score": 182.8909
+              "score": 188.603
             },
             {
               "skill": "shot",
-              "score": 179.4573
+              "score": 186.696
             }
           ]
         },
@@ -4208,15 +4208,15 @@
           "top3": [
             {
               "skill": "pua",
-              "score": 407.6006
+              "score": 416.4818
             },
             {
               "skill": "mama",
-              "score": 209.897
+              "score": 216.4882
             },
             {
               "skill": "yes",
-              "score": 199.5995
+              "score": 205.6976
             }
           ]
         },
@@ -4228,15 +4228,15 @@
           "top3": [
             {
               "skill": "pua",
-              "score": 421.6768
+              "score": 430.9739
             },
             {
               "skill": "mama",
-              "score": 221.7704
+              "score": 228.5974
             },
             {
               "skill": "yes",
-              "score": 203.5789
+              "score": 209.7541
             }
           ]
         }
@@ -4260,15 +4260,15 @@
           "top3": [
             {
               "skill": "pua-cancel-loop",
-              "score": 1022.5315
+              "score": 1035.3681
             },
             {
               "skill": "pua-loop",
-              "score": 350.5833
+              "score": 359.5845
             },
             {
               "skill": "pua",
-              "score": 94.4996
+              "score": 96.9102
             }
           ]
         },
@@ -4280,15 +4280,15 @@
           "top3": [
             {
               "skill": "pua-cancel-loop",
-              "score": 1000.7747
+              "score": 1013.47
             },
             {
               "skill": "pua-loop",
-              "score": 339.295
+              "score": 348.0089
             },
             {
               "skill": "pua",
-              "score": 92.6609
+              "score": 95.0594
             }
           ]
         },
@@ -4300,15 +4300,15 @@
           "top3": [
             {
               "skill": "pua-cancel-loop",
-              "score": 979.7949
+              "score": 992.7123
             },
             {
               "skill": "pua-loop",
-              "score": 334.2606
+              "score": 342.8415
             },
             {
               "skill": "pua",
-              "score": 94.432
+              "score": 96.6952
             }
           ]
         },
@@ -4320,15 +4320,15 @@
           "top3": [
             {
               "skill": "pua-cancel-loop",
-              "score": 990.1992
+              "score": 1003.617
             },
             {
               "skill": "pua-loop",
-              "score": 340.7952
+              "score": 349.5434
             },
             {
               "skill": "pua",
-              "score": 96.6452
+              "score": 98.9377
             }
           ]
         }
@@ -4352,15 +4352,15 @@
           "top3": [
             {
               "skill": "pua-flavor",
-              "score": 779.236
+              "score": 793.5291
             },
             {
               "skill": "pro",
-              "score": 219.5861
+              "score": 228.3343
             },
             {
               "skill": "pua",
-              "score": 213.3072
+              "score": 221.3865
             }
           ]
         },
@@ -4372,15 +4372,15 @@
           "top3": [
             {
               "skill": "pua-flavor",
-              "score": 762.8551
+              "score": 776.6893
             },
             {
               "skill": "pua",
-              "score": 208.2295
+              "score": 216.1029
             },
             {
               "skill": "pro",
-              "score": 192.1339
+              "score": 199.7757
             }
           ]
         },
@@ -4392,15 +4392,15 @@
           "top3": [
             {
               "skill": "pua-flavor",
-              "score": 752.2653
+              "score": 765.8808
             },
             {
               "skill": "pua",
-              "score": 212.2278
+              "score": 220.2041
             },
             {
               "skill": "pro",
-              "score": 197.6534
+              "score": 205.6126
             }
           ]
         },
@@ -4412,15 +4412,15 @@
           "top3": [
             {
               "skill": "pua-flavor",
-              "score": 759.9587
+              "score": 773.8357
             },
             {
               "skill": "pua",
-              "score": 218.429
+              "score": 226.6627
             },
             {
               "skill": "pro",
-              "score": 197.6638
+              "score": 205.6573
             }
           ]
         }
@@ -4448,15 +4448,15 @@
           "top3": [
             {
               "skill": "pua-ja",
-              "score": 196.9554
+              "score": 201.218
             },
             {
               "skill": "pua",
-              "score": 167.8262
+              "score": 172.7921
             },
             {
               "skill": "shot",
-              "score": 155.817
+              "score": 161.6706
             }
           ]
         },
@@ -4470,15 +4470,15 @@
           "top3": [
             {
               "skill": "pua-ja",
-              "score": 193.753
+              "score": 197.9213
             },
             {
               "skill": "pua",
-              "score": 155.2958
+              "score": 159.8672
             },
             {
               "skill": "shot",
-              "score": 138.8319
+              "score": 144.0551
             }
           ]
         },
@@ -4492,15 +4492,15 @@
           "top3": [
             {
               "skill": "pua-ja",
-              "score": 205.6709
+              "score": 210.1222
             },
             {
               "skill": "pua",
-              "score": 170.5985
+              "score": 175.5815
             },
             {
               "skill": "shot",
-              "score": 123.622
+              "score": 128.2148
             }
           ]
         },
@@ -4514,15 +4514,15 @@
           "top3": [
             {
               "skill": "pua-ja",
-              "score": 215.1074
+              "score": 219.7903
             },
             {
               "skill": "pua",
-              "score": 176.8807
+              "score": 182.061
             },
             {
               "skill": "shot",
-              "score": 116.9766
+              "score": 121.2993
             }
           ]
         }
@@ -4546,15 +4546,15 @@
           "top3": [
             {
               "skill": "pua-kpi",
-              "score": 790.0795
+              "score": 805.2946
             },
             {
               "skill": "pro",
-              "score": 280.3369
+              "score": 290.5735
             },
             {
               "skill": "pua",
-              "score": 215.3388
+              "score": 223.1784
             }
           ]
         },
@@ -4566,15 +4566,15 @@
           "top3": [
             {
               "skill": "pua-kpi",
-              "score": 770.7451
+              "score": 785.4198
             },
             {
               "skill": "pro",
-              "score": 246.513
+              "score": 255.4998
             },
             {
               "skill": "pua",
-              "score": 209.8547
+              "score": 217.5364
             }
           ]
         },
@@ -4586,15 +4586,15 @@
           "top3": [
             {
               "skill": "pua-kpi",
-              "score": 751.172
+              "score": 765.3921
             },
             {
               "skill": "pro",
-              "score": 244.1823
+              "score": 253.1958
             },
             {
               "skill": "pua",
-              "score": 215.072
+              "score": 222.7128
             }
           ]
         },
@@ -4606,15 +4606,15 @@
           "top3": [
             {
               "skill": "pua-kpi",
-              "score": 754.6119
+              "score": 769.0036
             },
             {
               "skill": "pro",
-              "score": 240.9339
+              "score": 249.8677
             },
             {
               "skill": "pua",
-              "score": 221.6795
+              "score": 229.5297
             }
           ]
         }
@@ -4642,15 +4642,15 @@
           "top3": [
             {
               "skill": "pua-loop",
-              "score": 908.1966
+              "score": 925.0987
             },
             {
               "skill": "pua",
-              "score": 512.9741
+              "score": 520.7473
             },
             {
               "skill": "pua-cancel-loop",
-              "score": 222.0494
+              "score": 230.3216
             }
           ]
         },
@@ -4664,15 +4664,15 @@
           "top3": [
             {
               "skill": "pua-loop",
-              "score": 865.2603
+              "score": 881.133
             },
             {
               "skill": "pua",
-              "score": 501.2267
+              "score": 508.7733
             },
             {
               "skill": "pua-cancel-loop",
-              "score": 216.6907
+              "score": 224.7443
             }
           ]
         },
@@ -4686,15 +4686,15 @@
           "top3": [
             {
               "skill": "pua-loop",
-              "score": 805.2694
+              "score": 819.8296
             },
             {
               "skill": "pua",
-              "score": 510.0031
+              "score": 518.0981
             },
             {
               "skill": "pua-cancel-loop",
-              "score": 217.3535
+              "score": 225.4284
             }
           ]
         },
@@ -4708,15 +4708,15 @@
           "top3": [
             {
               "skill": "pua-loop",
-              "score": 788.2787
+              "score": 802.5515
             },
             {
               "skill": "pua",
-              "score": 517.4344
+              "score": 525.9443
             },
             {
               "skill": "pua-cancel-loop",
-              "score": 223.6777
+              "score": 231.9799
             }
           ]
         }
@@ -4744,15 +4744,15 @@
           "top3": [
             {
               "skill": "pua-mama",
-              "score": 762.0038
+              "score": 770.1773
             },
             {
               "skill": "mama",
-              "score": 464.0071
+              "score": 473.7587
             },
             {
               "skill": "pua-yes",
-              "score": 153.9111
+              "score": 155.3091
             }
           ]
         },
@@ -4766,15 +4766,15 @@
           "top3": [
             {
               "skill": "pua-mama",
-              "score": 742.1962
+              "score": 750.2132
             },
             {
               "skill": "mama",
-              "score": 453.2456
+              "score": 462.6886
             },
             {
               "skill": "pua-yes",
-              "score": 141.437
+              "score": 142.8328
             }
           ]
         },
@@ -4788,15 +4788,15 @@
           "top3": [
             {
               "skill": "pua-mama",
-              "score": 723.0078
+              "score": 731.167
             },
             {
               "skill": "mama",
-              "score": 424.792
+              "score": 433.5659
             },
             {
               "skill": "pua-yes",
-              "score": 126.5272
+              "score": 128.151
             }
           ]
         },
@@ -4810,15 +4810,15 @@
           "top3": [
             {
               "skill": "pua-mama",
-              "score": 725.4093
+              "score": 733.863
             },
             {
               "skill": "mama",
-              "score": 425.1237
+              "score": 433.8719
             },
             {
               "skill": "pua-yes",
-              "score": 121.5953
+              "score": 123.3592
             }
           ]
         }
@@ -4842,15 +4842,15 @@
           "top3": [
             {
               "skill": "pua-off",
-              "score": 840.9975
+              "score": 857.5633
             },
             {
               "skill": "pua-on",
-              "score": 255.6391
+              "score": 266.0298
             },
             {
               "skill": "shot",
-              "score": 237.8059
+              "score": 248.3552
             }
           ]
         },
@@ -4862,15 +4862,15 @@
           "top3": [
             {
               "skill": "pua-off",
-              "score": 817.2174
+              "score": 833.0757
             },
             {
               "skill": "pua-on",
-              "score": 239.1225
+              "score": 248.8913
             },
             {
               "skill": "pua",
-              "score": 230.6112
+              "score": 239.3079
             }
           ]
         },
@@ -4882,15 +4882,15 @@
           "top3": [
             {
               "skill": "pua-off",
-              "score": 796.2642
+              "score": 811.6894
             },
             {
               "skill": "pua-on",
-              "score": 226.4705
+              "score": 235.8577
             },
             {
               "skill": "pua",
-              "score": 226.1796
+              "score": 234.7306
             }
           ]
         },
@@ -4902,15 +4902,15 @@
           "top3": [
             {
               "skill": "pua-off",
-              "score": 799.3615
+              "score": 814.9539
             },
             {
               "skill": "pua",
-              "score": 229.238
+              "score": 237.9519
             },
             {
               "skill": "pua-on",
-              "score": 224.6242
+              "score": 234.0071
             }
           ]
         }
@@ -4934,15 +4934,15 @@
           "top3": [
             {
               "skill": "pua-offline",
-              "score": 596.0714
+              "score": 605.8535
             },
             {
               "skill": "shot",
-              "score": 207.8462
+              "score": 217.3663
             },
             {
               "skill": "pua",
-              "score": 207.5796
+              "score": 215.5302
             }
           ]
         },
@@ -4954,15 +4954,15 @@
           "top3": [
             {
               "skill": "pua-offline",
-              "score": 585.0177
+              "score": 594.4609
             },
             {
               "skill": "pua",
-              "score": 203.6474
+              "score": 211.4179
             },
             {
               "skill": "shot",
-              "score": 186.4998
+              "score": 195.0422
             }
           ]
         },
@@ -4974,15 +4974,15 @@
           "top3": [
             {
               "skill": "pua-offline",
-              "score": 584.165
+              "score": 593.647
             },
             {
               "skill": "pua",
-              "score": 204.2092
+              "score": 212.0054
             },
             {
               "skill": "pua-off",
-              "score": 181.5466
+              "score": 188.2326
             }
           ]
         },
@@ -4994,15 +4994,15 @@
           "top3": [
             {
               "skill": "pua-offline",
-              "score": 591.0477
+              "score": 600.7742
             },
             {
               "skill": "pua",
-              "score": 209.2649
+              "score": 217.2927
             },
             {
               "skill": "pua-off",
-              "score": 186.7353
+              "score": 193.6486
             }
           ]
         }
@@ -5026,15 +5026,15 @@
           "top3": [
             {
               "skill": "pua-on",
-              "score": 540.0714
+              "score": 549.9346
             },
             {
               "skill": "shot",
-              "score": 207.8462
+              "score": 217.3663
             },
             {
               "skill": "pua",
-              "score": 207.5796
+              "score": 215.5302
             }
           ]
         },
@@ -5046,15 +5046,15 @@
           "top3": [
             {
               "skill": "pua-on",
-              "score": 526.2442
+              "score": 535.5928
             },
             {
               "skill": "pua",
-              "score": 203.6474
+              "score": 211.4179
             },
             {
               "skill": "shot",
-              "score": 186.4998
+              "score": 195.0422
             }
           ]
         },
@@ -5066,15 +5066,15 @@
           "top3": [
             {
               "skill": "pua-on",
-              "score": 519.1579
+              "score": 528.3007
             },
             {
               "skill": "pua",
-              "score": 204.2092
+              "score": 212.0054
             },
             {
               "skill": "shot",
-              "score": 156.1655
+              "score": 163.3185
             }
           ]
         },
@@ -5086,15 +5086,15 @@
           "top3": [
             {
               "skill": "pua-on",
-              "score": 520.5226
+              "score": 529.7511
             },
             {
               "skill": "pua",
-              "score": 209.2649
+              "score": 217.2927
             },
             {
               "skill": "pro",
-              "score": 152.795
+              "score": 159.7936
             }
           ]
         }
@@ -5118,15 +5118,15 @@
           "top3": [
             {
               "skill": "pua-p10",
-              "score": 838.5115
+              "score": 854.82
             },
             {
               "skill": "p10",
-              "score": 413.7179
+              "score": 423.148
             },
             {
               "skill": "shot",
-              "score": 278.5872
+              "score": 290.1014
             }
           ]
         },
@@ -5138,15 +5138,15 @@
           "top3": [
             {
               "skill": "pua-p10",
-              "score": 815.1511
+              "score": 830.8036
             },
             {
               "skill": "p10",
-              "score": 402.569
+              "score": 411.6774
             },
             {
               "skill": "shot",
-              "score": 246.0886
+              "score": 256.3292
             }
           ]
         },
@@ -5158,15 +5158,15 @@
           "top3": [
             {
               "skill": "pua-p10",
-              "score": 793.3001
+              "score": 808.365
             },
             {
               "skill": "p10",
-              "score": 387.8971
+              "score": 396.7354
             },
             {
               "skill": "shot",
-              "score": 235.2298
+              "score": 244.4884
             }
           ]
         },
@@ -5178,15 +5178,15 @@
           "top3": [
             {
               "skill": "pua-p10",
-              "score": 796.1067
+              "score": 811.2874
             },
             {
               "skill": "p10",
-              "score": 391.7221
+              "score": 400.6761
             },
             {
               "skill": "pua",
-              "score": 229.238
+              "score": 237.9519
             }
           ]
         }
@@ -5210,15 +5210,15 @@
           "top3": [
             {
               "skill": "pua-p7",
-              "score": 874.3815
+              "score": 891.8693
             },
             {
               "skill": "p7",
-              "score": 429.0943
+              "score": 439.2963
             },
             {
               "skill": "shot",
-              "score": 305.5052
+              "score": 317.7484
             }
           ]
         },
@@ -5230,15 +5230,15 @@
           "top3": [
             {
               "skill": "pua-p7",
-              "score": 845.8314
+              "score": 862.5302
             },
             {
               "skill": "p7",
-              "score": 415.0048
+              "score": 424.808
             },
             {
               "skill": "shot",
-              "score": 267.623
+              "score": 278.4468
             }
           ]
         },
@@ -5250,15 +5250,15 @@
           "top3": [
             {
               "skill": "pua-p7",
-              "score": 820.6195
+              "score": 836.6494
             },
             {
               "skill": "p7",
-              "score": 395.6325
+              "score": 405.0368
             },
             {
               "skill": "shot",
-              "score": 272.915
+              "score": 283.1942
             }
           ]
         },
@@ -5270,15 +5270,15 @@
           "top3": [
             {
               "skill": "pua-p7",
-              "score": 821.4801
+              "score": 837.5871
             },
             {
               "skill": "p7",
-              "score": 397.0686
+              "score": 406.5372
             },
             {
               "skill": "shot",
-              "score": 272.0991
+              "score": 282.0824
             }
           ]
         }
@@ -5302,15 +5302,15 @@
           "top3": [
             {
               "skill": "pua-p9",
-              "score": 619.9643
+              "score": 631.1183
             },
             {
               "skill": "p9",
-              "score": 245.7123
+              "score": 252.0719
             },
             {
               "skill": "shot",
-              "score": 235.7124
+              "score": 246.0258
             }
           ]
         },
@@ -5322,15 +5322,15 @@
           "top3": [
             {
               "skill": "pua-p9",
-              "score": 604.4404
+              "score": 615.1355
             },
             {
               "skill": "p9",
-              "score": 231.4339
+              "score": 237.326
             },
             {
               "skill": "shot",
-              "score": 208.7928
+              "score": 217.9698
             }
           ]
         },
@@ -5342,15 +5342,15 @@
           "top3": [
             {
               "skill": "pua-p9",
-              "score": 591.0497
+              "score": 601.4232
             },
             {
               "skill": "p9",
-              "score": 216.9764
+              "score": 222.5384
             },
             {
               "skill": "pua",
-              "score": 204.2092
+              "score": 212.0054
             }
           ]
         },
@@ -5362,15 +5362,15 @@
           "top3": [
             {
               "skill": "pua-p9",
-              "score": 592.1847
+              "score": 602.6654
             },
             {
               "skill": "p9",
-              "score": 213.6506
+              "score": 219.1396
             },
             {
               "skill": "pua",
-              "score": 209.2649
+              "score": 217.2927
             }
           ]
         }
@@ -5392,19 +5392,21 @@
           "top1_hit": true,
           "top3_hit": true,
           "blocked_top3": [],
-          "allowed_related_top3": [],
+          "allowed_related_top3": [
+            "pro"
+          ],
           "top3": [
             {
               "skill": "pua-pro",
-              "score": 676.6175
+              "score": 687.7286
             },
             {
               "skill": "pro",
-              "score": 368.929
+              "score": 378.4877
             },
             {
               "skill": "pua",
-              "score": 97.2528
+              "score": 100.0316
             }
           ]
         },
@@ -5412,19 +5414,21 @@
           "top1_hit": true,
           "top3_hit": true,
           "blocked_top3": [],
-          "allowed_related_top3": [],
+          "allowed_related_top3": [
+            "pro"
+          ],
           "top3": [
             {
               "skill": "pua-pro",
-              "score": 662.6505
+              "score": 673.3114
             },
             {
               "skill": "pro",
-              "score": 361.2871
+              "score": 370.4728
             },
             {
               "skill": "pua",
-              "score": 94.8634
+              "score": 97.5565
             }
           ]
         },
@@ -5438,15 +5442,15 @@
           "top3": [
             {
               "skill": "pua-pro",
-              "score": 651.284
+              "score": 661.5975
             },
             {
               "skill": "pro",
-              "score": 361.5308
+              "score": 370.7207
             },
             {
               "skill": "pua",
-              "score": 98.2864
+              "score": 101.0653
             }
           ]
         },
@@ -5460,15 +5464,15 @@
           "top3": [
             {
               "skill": "pua-pro",
-              "score": 655.8454
+              "score": 666.2575
             },
             {
               "skill": "pro",
-              "score": 370.9332
+              "score": 380.3332
             },
             {
               "skill": "pua",
-              "score": 101.0502
+              "score": 103.932
             }
           ]
         }
@@ -5492,15 +5496,15 @@
           "top3": [
             {
               "skill": "pua-reap-orphans",
-              "score": 803.7396
+              "score": 818.2857
             },
             {
               "skill": "pua",
-              "score": 279.7589
+              "score": 289.7679
             },
             {
               "skill": "shot",
-              "score": 234.9134
+              "score": 245.2054
             }
           ]
         },
@@ -5512,15 +5516,15 @@
           "top3": [
             {
               "skill": "pua-reap-orphans",
-              "score": 781.9037
+              "score": 795.8322
             },
             {
               "skill": "pua",
-              "score": 268.6087
+              "score": 278.2318
             },
             {
               "skill": "shot",
-              "score": 209.9581
+              "score": 219.1694
             }
           ]
         },
@@ -5532,15 +5536,15 @@
           "top3": [
             {
               "skill": "pua-reap-orphans",
-              "score": 749.6551
+              "score": 762.8289
             },
             {
               "skill": "pua",
-              "score": 257.1406
+              "score": 266.4463
             },
             {
               "skill": "pua-teardown-all",
-              "score": 194.8892
+              "score": 202.664
             }
           ]
         },
@@ -5552,15 +5556,15 @@
           "top3": [
             {
               "skill": "pua-reap-orphans",
-              "score": 747.6485
+              "score": 760.8223
             },
             {
               "skill": "pua",
-              "score": 257.3844
+              "score": 266.7844
             },
             {
               "skill": "pua-teardown-all",
-              "score": 193.2584
+              "score": 201.0632
             }
           ]
         }
@@ -5584,15 +5588,15 @@
           "top3": [
             {
               "skill": "pua-survey",
-              "score": 684.3058
+              "score": 686.8828
             },
             {
               "skill": "pua",
-              "score": 210.2194
+              "score": 217.9303
             },
             {
               "skill": "shot",
-              "score": 207.8462
+              "score": 217.3663
             }
           ]
         },
@@ -5604,15 +5608,15 @@
           "top3": [
             {
               "skill": "pua-survey",
-              "score": 664.0818
+              "score": 667.0663
             },
             {
               "skill": "pua",
-              "score": 205.7592
+              "score": 213.338
             },
             {
               "skill": "shot",
-              "score": 186.4998
+              "score": 195.0422
             }
           ]
         },
@@ -5624,15 +5628,15 @@
           "top3": [
             {
               "skill": "pua-survey",
-              "score": 638.9276
+              "score": 642.9542
             },
             {
               "skill": "pua",
-              "score": 207.9048
+              "score": 215.3655
             },
             {
               "skill": "pua-on",
-              "score": 169.3665
+              "score": 177.1242
             }
           ]
         },
@@ -5644,15 +5648,15 @@
           "top3": [
             {
               "skill": "pua-survey",
-              "score": 636.0009
+              "score": 640.6836
             },
             {
               "skill": "pua",
-              "score": 213.4885
+              "score": 221.1328
             },
             {
               "skill": "pua-on",
-              "score": 171.8944
+              "score": 179.7678
             }
           ]
         }
@@ -5676,15 +5680,15 @@
           "top3": [
             {
               "skill": "pua-team-status",
-              "score": 917.1466
+              "score": 935.9038
             },
             {
               "skill": "pua-teardown-all",
-              "score": 238.0028
+              "score": 248.1019
             },
             {
               "skill": "shot",
-              "score": 234.9134
+              "score": 245.2054
             }
           ]
         },
@@ -5696,15 +5700,15 @@
           "top3": [
             {
               "skill": "pua-team-status",
-              "score": 892.4174
+              "score": 910.4455
             },
             {
               "skill": "pua-teardown-all",
-              "score": 232.2339
+              "score": 242.0885
             },
             {
               "skill": "shot",
-              "score": 209.9581
+              "score": 219.1694
             }
           ]
         },
@@ -5716,15 +5720,15 @@
           "top3": [
             {
               "skill": "pua-team-status",
-              "score": 861.5625
+              "score": 878.7931
             },
             {
               "skill": "pua-teardown-all",
-              "score": 233.5659
+              "score": 243.4505
             },
             {
               "skill": "pua",
-              "score": 204.2092
+              "score": 212.0054
             }
           ]
         },
@@ -5736,15 +5740,15 @@
           "top3": [
             {
               "skill": "pua-team-status",
-              "score": 863.1459
+              "score": 880.4708
             },
             {
               "skill": "pua-teardown-all",
-              "score": 240.5813
+              "score": 250.7533
             },
             {
               "skill": "pua",
-              "score": 209.2649
+              "score": 217.2927
             }
           ]
         }
@@ -5768,15 +5772,15 @@
           "top3": [
             {
               "skill": "pua-teardown-all",
-              "score": 862.2513
+              "score": 881.0514
             },
             {
               "skill": "pua",
-              "score": 359.7582
+              "score": 371.9971
             },
             {
               "skill": "shot",
-              "score": 227.8193
+              "score": 238.0256
             }
           ]
         },
@@ -5788,15 +5792,15 @@
           "top3": [
             {
               "skill": "pua-teardown-all",
-              "score": 838.1295
+              "score": 856.192
             },
             {
               "skill": "pua",
-              "score": 340.1088
+              "score": 351.7216
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 209.8111
+              "score": 217.9847
             }
           ]
         },
@@ -5808,15 +5812,15 @@
           "top3": [
             {
               "skill": "pua-teardown-all",
-              "score": 808.9147
+              "score": 826.2053
             },
             {
               "skill": "pua",
-              "score": 319.1356
+              "score": 330.191
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 198.3845
+              "score": 206.2794
             }
           ]
         },
@@ -5828,15 +5832,15 @@
           "top3": [
             {
               "skill": "pua-teardown-all",
-              "score": 809.3844
+              "score": 826.7779
             },
             {
               "skill": "pua",
-              "score": 315.3776
+              "score": 326.4244
             },
             {
               "skill": "pua-reap-orphans",
-              "score": 197.253
+              "score": 205.195
             }
           ]
         }
@@ -5860,15 +5864,15 @@
           "top3": [
             {
               "skill": "pua-yes",
-              "score": 589.6201
+              "score": 594.1399
             },
             {
               "skill": "pua-mama",
-              "score": 157.7295
+              "score": 159.2132
             },
             {
               "skill": "yes",
-              "score": 133.5758
+              "score": 136.1402
             }
           ]
         },
@@ -5880,15 +5884,15 @@
           "top3": [
             {
               "skill": "pua-yes",
-              "score": 571.6974
+              "score": 576.1122
             },
             {
               "skill": "pua-mama",
-              "score": 144.4917
+              "score": 145.9561
             },
             {
               "skill": "yes",
-              "score": 133.4179
+              "score": 135.9394
             }
           ]
         },
@@ -5900,15 +5904,15 @@
           "top3": [
             {
               "skill": "pua-yes",
-              "score": 551.0619
-            },
-            {
-              "skill": "pua-mama",
-              "score": 131.873
+              "score": 555.6018
             },
             {
               "skill": "yes",
-              "score": 131.7033
+              "score": 134.182
+            },
+            {
+              "skill": "pua-mama",
+              "score": 133.6169
             }
           ]
         },
@@ -5920,15 +5924,15 @@
           "top3": [
             {
               "skill": "pua-yes",
-              "score": 547.3454
+              "score": 552.0597
             },
             {
               "skill": "yes",
-              "score": 134.5708
+              "score": 137.1095
             },
             {
               "skill": "pua-mama",
-              "score": 127.7047
+              "score": 129.6059
             }
           ]
         }
@@ -5956,15 +5960,15 @@
           "top3": [
             {
               "skill": "shot",
-              "score": 798.981
+              "score": 814.9165
             },
             {
               "skill": "pua",
-              "score": 457.5796
+              "score": 465.5302
             },
             {
               "skill": "pua-on",
-              "score": 180.0397
+              "score": 188.2862
             }
           ]
         },
@@ -5978,15 +5982,15 @@
           "top3": [
             {
               "skill": "shot",
-              "score": 768.6012
+              "score": 783.3703
             },
             {
               "skill": "pua",
-              "score": 453.6474
+              "score": 461.4179
             },
             {
               "skill": "pua-on",
-              "score": 171.3327
+              "score": 179.1803
             }
           ]
         },
@@ -6000,15 +6004,15 @@
           "top3": [
             {
               "skill": "shot",
-              "score": 714.4517
+              "score": 727.3339
             },
             {
               "skill": "pua",
-              "score": 454.2092
+              "score": 462.0054
             },
             {
               "skill": "pua-on",
-              "score": 169.3665
+              "score": 177.1242
             }
           ]
         },
@@ -6022,15 +6026,15 @@
           "top3": [
             {
               "skill": "shot",
-              "score": 700.4508
+              "score": 712.7326
             },
             {
               "skill": "pua",
-              "score": 459.2649
+              "score": 467.2927
             },
             {
               "skill": "pua-on",
-              "score": 171.8944
+              "score": 179.7678
             }
           ]
         }
@@ -6054,15 +6058,15 @@
           "top3": [
             {
               "skill": "skill-creator",
-              "score": 364.309
+              "score": 371.4848
             },
             {
               "skill": "shared-skill-installer",
-              "score": 212.3111
+              "score": 214.9185
             },
             {
               "skill": "canvas-design",
-              "score": 194.1608
+              "score": 200.216
             }
           ]
         },
@@ -6074,15 +6078,15 @@
           "top3": [
             {
               "skill": "skill-creator",
-              "score": 330.6122
+              "score": 337.0956
             },
             {
               "skill": "shared-skill-installer",
-              "score": 196.2583
+              "score": 198.6917
             },
             {
               "skill": "canvas-design",
-              "score": 184.736
+              "score": 190.4652
             }
           ]
         },
@@ -6094,15 +6098,15 @@
           "top3": [
             {
               "skill": "skill-creator",
-              "score": 309.334
+              "score": 315.3807
             },
             {
               "skill": "canvas-design",
-              "score": 182.1204
+              "score": 187.7295
             },
             {
               "skill": "shared-skill-installer",
-              "score": 181.5741
+              "score": 183.8602
             }
           ]
         },
@@ -6114,15 +6118,15 @@
           "top3": [
             {
               "skill": "skill-creator",
-              "score": 301.6704
+              "score": 307.5485
             },
             {
               "skill": "canvas-design",
-              "score": 184.6376
+              "score": 190.2982
             },
             {
               "skill": "shared-skill-installer",
-              "score": 177.5258
+              "score": 179.7837
             }
           ]
         }
@@ -6130,7 +6134,7 @@
     },
     {
       "id": "shared-skill-install-download",
-      "prompt": "??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?",
+      "prompt": "Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents.",
       "expected_skill": "shared-skill-installer",
       "blocked_skills": [
         "mcp-builder",
@@ -6147,15 +6151,15 @@
           "top3": [
             {
               "skill": "shared-skill-installer",
-              "score": 995.0446
+              "score": 1231.0269
             },
             {
               "skill": "skill-creator",
-              "score": 315.1271
+              "score": 328.3407
             },
             {
               "skill": "claude-api",
-              "score": 216.0721
+              "score": 196.2483
             }
           ]
         },
@@ -6167,15 +6171,15 @@
           "top3": [
             {
               "skill": "shared-skill-installer",
-              "score": 882.2981
+              "score": 1103.7593
             },
             {
               "skill": "skill-creator",
-              "score": 287.5761
+              "score": 298.7982
             },
             {
               "skill": "claude-api",
-              "score": 196.8464
+              "score": 178.1707
             }
           ]
         },
@@ -6187,15 +6191,15 @@
           "top3": [
             {
               "skill": "shared-skill-installer",
-              "score": 878.3809
+              "score": 1129.9235
             },
             {
               "skill": "skill-creator",
-              "score": 265.0838
+              "score": 280.1931
             },
             {
               "skill": "claude-api",
-              "score": 205.1878
+              "score": 199.2453
             }
           ]
         },
@@ -6207,15 +6211,578 @@
           "top3": [
             {
               "skill": "shared-skill-installer",
-              "score": 871.2713
+              "score": 1137.9111
             },
             {
               "skill": "skill-creator",
-              "score": 257.4255
+              "score": 273.8178
             },
             {
               "skill": "claude-api",
-              "score": 209.222
+              "score": 208.0267
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "buy-side-equity-memo",
+      "prompt": "Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard.",
+      "expected_skill": "buy-side-equity-research-memo",
+      "blocked_skills": [
+        "bayesian-intrinsic-growth-valuation",
+        "gf-dma-health-index",
+        "tam-adj-peg"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 732.8963
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 160.7006
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 89.7576
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 687.0161
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 155.0493
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 78.0282
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 667.5947
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 166.6519
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 84.1802
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 669.5158
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 174.9788
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 85.5395
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bayesian-growth-valuation",
+      "prompt": "Use Bayesian intrinsic-growth valuation to judge whether this company's current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO.",
+      "expected_skill": "bayesian-intrinsic-growth-valuation",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "gf-dma-health-index",
+        "tam-adj-peg"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 954.2926
+            },
+            {
+              "skill": "tam-adj-peg",
+              "score": 409.9435
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 124.8795
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 902.7986
+            },
+            {
+              "skill": "tam-adj-peg",
+              "score": 374.7689
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 107.7702
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 964.2593
+            },
+            {
+              "skill": "tam-adj-peg",
+              "score": 399.8786
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 122.3867
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 1004.1479
+            },
+            {
+              "skill": "tam-adj-peg",
+              "score": 411.6882
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 126.3848
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gf-dma-health-score",
+      "prompt": "Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support.",
+      "expected_skill": "gf-dma-health-index",
+      "blocked_skills": [
+        "bayesian-intrinsic-growth-valuation",
+        "buy-side-equity-research-memo",
+        "tam-adj-peg"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "gf-dma-health-index",
+              "score": 887.5376
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 73.7974
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 55.1677
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "gf-dma-health-index",
+              "score": 847.4888
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 64.8272
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 49.651
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "gf-dma-health-index",
+              "score": 841.9401
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 64.721
+            },
+            {
+              "skill": "academic-research-suite",
+              "score": 40.4563
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "gf-dma-health-index",
+              "score": 857.1022
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 64.0423
+            },
+            {
+              "skill": "tam-adj-peg",
+              "score": 37.48
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tam-adjusted-peg",
+      "prompt": "Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability.",
+      "expected_skill": "tam-adj-peg",
+      "blocked_skills": [
+        "buy-side-equity-research-memo",
+        "gf-dma-health-index"
+      ],
+      "allowed_related_skills": [
+        "bayesian-intrinsic-growth-valuation"
+      ],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "tam-adj-peg",
+              "score": 808.2969
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 425.7656
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 103.5404
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "tam-adj-peg",
+              "score": 765.2743
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 394.6834
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 91.3706
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "bayesian-intrinsic-growth-valuation"
+          ],
+          "top3": [
+            {
+              "skill": "tam-adj-peg",
+              "score": 761.9997
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 430.8402
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 88.0352
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [
+            "bayesian-intrinsic-growth-valuation"
+          ],
+          "top3": [
+            {
+              "skill": "tam-adj-peg",
+              "score": 772.8663
+            },
+            {
+              "skill": "bayesian-intrinsic-growth-valuation",
+              "score": 449.1055
+            },
+            {
+              "skill": "gf-dma-health-index",
+              "score": 85.9747
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "serenity-alpha-news",
+      "prompt": "Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions.",
+      "expected_skill": "serenity-alpha",
+      "blocked_skills": [
+        "bayesian-intrinsic-growth-valuation",
+        "buy-side-equity-research-memo",
+        "tam-adj-peg"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "serenity-alpha",
+              "score": 793.5611
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 104.1814
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 92.0255
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "serenity-alpha",
+              "score": 734.7693
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 92.3793
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 82.4549
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "serenity-alpha",
+              "score": 674.3536
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 85.6257
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 69.9394
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "serenity-alpha",
+              "score": 657.4785
+            },
+            {
+              "skill": "buy-side-equity-research-memo",
+              "score": 82.3708
+            },
+            {
+              "skill": "wowerpoint",
+              "score": 64.786
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "desktop-screenshot-capture",
+      "prompt": "Take a screenshot of my desktop and save it as a PNG file.",
+      "expected_skill": "screenshot",
+      "blocked_skills": [
+        "frontend-design",
+        "pdf",
+        "xlsx"
+      ],
+      "allowed_related_skills": [],
+      "profiles": {
+        "claude-code": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "screenshot",
+              "score": 261.6699
+            },
+            {
+              "skill": "canvas-design",
+              "score": 64.3624
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 54.494
+            }
+          ]
+        },
+        "codex": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "screenshot",
+              "score": 257.0484
+            },
+            {
+              "skill": "canvas-design",
+              "score": 57.0067
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 48.6254
+            }
+          ]
+        },
+        "trae-solo": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "screenshot",
+              "score": 277.62
+            },
+            {
+              "skill": "canvas-design",
+              "score": 53.3288
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 42.7568
+            }
+          ]
+        },
+        "generic-agents": {
+          "top1_hit": true,
+          "top3_hit": true,
+          "blocked_top3": [],
+          "allowed_related_top3": [],
+          "top3": [
+            {
+              "skill": "screenshot",
+              "score": 292.302
+            },
+            {
+              "skill": "canvas-design",
+              "score": 51.4899
+            },
+            {
+              "skill": "shared-skill-installer",
+              "score": 40.2417
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿# Claude Code Skill Validation Prompts
 
-Generated: 2026-06-21 11:45:41
+Generated: 2026-07-02 23:45:23
 
 Setup: Use the default local skills directory `%USERPROFILE%\.claude\skills`.
 
@@ -873,7 +873,86 @@ Result to record:
 Prompt:
 
 ```text
-??? GitHub ? openai curated skills ?????? AI skill???? WPS ?? Skills ??????? inbox????? library/skills??????????????? Claude Code?Codex ??? agents?
+Download an AI skill from GitHub or OpenAI curated skills into my shared Skills library, stage it in the inbox, standardize it into library/skills, then connect it to Claude Code, Codex, and generic agents.
+```
+
+Result to record:
+
+## buy-side-equity-memo
+
+- Expected skill: `buy-side-equity-research-memo`
+- Should not win: tam-adj-peg; bayesian-intrinsic-growth-valuation; gf-dma-health-index
+
+Prompt:
+
+```text
+Analyze NVDA as a source-backed buy-side memo with investment view, bull/base/bear target price scenarios, valuation, catalysts, risks, and monitoring dashboard.
+```
+
+Result to record:
+
+## bayesian-growth-valuation
+
+- Expected skill: `bayesian-intrinsic-growth-valuation`
+- Should not win: buy-side-equity-research-memo; tam-adj-peg; gf-dma-health-index
+
+Prompt:
+
+```text
+Use Bayesian intrinsic-growth valuation to judge whether this company's current market value already prices in its real 3-5 year growth, TAM, margins, and FOMO.
+```
+
+Result to record:
+
+## gf-dma-health-score
+
+- Expected skill: `gf-dma-health-index`
+- Should not win: buy-side-equity-research-memo; tam-adj-peg; bayesian-intrinsic-growth-valuation
+
+Prompt:
+
+```text
+Score this ticker with the GF-DMA Health Index using 20/50/100/200DMA trend, price-to-DMA divergence, ATR divergence, estimate revisions, and fundamental support.
+```
+
+Result to record:
+
+## tam-adjusted-peg
+
+- Expected skill: `tam-adj-peg`
+- Allowed nearby skills: bayesian-intrinsic-growth-valuation
+- Should not win: buy-side-equity-research-memo; gf-dma-health-index
+
+Prompt:
+
+```text
+Use TAM-Adj-PEG to decide whether this growth stock is cheap or expensive after adjusting for TAM runway, quality, margins, and growth durability.
+```
+
+Result to record:
+
+## serenity-alpha-news
+
+- Expected skill: `serenity-alpha`
+- Should not win: buy-side-equity-research-memo; bayesian-intrinsic-growth-valuation; tam-adj-peg
+
+Prompt:
+
+```text
+Turn this supply-chain news into Serenity-style alpha: identify small-cap beneficiaries, financial-statement transmission, validation metrics, downside risks, and position-sizing conditions.
+```
+
+Result to record:
+
+## desktop-screenshot-capture
+
+- Expected skill: `screenshot`
+- Should not win: xlsx; pdf; frontend-design
+
+Prompt:
+
+```text
+Take a screenshot of my desktop and save it as a PNG file.
 ```
 
 Result to record:
